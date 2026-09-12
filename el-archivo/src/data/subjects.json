@@ -1,0 +1,14 @@
+[
+ {
+  "id": "sub-001",
+  "slug": "pedro-sanchez",
+  "name": "Pedro Sánchez",
+  "role": "Presidente del Gobierno de España",
+  "party": "PSOE",
+  "from": "2018-06-02",
+  "to": null,
+  "status": "activo",
+  "note": "Sujeto del archivo. En esta versión su ficha está poblada únicamente con registros de demostración: no se le atribuye ninguna declaración, fecha, cifra ni causa real.",
+  "isDemo": true
+ }
+]

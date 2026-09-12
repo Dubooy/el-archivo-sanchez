@@ -1,0 +1,938 @@
+[
+ {
+  "id": "src-001",
+  "title": "[FUENTE DEMO 001] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/001",
+  "author": "[EMISOR DEMO 01]",
+  "publishedAt": "2021-11-12",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 001. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-001",
+   "exp-002",
+   "exp-004",
+   "exp-014",
+   "exp-015",
+   "exp-016",
+   "exp-017"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-10-09",
+  "contributedBy": null
+ },
+ {
+  "id": "src-002",
+  "title": "[FUENTE DEMO 002] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/002",
+  "author": "[EMISOR DEMO 02]",
+  "publishedAt": "2021-07-23",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 002. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-011"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-09-03",
+  "contributedBy": null
+ },
+ {
+  "id": "src-003",
+  "title": "[FUENTE DEMO 003] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/003",
+  "author": "[EMISOR DEMO 03]",
+  "publishedAt": "2021-11-09",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 003. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-001",
+   "exp-017",
+   "exp-021"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-04-12",
+  "contributedBy": null
+ },
+ {
+  "id": "src-004",
+  "title": "[FUENTE DEMO 004] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/004",
+  "author": "[EMISOR DEMO 04]",
+  "publishedAt": "2026-10-17",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 004. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-015",
+   "exp-017"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-08-21",
+  "contributedBy": null
+ },
+ {
+  "id": "src-005",
+  "title": "[FUENTE DEMO 005] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/005",
+  "author": "[EMISOR DEMO 05]",
+  "publishedAt": "2019-01-13",
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 005. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-022"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-07-07",
+  "contributedBy": "@usuario_demo_02"
+ },
+ {
+  "id": "src-006",
+  "title": "[FUENTE DEMO 006] Registro de marcador de posición — tipo «medio»",
+  "url": "https://example.org/demo/fuente/006",
+  "author": "[EMISOR DEMO 06]",
+  "publishedAt": "2026-09-22",
+  "tier": "medio",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 006. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2025-09-27",
+  "contributedBy": null
+ },
+ {
+  "id": "src-007",
+  "title": "[FUENTE DEMO 007] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/007",
+  "author": "[EMISOR DEMO 07]",
+  "publishedAt": null,
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 007. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-005",
+   "exp-012"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-10-17",
+  "contributedBy": null
+ },
+ {
+  "id": "src-008",
+  "title": "[FUENTE DEMO 008] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/008",
+  "author": "[EMISOR DEMO 08]",
+  "publishedAt": "2022-06-04",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 008. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-007",
+   "exp-023"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-09-28",
+  "contributedBy": null
+ },
+ {
+  "id": "src-009",
+  "title": "[FUENTE DEMO 009] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/009",
+  "author": "[EMISOR DEMO 09]",
+  "publishedAt": "2022-03-05",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 009. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-012",
+   "exp-013",
+   "exp-024"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-12-26",
+  "contributedBy": null
+ },
+ {
+  "id": "src-010",
+  "title": "[FUENTE DEMO 010] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/010",
+  "author": "[EMISOR DEMO 10]",
+  "publishedAt": "2023-04-08",
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 010. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-02-21",
+  "contributedBy": null
+ },
+ {
+  "id": "src-011",
+  "title": "[FUENTE DEMO 011] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/011",
+  "author": "[EMISOR DEMO 11]",
+  "publishedAt": "2024-06-06",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 011. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-001",
+   "exp-013"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-01-17",
+  "contributedBy": null
+ },
+ {
+  "id": "src-012",
+  "title": "[FUENTE DEMO 012] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/012",
+  "author": "[EMISOR DEMO 12]",
+  "publishedAt": null,
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 012. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-002",
+   "exp-005"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-01-24",
+  "contributedBy": null
+ },
+ {
+  "id": "src-013",
+  "title": "[FUENTE DEMO 013] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/013",
+  "author": "[EMISOR DEMO 13]",
+  "publishedAt": "2026-04-04",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 013. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-04-19",
+  "contributedBy": null
+ },
+ {
+  "id": "src-014",
+  "title": "[FUENTE DEMO 014] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/014",
+  "author": "[EMISOR DEMO 14]",
+  "publishedAt": "2021-06-20",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 014. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-10-14",
+  "contributedBy": "@usuario_demo_07"
+ },
+ {
+  "id": "src-015",
+  "title": "[FUENTE DEMO 015] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/015",
+  "author": "[EMISOR DEMO 01]",
+  "publishedAt": "2019-01-11",
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 015. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-018",
+   "exp-021",
+   "exp-024"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-01-03",
+  "contributedBy": null
+ },
+ {
+  "id": "src-016",
+  "title": "[FUENTE DEMO 016] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/016",
+  "author": "[EMISOR DEMO 02]",
+  "publishedAt": "2021-10-11",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 016. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-022"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-08-06",
+  "contributedBy": "@usuario_demo_05"
+ },
+ {
+  "id": "src-017",
+  "title": "[FUENTE DEMO 017] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/017",
+  "author": "[EMISOR DEMO 03]",
+  "publishedAt": "2023-09-03",
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 017. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-015"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-05-04",
+  "contributedBy": null
+ },
+ {
+  "id": "src-018",
+  "title": "[FUENTE DEMO 018] Registro de marcador de posición — tipo «documento-oficial»",
+  "url": "https://example.org/demo/fuente/018",
+  "author": "[EMISOR DEMO 04]",
+  "publishedAt": "2024-01-14",
+  "tier": "documento-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 018. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-008",
+   "exp-018"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-03-18",
+  "contributedBy": null
+ },
+ {
+  "id": "src-019",
+  "title": "[FUENTE DEMO 019] Registro de marcador de posición — tipo «organismo-publico»",
+  "url": "https://example.org/demo/fuente/019",
+  "author": "[EMISOR DEMO 05]",
+  "publishedAt": "2025-08-14",
+  "tier": "organismo-publico",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 019. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-11-04",
+  "contributedBy": null
+ },
+ {
+  "id": "src-020",
+  "title": "[FUENTE DEMO 020] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/020",
+  "author": "[EMISOR DEMO 06]",
+  "publishedAt": "2024-05-11",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 020. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2025-08-03",
+  "contributedBy": null
+ },
+ {
+  "id": "src-021",
+  "title": "[FUENTE DEMO 021] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/021",
+  "author": "[EMISOR DEMO 07]",
+  "publishedAt": "2021-11-05",
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 021. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-005",
+   "exp-007",
+   "exp-018"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-06-24",
+  "contributedBy": "@usuario_demo_06"
+ },
+ {
+  "id": "src-022",
+  "title": "[FUENTE DEMO 022] Registro de marcador de posición — tipo «documento-oficial»",
+  "url": "https://example.org/demo/fuente/022",
+  "author": "[EMISOR DEMO 08]",
+  "publishedAt": "2024-11-23",
+  "tier": "documento-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 022. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-015",
+   "exp-017",
+   "exp-018",
+   "exp-019"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-06-06",
+  "contributedBy": null
+ },
+ {
+  "id": "src-023",
+  "title": "[FUENTE DEMO 023] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/023",
+  "author": "[EMISOR DEMO 09]",
+  "publishedAt": "2019-11-14",
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 023. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-020"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-01-06",
+  "contributedBy": null
+ },
+ {
+  "id": "src-024",
+  "title": "[FUENTE DEMO 024] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/024",
+  "author": "[EMISOR DEMO 10]",
+  "publishedAt": "2019-07-27",
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 024. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-003",
+   "exp-004",
+   "exp-010",
+   "exp-014",
+   "exp-020",
+   "exp-021"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-01-26",
+  "contributedBy": null
+ },
+ {
+  "id": "src-025",
+  "title": "[FUENTE DEMO 025] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/025",
+  "author": "[EMISOR DEMO 11]",
+  "publishedAt": "2025-08-26",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 025. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-007",
+   "exp-013"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-03-27",
+  "contributedBy": null
+ },
+ {
+  "id": "src-026",
+  "title": "[FUENTE DEMO 026] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/026",
+  "author": "[EMISOR DEMO 12]",
+  "publishedAt": "2023-07-24",
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 026. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-003",
+   "exp-004"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-12-13",
+  "contributedBy": null
+ },
+ {
+  "id": "src-027",
+  "title": "[FUENTE DEMO 027] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/027",
+  "author": "[EMISOR DEMO 13]",
+  "publishedAt": null,
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 027. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-017"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-05-06",
+  "contributedBy": "@usuario_demo_06"
+ },
+ {
+  "id": "src-028",
+  "title": "[FUENTE DEMO 028] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/028",
+  "author": "[EMISOR DEMO 14]",
+  "publishedAt": null,
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 028. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-023"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-10-06",
+  "contributedBy": null
+ },
+ {
+  "id": "src-029",
+  "title": "[FUENTE DEMO 029] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/029",
+  "author": "[EMISOR DEMO 01]",
+  "publishedAt": "2025-07-08",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 029. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-016",
+   "exp-023"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-02-02",
+  "contributedBy": "@usuario_demo_06"
+ },
+ {
+  "id": "src-030",
+  "title": "[FUENTE DEMO 030] Registro de marcador de posición — tipo «documento-oficial»",
+  "url": "https://example.org/demo/fuente/030",
+  "author": "[EMISOR DEMO 02]",
+  "publishedAt": "2025-04-03",
+  "tier": "documento-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 030. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-004",
+   "exp-023"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-05-26",
+  "contributedBy": "@usuario_demo_03"
+ },
+ {
+  "id": "src-031",
+  "title": "[FUENTE DEMO 031] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/031",
+  "author": "[EMISOR DEMO 03]",
+  "publishedAt": "2020-01-13",
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 031. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-009",
+   "exp-014"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-05-02",
+  "contributedBy": null
+ },
+ {
+  "id": "src-032",
+  "title": "[FUENTE DEMO 032] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/032",
+  "author": "[EMISOR DEMO 04]",
+  "publishedAt": "2025-06-06",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 032. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-011",
+   "exp-020"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-09-10",
+  "contributedBy": null
+ },
+ {
+  "id": "src-033",
+  "title": "[FUENTE DEMO 033] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/033",
+  "author": "[EMISOR DEMO 05]",
+  "publishedAt": "2019-02-19",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 033. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-020"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-01-10",
+  "contributedBy": null
+ },
+ {
+  "id": "src-034",
+  "title": "[FUENTE DEMO 034] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/034",
+  "author": "[EMISOR DEMO 06]",
+  "publishedAt": "2025-07-26",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 034. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-005",
+   "exp-006",
+   "exp-019"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-12-25",
+  "contributedBy": "@usuario_demo_02"
+ },
+ {
+  "id": "src-035",
+  "title": "[FUENTE DEMO 035] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/035",
+  "author": "[EMISOR DEMO 07]",
+  "publishedAt": "2025-02-17",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 035. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-001"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-02-18",
+  "contributedBy": "@usuario_demo_08"
+ },
+ {
+  "id": "src-036",
+  "title": "[FUENTE DEMO 036] Registro de marcador de posición — tipo «documento-oficial»",
+  "url": "https://example.org/demo/fuente/036",
+  "author": "[EMISOR DEMO 08]",
+  "publishedAt": null,
+  "tier": "documento-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 036. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-002"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-10-25",
+  "contributedBy": null
+ },
+ {
+  "id": "src-037",
+  "title": "[FUENTE DEMO 037] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/037",
+  "author": "[EMISOR DEMO 09]",
+  "publishedAt": "2020-11-27",
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 037. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-012"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-11-05",
+  "contributedBy": "@usuario_demo_06"
+ },
+ {
+  "id": "src-038",
+  "title": "[FUENTE DEMO 038] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/038",
+  "author": "[EMISOR DEMO 10]",
+  "publishedAt": "2020-01-16",
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 038. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-01-26",
+  "contributedBy": null
+ },
+ {
+  "id": "src-039",
+  "title": "[FUENTE DEMO 039] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/039",
+  "author": "[EMISOR DEMO 11]",
+  "publishedAt": "2021-01-24",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 039. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-008",
+   "exp-019"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-10-08",
+  "contributedBy": null
+ },
+ {
+  "id": "src-040",
+  "title": "[FUENTE DEMO 040] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/040",
+  "author": "[EMISOR DEMO 12]",
+  "publishedAt": null,
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 040. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-009",
+   "exp-018"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-11-21",
+  "contributedBy": null
+ },
+ {
+  "id": "src-041",
+  "title": "[FUENTE DEMO 041] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/041",
+  "author": "[EMISOR DEMO 13]",
+  "publishedAt": "2021-01-05",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 041. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-009",
+   "exp-010",
+   "exp-017"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-05-05",
+  "contributedBy": null
+ },
+ {
+  "id": "src-042",
+  "title": "[FUENTE DEMO 042] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/042",
+  "author": "[EMISOR DEMO 14]",
+  "publishedAt": "2020-07-11",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 042. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-05-28",
+  "contributedBy": null
+ },
+ {
+  "id": "src-043",
+  "title": "[FUENTE DEMO 043] Registro de marcador de posición — tipo «declaracion-original»",
+  "url": "https://example.org/demo/fuente/043",
+  "author": "[EMISOR DEMO 01]",
+  "publishedAt": "2026-04-02",
+  "tier": "declaracion-original",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 043. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-016"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-05-20",
+  "contributedBy": null
+ },
+ {
+  "id": "src-044",
+  "title": "[FUENTE DEMO 044] Registro de marcador de posición — tipo «organismo-publico»",
+  "url": "https://example.org/demo/fuente/044",
+  "author": "[EMISOR DEMO 02]",
+  "publishedAt": "2019-07-01",
+  "tier": "organismo-publico",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 044. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2025-09-24",
+  "contributedBy": "@usuario_demo_07"
+ },
+ {
+  "id": "src-045",
+  "title": "[FUENTE DEMO 045] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/045",
+  "author": "[EMISOR DEMO 03]",
+  "publishedAt": "2019-12-11",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 045. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-006",
+   "exp-008",
+   "exp-011",
+   "exp-023"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-12-26",
+  "contributedBy": null
+ },
+ {
+  "id": "src-046",
+  "title": "[FUENTE DEMO 046] Registro de marcador de posición — tipo «documento-oficial»",
+  "url": "https://example.org/demo/fuente/046",
+  "author": "[EMISOR DEMO 04]",
+  "publishedAt": "2020-07-10",
+  "tier": "documento-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 046. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-05-08",
+  "contributedBy": null
+ },
+ {
+  "id": "src-047",
+  "title": "[FUENTE DEMO 047] Registro de marcador de posición — tipo «organismo-publico»",
+  "url": "https://example.org/demo/fuente/047",
+  "author": "[EMISOR DEMO 05]",
+  "publishedAt": "2021-05-02",
+  "tier": "organismo-publico",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 047. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-005",
+   "exp-007",
+   "exp-010",
+   "exp-014"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-02-14",
+  "contributedBy": null
+ },
+ {
+  "id": "src-048",
+  "title": "[FUENTE DEMO 048] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/048",
+  "author": "[EMISOR DEMO 06]",
+  "publishedAt": "2020-03-16",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 048. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-009"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-08-20",
+  "contributedBy": null
+ },
+ {
+  "id": "src-049",
+  "title": "[FUENTE DEMO 049] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/049",
+  "author": "[EMISOR DEMO 07]",
+  "publishedAt": "2024-10-20",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 049. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-004",
+   "exp-015",
+   "exp-024"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-10-15",
+  "contributedBy": "@usuario_demo_08"
+ },
+ {
+  "id": "src-050",
+  "title": "[FUENTE DEMO 050] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/050",
+  "author": "[EMISOR DEMO 08]",
+  "publishedAt": "2019-07-08",
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 050. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-020"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-06-16",
+  "contributedBy": "@usuario_demo_02"
+ },
+ {
+  "id": "src-051",
+  "title": "[FUENTE DEMO 051] Registro de marcador de posición — tipo «dato-oficial»",
+  "url": "https://example.org/demo/fuente/051",
+  "author": "[EMISOR DEMO 09]",
+  "publishedAt": "2021-09-23",
+  "tier": "dato-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 051. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-007",
+   "exp-015"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-05-24",
+  "contributedBy": null
+ },
+ {
+  "id": "src-052",
+  "title": "[FUENTE DEMO 052] Registro de marcador de posición — tipo «red-social»",
+  "url": "https://example.org/demo/fuente/052",
+  "author": "[EMISOR DEMO 10]",
+  "publishedAt": "2024-10-17",
+  "tier": "red-social",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 052. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-010",
+   "exp-012",
+   "exp-022"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-07-20",
+  "contributedBy": null
+ },
+ {
+  "id": "src-053",
+  "title": "[FUENTE DEMO 053] Registro de marcador de posición — tipo «documento-oficial»",
+  "url": "https://example.org/demo/fuente/053",
+  "author": "[EMISOR DEMO 11]",
+  "publishedAt": "2020-05-08",
+  "tier": "documento-oficial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 053. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-005",
+   "exp-006",
+   "exp-014"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-03-03",
+  "contributedBy": null
+ },
+ {
+  "id": "src-054",
+  "title": "[FUENTE DEMO 054] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/054",
+  "author": "[EMISOR DEMO 12]",
+  "publishedAt": "2026-10-05",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 054. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-002"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-11-09",
+  "contributedBy": null
+ },
+ {
+  "id": "src-055",
+  "title": "[FUENTE DEMO 055] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/055",
+  "author": "[EMISOR DEMO 13]",
+  "publishedAt": "2023-02-25",
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 055. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-12-05",
+  "contributedBy": null
+ },
+ {
+  "id": "src-056",
+  "title": "[FUENTE DEMO 056] Registro de marcador de posición — tipo «medio»",
+  "url": "https://example.org/demo/fuente/056",
+  "author": "[EMISOR DEMO 14]",
+  "publishedAt": "2022-05-26",
+  "tier": "medio",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 056. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-003",
+   "exp-006",
+   "exp-010",
+   "exp-021"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-02-01",
+  "contributedBy": null
+ },
+ {
+  "id": "src-057",
+  "title": "[FUENTE DEMO 057] Registro de marcador de posición — tipo «organismo-publico»",
+  "url": "https://example.org/demo/fuente/057",
+  "author": "[EMISOR DEMO 01]",
+  "publishedAt": "2023-06-10",
+  "tier": "organismo-publico",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 057. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-001",
+   "exp-024"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-09-10",
+  "contributedBy": null
+ },
+ {
+  "id": "src-058",
+  "title": "[FUENTE DEMO 058] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/058",
+  "author": "[EMISOR DEMO 02]",
+  "publishedAt": "2022-06-24",
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 058. Se sustituye al incorporar material real.",
+  "relatedDossiers": [],
+  "isDemo": true,
+  "addedAt": "2026-11-15",
+  "contributedBy": null
+ },
+ {
+  "id": "src-059",
+  "title": "[FUENTE DEMO 059] Registro de marcador de posición — tipo «fuente-secundaria»",
+  "url": "https://example.org/demo/fuente/059",
+  "author": "[EMISOR DEMO 03]",
+  "publishedAt": null,
+  "tier": "fuente-secundaria",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 059. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-010",
+   "exp-012"
+  ],
+  "isDemo": true,
+  "addedAt": "2025-04-16",
+  "contributedBy": "@usuario_demo_02"
+ },
+ {
+  "id": "src-060",
+  "title": "[FUENTE DEMO 060] Registro de marcador de posición — tipo «resolucion-judicial»",
+  "url": "https://example.org/demo/fuente/060",
+  "author": "[EMISOR DEMO 04]",
+  "publishedAt": "2023-09-10",
+  "tier": "resolucion-judicial",
+  "summary": "[RESUMEN DEMO] Qué aporta exactamente la fuente 060. Se sustituye al incorporar material real.",
+  "relatedDossiers": [
+   "exp-013",
+   "exp-018",
+   "exp-023"
+  ],
+  "isDemo": true,
+  "addedAt": "2026-02-03",
+  "contributedBy": null
+ }
+]

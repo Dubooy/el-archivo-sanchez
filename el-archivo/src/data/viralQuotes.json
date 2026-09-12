@@ -1,0 +1,397 @@
+[
+ {
+  "id": "vq-001",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 001] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "SIN_EVIDENCIA",
+  "whatIsDocumented": "Nada. No se ha localizado material de origen.",
+  "explanation": "No se ha localizado ninguna fuente primaria. La frase circula reproducida por terceros que no citan origen. Esto NO demuestra que no se dijera: demuestra que no aparece.",
+  "video": null,
+  "videoTimestamp": null,
+  "date": null,
+  "sources": [
+   "src-049",
+   "src-036"
+  ],
+  "shares": 36741,
+  "isDemo": true
+ },
+ {
+  "id": "vq-002",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 002] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "DOCUMENTADA",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Se ha localizado el material original y la frase consta tal cual, con su marca de tiempo. Se enlaza el punto exacto.",
+  "video": "vid-025",
+  "videoTimestamp": 268,
+  "date": "2020-09-27",
+  "sources": [
+   "src-034"
+  ],
+  "shares": 1386,
+  "isDemo": true
+ },
+ {
+  "id": "vq-003",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 003] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "CONTEXTO_ENGANOSO",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "La frase existe y es literal, pero circula recortada de un contexto que cambia lo que significa. El recorte es el problema, no la cita.",
+  "video": "vid-010",
+  "videoTimestamp": 115,
+  "date": "2021-03-06",
+  "sources": [
+   "src-006"
+  ],
+  "shares": 1626,
+  "isDemo": true
+ },
+ {
+  "id": "vq-004",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 004] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "PARCIAL",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Existe una declaración parecida en el material original, pero la versión que circula altera palabras que cambian el significado. Se muestran las dos.",
+  "video": "vid-013",
+  "videoTimestamp": 55,
+  "date": "2019-02-18",
+  "sources": [
+   "src-003",
+   "src-043",
+   "src-058"
+  ],
+  "shares": 37853,
+  "isDemo": true
+ },
+ {
+  "id": "vq-005",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 005] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "SIN_EVIDENCIA",
+  "whatIsDocumented": "Nada. No se ha localizado material de origen.",
+  "explanation": "No se ha localizado ninguna fuente primaria. La frase circula reproducida por terceros que no citan origen. Esto NO demuestra que no se dijera: demuestra que no aparece.",
+  "video": null,
+  "videoTimestamp": null,
+  "date": null,
+  "sources": [],
+  "shares": 17307,
+  "isDemo": true
+ },
+ {
+  "id": "vq-006",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 006] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "DOCUMENTADA",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Se ha localizado el material original y la frase consta tal cual, con su marca de tiempo. Se enlaza el punto exacto.",
+  "video": "vid-011",
+  "videoTimestamp": 191,
+  "date": "2026-11-05",
+  "sources": [],
+  "shares": 13649,
+  "isDemo": true
+ },
+ {
+  "id": "vq-007",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 007] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "CONTEXTO_ENGANOSO",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "La frase existe y es literal, pero circula recortada de un contexto que cambia lo que significa. El recorte es el problema, no la cita.",
+  "video": "vid-006",
+  "videoTimestamp": 351,
+  "date": "2023-12-06",
+  "sources": [
+   "src-052"
+  ],
+  "shares": 6752,
+  "isDemo": true
+ },
+ {
+  "id": "vq-008",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 008] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "PARCIAL",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Existe una declaración parecida en el material original, pero la versión que circula altera palabras que cambian el significado. Se muestran las dos.",
+  "video": "vid-006",
+  "videoTimestamp": 401,
+  "date": "2024-06-01",
+  "sources": [
+   "src-012"
+  ],
+  "shares": 19554,
+  "isDemo": true
+ },
+ {
+  "id": "vq-009",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 009] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "PARCIAL",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Existe una declaración parecida en el material original, pero la versión que circula altera palabras que cambian el significado. Se muestran las dos.",
+  "video": "vid-011",
+  "videoTimestamp": 289,
+  "date": "2025-03-23",
+  "sources": [
+   "src-029"
+  ],
+  "shares": 26690,
+  "isDemo": true
+ },
+ {
+  "id": "vq-010",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 010] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "DOCUMENTADA",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Se ha localizado el material original y la frase consta tal cual, con su marca de tiempo. Se enlaza el punto exacto.",
+  "video": "vid-023",
+  "videoTimestamp": 427,
+  "date": "2019-12-12",
+  "sources": [
+   "src-056",
+   "src-001",
+   "src-005"
+  ],
+  "shares": 12855,
+  "isDemo": true
+ },
+ {
+  "id": "vq-011",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 011] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "PARCIAL",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Existe una declaración parecida en el material original, pero la versión que circula altera palabras que cambian el significado. Se muestran las dos.",
+  "video": "vid-018",
+  "videoTimestamp": 339,
+  "date": "2024-11-03",
+  "sources": [],
+  "shares": 12830,
+  "isDemo": true
+ },
+ {
+  "id": "vq-012",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 012] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "SIN_EVIDENCIA",
+  "whatIsDocumented": "Nada. No se ha localizado material de origen.",
+  "explanation": "No se ha localizado ninguna fuente primaria. La frase circula reproducida por terceros que no citan origen. Esto NO demuestra que no se dijera: demuestra que no aparece.",
+  "video": null,
+  "videoTimestamp": null,
+  "date": null,
+  "sources": [
+   "src-015",
+   "src-007",
+   "src-005"
+  ],
+  "shares": 6065,
+  "isDemo": true
+ },
+ {
+  "id": "vq-013",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 013] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "DOCUMENTADA",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Se ha localizado el material original y la frase consta tal cual, con su marca de tiempo. Se enlaza el punto exacto.",
+  "video": "vid-015",
+  "videoTimestamp": 207,
+  "date": "2026-03-08",
+  "sources": [
+   "src-005"
+  ],
+  "shares": 16264,
+  "isDemo": true
+ },
+ {
+  "id": "vq-014",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 014] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "DOCUMENTADA",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Se ha localizado el material original y la frase consta tal cual, con su marca de tiempo. Se enlaza el punto exacto.",
+  "video": "vid-010",
+  "videoTimestamp": 521,
+  "date": "2023-03-11",
+  "sources": [],
+  "shares": 7094,
+  "isDemo": true
+ },
+ {
+  "id": "vq-015",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 015] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "SIN_EVIDENCIA",
+  "whatIsDocumented": "Nada. No se ha localizado material de origen.",
+  "explanation": "No se ha localizado ninguna fuente primaria. La frase circula reproducida por terceros que no citan origen. Esto NO demuestra que no se dijera: demuestra que no aparece.",
+  "video": null,
+  "videoTimestamp": null,
+  "date": null,
+  "sources": [
+   "src-007",
+   "src-033",
+   "src-031"
+  ],
+  "shares": 26128,
+  "isDemo": true
+ },
+ {
+  "id": "vq-016",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 016] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "PARCIAL",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Existe una declaración parecida en el material original, pero la versión que circula altera palabras que cambian el significado. Se muestran las dos.",
+  "video": "vid-023",
+  "videoTimestamp": 592,
+  "date": "2019-07-05",
+  "sources": [
+   "src-020",
+   "src-015",
+   "src-004"
+  ],
+  "shares": 38171,
+  "isDemo": true
+ },
+ {
+  "id": "vq-017",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 017] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "CONTEXTO_ENGANOSO",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "La frase existe y es literal, pero circula recortada de un contexto que cambia lo que significa. El recorte es el problema, no la cita.",
+  "video": "vid-018",
+  "videoTimestamp": 536,
+  "date": "2020-04-26",
+  "sources": [
+   "src-029",
+   "src-024",
+   "src-019"
+  ],
+  "shares": 16252,
+  "isDemo": true
+ },
+ {
+  "id": "vq-018",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 018] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "PARCIAL",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Existe una declaración parecida en el material original, pero la versión que circula altera palabras que cambian el significado. Se muestran las dos.",
+  "video": "vid-017",
+  "videoTimestamp": 298,
+  "date": "2025-04-23",
+  "sources": [
+   "src-056",
+   "src-026",
+   "src-038"
+  ],
+  "shares": 17133,
+  "isDemo": true
+ },
+ {
+  "id": "vq-019",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 019] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "CONTEXTO_ENGANOSO",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "La frase existe y es literal, pero circula recortada de un contexto que cambia lo que significa. El recorte es el problema, no la cita.",
+  "video": "vid-004",
+  "videoTimestamp": 204,
+  "date": "2021-05-10",
+  "sources": [
+   "src-058"
+  ],
+  "shares": 32133,
+  "isDemo": true
+ },
+ {
+  "id": "vq-020",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 020] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "SIN_EVIDENCIA",
+  "whatIsDocumented": "Nada. No se ha localizado material de origen.",
+  "explanation": "No se ha localizado ninguna fuente primaria. La frase circula reproducida por terceros que no citan origen. Esto NO demuestra que no se dijera: demuestra que no aparece.",
+  "video": null,
+  "videoTimestamp": null,
+  "date": null,
+  "sources": [],
+  "shares": 30949,
+  "isDemo": true
+ },
+ {
+  "id": "vq-021",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 021] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "PARCIAL",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Existe una declaración parecida en el material original, pero la versión que circula altera palabras que cambian el significado. Se muestran las dos.",
+  "video": "vid-028",
+  "videoTimestamp": 232,
+  "date": "2021-01-06",
+  "sources": [
+   "src-056",
+   "src-033",
+   "src-017"
+  ],
+  "shares": 47710,
+  "isDemo": true
+ },
+ {
+  "id": "vq-022",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 022] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "CONTEXTO_ENGANOSO",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "La frase existe y es literal, pero circula recortada de un contexto que cambia lo que significa. El recorte es el problema, no la cita.",
+  "video": "vid-014",
+  "videoTimestamp": 492,
+  "date": "2022-11-15",
+  "sources": [
+   "src-053",
+   "src-015",
+   "src-010"
+  ],
+  "shares": 33718,
+  "isDemo": true
+ },
+ {
+  "id": "vq-023",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 023] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "PARCIAL",
+  "whatIsDocumented": "[DEMO] Lo que consta exactamente en el material original.",
+  "explanation": "Existe una declaración parecida en el material original, pero la versión que circula altera palabras que cambian el significado. Se muestran las dos.",
+  "video": "vid-027",
+  "videoTimestamp": 65,
+  "date": "2024-03-18",
+  "sources": [
+   "src-027",
+   "src-007"
+  ],
+  "shares": 21889,
+  "isDemo": true
+ },
+ {
+  "id": "vq-024",
+  "subject": "sub-001",
+  "circulating": "[FRASE VIRAL DEMO 024] Cadena de texto de marcador de posición que circula por redes. No reproduce ninguna declaración real de ninguna persona.",
+  "result": "SIN_EVIDENCIA",
+  "whatIsDocumented": "Nada. No se ha localizado material de origen.",
+  "explanation": "No se ha localizado ninguna fuente primaria. La frase circula reproducida por terceros que no citan origen. Esto NO demuestra que no se dijera: demuestra que no aparece.",
+  "video": null,
+  "videoTimestamp": null,
+  "date": null,
+  "sources": [
+   "src-010",
+   "src-038"
+  ],
+  "shares": 19678,
+  "isDemo": true
+ }
+]

@@ -1,0 +1,272 @@
+[
+ {
+  "id": "act-000",
+  "at": "2026-12-19",
+  "actor": "@usuario_demo_01",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «dato» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-001",
+  "at": "2026-12-14",
+  "actor": "@usuario_demo_05",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «video» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-002",
+  "at": "2026-11-28",
+  "actor": "@usuario_demo_05",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «documento» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-003",
+  "at": "2026-11-19",
+  "actor": "@usuario_demo_07",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «fuente» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-004",
+  "at": "2026-08-20",
+  "actor": "@usuario_demo_04",
+  "kind": "ERROR_DETECTADO",
+  "text": "propuso una corrección sobre un expediente.",
+  "href": "/expedientes/exp-004",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-005",
+  "at": "2026-08-15",
+  "actor": "@usuario_demo_04",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «contradiccion» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-006",
+  "at": "2026-07-07",
+  "actor": "@usuario_demo_02",
+  "kind": "FUENTE_ACEPTADA",
+  "text": "aportó una fuente que fue aceptada.",
+  "href": "/fuentes",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-007",
+  "at": "2026-04-06",
+  "actor": "@usuario_demo_01",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «video» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-008",
+  "at": "2026-03-09",
+  "actor": "@editorial",
+  "kind": "EXPEDIENTE_ACTUALIZADO",
+  "text": "actualizó el expediente 012 tras incorporar nueva evidencia.",
+  "href": "/expedientes/exp-012",
+  "layer": "ARCHIVO"
+ },
+ {
+  "id": "act-009",
+  "at": "2025-12-26",
+  "actor": "@usuario_demo_12",
+  "kind": "ERROR_DETECTADO",
+  "text": "propuso una corrección sobre un expediente.",
+  "href": "/expedientes/exp-024",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-010",
+  "at": "2025-12-24",
+  "actor": "@usuario_demo_08",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «video» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-011",
+  "at": "2025-10-20",
+  "actor": "@editorial",
+  "kind": "EXPEDIENTE_ACTUALIZADO",
+  "text": "actualizó el expediente 009 tras incorporar nueva evidencia.",
+  "href": "/expedientes/exp-009",
+  "layer": "ARCHIVO"
+ },
+ {
+  "id": "act-012",
+  "at": "2025-09-12",
+  "actor": "@usuario_demo_07",
+  "kind": "ERROR_DETECTADO",
+  "text": "propuso una corrección sobre un expediente.",
+  "href": "/expedientes/exp-022",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-013",
+  "at": "2025-09-10",
+  "actor": "@editorial",
+  "kind": "EXPEDIENTE_ACTUALIZADO",
+  "text": "actualizó el expediente 002 tras incorporar nueva evidencia.",
+  "href": "/expedientes/exp-002",
+  "layer": "ARCHIVO"
+ },
+ {
+  "id": "act-014",
+  "at": "2025-08-26",
+  "actor": "@usuario_demo_10",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «video» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-015",
+  "at": "2025-08-05",
+  "actor": "@usuario_demo_01",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «fuente» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-016",
+  "at": "2025-07-04",
+  "actor": "@usuario_demo_08",
+  "kind": "ERROR_DETECTADO",
+  "text": "propuso una corrección sobre un expediente.",
+  "href": "/expedientes/exp-018",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-017",
+  "at": "2025-06-26",
+  "actor": "@usuario_demo_05",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «otro» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-018",
+  "at": "2025-06-18",
+  "actor": "@usuario_demo_07",
+  "kind": "ERROR_DETECTADO",
+  "text": "propuso una corrección sobre un expediente.",
+  "href": "/expedientes/exp-007",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-019",
+  "at": "2025-04-23",
+  "actor": "@editorial",
+  "kind": "EXPEDIENTE_ACTUALIZADO",
+  "text": "actualizó el expediente 011 tras incorporar nueva evidencia.",
+  "href": "/expedientes/exp-011",
+  "layer": "ARCHIVO"
+ },
+ {
+  "id": "act-020",
+  "at": "2025-04-18",
+  "actor": "@editorial",
+  "kind": "EXPEDIENTE_ACTUALIZADO",
+  "text": "actualizó el expediente 006 tras incorporar nueva evidencia.",
+  "href": "/expedientes/exp-006",
+  "layer": "ARCHIVO"
+ },
+ {
+  "id": "act-021",
+  "at": "2025-03-16",
+  "actor": "@editorial",
+  "kind": "EXPEDIENTE_ACTUALIZADO",
+  "text": "actualizó el expediente 001 tras incorporar nueva evidencia.",
+  "href": "/expedientes/exp-001",
+  "layer": "ARCHIVO"
+ },
+ {
+  "id": "act-022",
+  "at": "2025-03-11",
+  "actor": "@usuario_demo_06",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «documento» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-023",
+  "at": "2025-03-10",
+  "actor": "@usuario_demo_04",
+  "kind": "ERROR_DETECTADO",
+  "text": "propuso una corrección sobre un expediente.",
+  "href": "/expedientes/exp-015",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-024",
+  "at": "2025-02-14",
+  "actor": "@usuario_demo_10",
+  "kind": "ERROR_DETECTADO",
+  "text": "propuso una corrección sobre un expediente.",
+  "href": "/expedientes/exp-024",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-025",
+  "at": "2025-02-09",
+  "actor": "@editorial",
+  "kind": "EXPEDIENTE_ACTUALIZADO",
+  "text": "actualizó el expediente 007 tras incorporar nueva evidencia.",
+  "href": "/expedientes/exp-007",
+  "layer": "ARCHIVO"
+ },
+ {
+  "id": "act-026",
+  "at": "2025-02-07",
+  "actor": "@usuario_demo_06",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «documento» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-027",
+  "at": "2025-01-28",
+  "actor": "@usuario_demo_05",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «fuente» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-028",
+  "at": "2025-01-21",
+  "actor": "@usuario_demo_10",
+  "kind": "APORTACION",
+  "text": "aportó material de tipo «dato» al archivo.",
+  "href": "/moderacion",
+  "layer": "COMUNIDAD"
+ },
+ {
+  "id": "act-029",
+  "at": "2025-01-07",
+  "actor": "@usuario_demo_06",
+  "kind": "ERROR_DETECTADO",
+  "text": "propuso una corrección sobre un expediente.",
+  "href": "/expedientes/exp-002",
+  "layer": "COMUNIDAD"
+ }
+]

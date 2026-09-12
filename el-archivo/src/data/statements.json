@@ -1,0 +1,2748 @@
+[
+ {
+  "id": "stm-001",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre justicia formulada en términos absolutos.",
+  "date": "2024-01-28",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "justicia"
+  ],
+  "sources": [
+   "src-022"
+  ],
+  "video": "vid-004",
+  "videoTimestamp": 356,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-03-18"
+ },
+ {
+  "id": "stm-002",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en vivienda con plazo mencionado de pasada.",
+  "date": "2019-07-27",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "otros",
+   "vivienda"
+  ],
+  "sources": [
+   "src-010",
+   "src-041"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-08-08"
+ },
+ {
+  "id": "stm-003",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en elecciones con plazo mencionado de pasada.",
+  "date": "2019-08-24",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "exterior"
+  ],
+  "sources": [
+   "src-007"
+  ],
+  "video": "vid-010",
+  "videoTimestamp": 844,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-11-06"
+ },
+ {
+  "id": "stm-004",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre justicia formulada en términos absolutos.",
+  "date": "2020-10-15",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "inmigracion",
+   "justicia"
+  ],
+  "sources": [
+   "src-005",
+   "src-019",
+   "src-024"
+  ],
+  "video": "vid-009",
+  "videoTimestamp": 50,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-01-07"
+ },
+ {
+  "id": "stm-005",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre empleo, sin método de cálculo indicado.",
+  "date": "2020-04-17",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-055",
+   "src-022"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-001",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-03-06"
+ },
+ {
+  "id": "stm-006",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre institucional que no aborda directamente la pregunta.",
+  "date": "2023-04-25",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "institucional",
+   "vivienda"
+  ],
+  "sources": [
+   "src-025"
+  ],
+  "video": "vid-012",
+  "videoTimestamp": 198,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-08-09"
+ },
+ {
+  "id": "stm-007",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en institucional con plazo mencionado de pasada.",
+  "date": "2026-08-19",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "institucional"
+  ],
+  "sources": [
+   "src-008",
+   "src-058"
+  ],
+  "video": "vid-020",
+  "videoTimestamp": 182,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_05",
+  "addedAt": "2026-12-14"
+ },
+ {
+  "id": "stm-008",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre economía formulada en términos absolutos.",
+  "date": "2024-03-26",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "justicia"
+  ],
+  "sources": [
+   "src-008"
+  ],
+  "video": "vid-015",
+  "videoTimestamp": 350,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-03-26"
+ },
+ {
+  "id": "stm-009",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre inmigración.",
+  "date": "2022-07-26",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "inmigracion",
+   "otros"
+  ],
+  "sources": [
+   "src-027",
+   "src-045",
+   "src-031"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-017",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-11-24"
+ },
+ {
+  "id": "stm-010",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre elecciones, sin método de cálculo indicado.",
+  "date": "2020-09-16",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "elecciones"
+  ],
+  "sources": [
+   "src-059",
+   "src-007",
+   "src-009"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_02",
+  "addedAt": "2025-05-02"
+ },
+ {
+  "id": "stm-011",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre economía, sin método de cálculo indicado.",
+  "date": "2024-11-15",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "institucional"
+  ],
+  "sources": [
+   "src-060",
+   "src-019",
+   "src-002"
+  ],
+  "video": "vid-020",
+  "videoTimestamp": 504,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-002",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-07-06"
+ },
+ {
+  "id": "stm-012",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en sanidad con plazo mencionado de pasada.",
+  "date": "2022-01-27",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "sanidad"
+  ],
+  "sources": [
+   "src-018"
+  ],
+  "video": "vid-008",
+  "videoTimestamp": 221,
+  "reviewState": "NECESITA_INFO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-12-25"
+ },
+ {
+  "id": "stm-013",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en cataluña con plazo mencionado de pasada.",
+  "date": "2022-08-25",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "educacion"
+  ],
+  "sources": [
+   "src-029",
+   "src-043"
+  ],
+  "video": "vid-018",
+  "videoTimestamp": 332,
+  "reviewState": "NECESITA_INFO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-05-14"
+ },
+ {
+  "id": "stm-014",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en otros con plazo mencionado de pasada.",
+  "date": "2020-09-05",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "otros"
+  ],
+  "sources": [
+   "src-003"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-015",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-05-09"
+ },
+ {
+  "id": "stm-015",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en institucional con plazo mencionado de pasada.",
+  "date": "2020-09-23",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "institucional"
+  ],
+  "sources": [
+   "src-058"
+  ],
+  "video": "vid-006",
+  "videoTimestamp": 333,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_06",
+  "addedAt": "2026-02-14"
+ },
+ {
+  "id": "stm-016",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre educación formulada en términos absolutos.",
+  "date": "2026-01-22",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "educacion"
+  ],
+  "sources": [
+   "src-026"
+  ],
+  "video": "vid-006",
+  "videoTimestamp": 649,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-009",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-04-07"
+ },
+ {
+  "id": "stm-017",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre energía.",
+  "date": "2023-10-26",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "energia",
+   "vivienda"
+  ],
+  "sources": [
+   "src-029"
+  ],
+  "video": "vid-003",
+  "videoTimestamp": 353,
+  "reviewState": "NECESITA_INFO",
+  "dossier": "exp-010",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_05",
+  "addedAt": "2026-08-12"
+ },
+ {
+  "id": "stm-018",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en sanidad con plazo mencionado de pasada.",
+  "date": "2022-06-24",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "sanidad"
+  ],
+  "sources": [
+   "src-033",
+   "src-025",
+   "src-051"
+  ],
+  "video": "vid-021",
+  "videoTimestamp": 170,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-06-07"
+ },
+ {
+  "id": "stm-019",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre institucional, sin método de cálculo indicado.",
+  "date": "2022-03-24",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "institucional",
+   "justicia"
+  ],
+  "sources": [
+   "src-018"
+  ],
+  "video": "vid-019",
+  "videoTimestamp": 399,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-012",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-04-25"
+ },
+ {
+  "id": "stm-020",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre educación, sin método de cálculo indicado.",
+  "date": "2020-04-12",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "vivienda"
+  ],
+  "sources": [
+   "src-019",
+   "src-045"
+  ],
+  "video": "vid-026",
+  "videoTimestamp": 226,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-015",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_03",
+  "addedAt": "2025-05-03"
+ },
+ {
+  "id": "stm-021",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre justicia, sin método de cálculo indicado.",
+  "date": "2023-08-13",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "justicia"
+  ],
+  "sources": [
+   "src-042",
+   "src-001"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-06-27"
+ },
+ {
+  "id": "stm-022",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre elecciones formulada en términos absolutos.",
+  "date": "2024-08-13",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "sanidad"
+  ],
+  "sources": [
+   "src-057",
+   "src-021",
+   "src-035"
+  ],
+  "video": "vid-026",
+  "videoTimestamp": 297,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-016",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-01-15"
+ },
+ {
+  "id": "stm-023",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en economía con plazo mencionado de pasada.",
+  "date": "2025-11-25",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "educacion"
+  ],
+  "sources": [
+   "src-034",
+   "src-013"
+  ],
+  "video": "vid-015",
+  "videoTimestamp": 724,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-06-12"
+ },
+ {
+  "id": "stm-024",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre justicia que no aborda directamente la pregunta.",
+  "date": "2022-02-10",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "justicia"
+  ],
+  "sources": [
+   "src-036"
+  ],
+  "video": "vid-008",
+  "videoTimestamp": 167,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "stm-025",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre institucional formulada en términos absolutos.",
+  "date": "2025-02-12",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "institucional",
+   "justicia"
+  ],
+  "sources": [
+   "src-050",
+   "src-028"
+  ],
+  "video": "vid-021",
+  "videoTimestamp": 826,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-019",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-01-26"
+ },
+ {
+  "id": "stm-026",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre vivienda que no aborda directamente la pregunta.",
+  "date": "2026-01-06",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "vivienda"
+  ],
+  "sources": [
+   "src-048",
+   "src-035",
+   "src-029"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-008",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-06-13"
+ },
+ {
+  "id": "stm-027",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre vivienda, sin método de cálculo indicado.",
+  "date": "2022-12-17",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "inmigracion",
+   "vivienda"
+  ],
+  "sources": [
+   "src-024",
+   "src-014"
+  ],
+  "video": "vid-027",
+  "videoTimestamp": 239,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-09-03"
+ },
+ {
+  "id": "stm-028",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre sanidad.",
+  "date": "2019-05-13",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "otros",
+   "sanidad"
+  ],
+  "sources": [
+   "src-026"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_05",
+  "addedAt": "2025-01-09"
+ },
+ {
+  "id": "stm-029",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en elecciones con plazo mencionado de pasada.",
+  "date": "2019-10-09",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones"
+  ],
+  "sources": [
+   "src-017",
+   "src-051",
+   "src-052"
+  ],
+  "video": "vid-006",
+  "videoTimestamp": 157,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-04-24"
+ },
+ {
+  "id": "stm-030",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre otros.",
+  "date": "2024-05-04",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "energia",
+   "otros"
+  ],
+  "sources": [
+   "src-033"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-04-23"
+ },
+ {
+  "id": "stm-031",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre economía, sin método de cálculo indicado.",
+  "date": "2024-11-13",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia"
+  ],
+  "sources": [
+   "src-005",
+   "src-055",
+   "src-023"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-01-27"
+ },
+ {
+  "id": "stm-032",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre cataluña, sin método de cálculo indicado.",
+  "date": "2026-11-09",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "exterior"
+  ],
+  "sources": [
+   "src-023",
+   "src-030"
+  ],
+  "video": "vid-020",
+  "videoTimestamp": 214,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_07",
+  "addedAt": "2026-07-27"
+ },
+ {
+  "id": "stm-033",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre sanidad.",
+  "date": "2024-02-25",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "sanidad"
+  ],
+  "sources": [
+   "src-059",
+   "src-028",
+   "src-018"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_01",
+  "addedAt": "2025-12-04"
+ },
+ {
+  "id": "stm-034",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en política exterior con plazo mencionado de pasada.",
+  "date": "2022-10-16",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior",
+   "institucional"
+  ],
+  "sources": [
+   "src-018"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_07",
+  "addedAt": "2026-03-22"
+ },
+ {
+  "id": "stm-035",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre educación que no aborda directamente la pregunta.",
+  "date": "2023-03-24",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "vivienda"
+  ],
+  "sources": [
+   "src-001",
+   "src-048",
+   "src-023"
+  ],
+  "video": "vid-003",
+  "videoTimestamp": 111,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-09-05"
+ },
+ {
+  "id": "stm-036",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre vivienda formulada en términos absolutos.",
+  "date": "2024-02-27",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "vivienda"
+  ],
+  "sources": [
+   "src-028",
+   "src-007",
+   "src-030"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-06-28"
+ },
+ {
+  "id": "stm-037",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre empleo.",
+  "date": "2023-10-28",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "sanidad"
+  ],
+  "sources": [
+   "src-059",
+   "src-007",
+   "src-011"
+  ],
+  "video": "vid-025",
+  "videoTimestamp": 75,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-10-23"
+ },
+ {
+  "id": "stm-038",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre política exterior que no aborda directamente la pregunta.",
+  "date": "2026-01-22",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "exterior"
+  ],
+  "sources": [
+   "src-037",
+   "src-019",
+   "src-031"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_03",
+  "addedAt": "2025-05-09"
+ },
+ {
+  "id": "stm-039",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre justicia, sin método de cálculo indicado.",
+  "date": "2025-07-26",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "justicia"
+  ],
+  "sources": [
+   "src-020",
+   "src-046",
+   "src-017"
+  ],
+  "video": "vid-028",
+  "videoTimestamp": 836,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_05",
+  "addedAt": "2026-02-27"
+ },
+ {
+  "id": "stm-040",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre educación formulada en términos absolutos.",
+  "date": "2026-05-12",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "exterior"
+  ],
+  "sources": [
+   "src-044",
+   "src-009"
+  ],
+  "video": "vid-026",
+  "videoTimestamp": 848,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-07-14"
+ },
+ {
+  "id": "stm-041",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre empleo.",
+  "date": "2026-12-14",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "empleo"
+  ],
+  "sources": [
+   "src-026",
+   "src-040"
+  ],
+  "video": "vid-013",
+  "videoTimestamp": 293,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-07-11"
+ },
+ {
+  "id": "stm-042",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre política exterior.",
+  "date": "2024-06-20",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior",
+   "otros"
+  ],
+  "sources": [
+   "src-038",
+   "src-017",
+   "src-056"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-09-27"
+ },
+ {
+  "id": "stm-043",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en empleo con plazo mencionado de pasada.",
+  "date": "2024-09-23",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "institucional"
+  ],
+  "sources": [
+   "src-046"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-07-11"
+ },
+ {
+  "id": "stm-044",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en energía con plazo mencionado de pasada.",
+  "date": "2021-01-07",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "energia"
+  ],
+  "sources": [
+   "src-042"
+  ],
+  "video": "vid-008",
+  "videoTimestamp": 327,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-07-28"
+ },
+ {
+  "id": "stm-045",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre empleo.",
+  "date": "2023-05-20",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-036"
+  ],
+  "video": "vid-008",
+  "videoTimestamp": 143,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-03-06"
+ },
+ {
+  "id": "stm-046",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre empleo.",
+  "date": "2026-02-15",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "otros"
+  ],
+  "sources": [
+   "src-016",
+   "src-003"
+  ],
+  "video": "vid-017",
+  "videoTimestamp": 739,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-021",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-07-17"
+ },
+ {
+  "id": "stm-047",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre institucional.",
+  "date": "2024-09-15",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "institucional"
+  ],
+  "sources": [
+   "src-056",
+   "src-033",
+   "src-019"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-011",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-06-23"
+ },
+ {
+  "id": "stm-048",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre inmigración.",
+  "date": "2021-04-19",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-001"
+  ],
+  "video": "vid-023",
+  "videoTimestamp": 461,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-005",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_04",
+  "addedAt": "2025-07-06"
+ },
+ {
+  "id": "stm-049",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre energía formulada en términos absolutos.",
+  "date": "2020-02-07",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "energia"
+  ],
+  "sources": [
+   "src-033",
+   "src-058",
+   "src-048"
+  ],
+  "video": "vid-008",
+  "videoTimestamp": 772,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-09-25"
+ },
+ {
+  "id": "stm-050",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre otros, sin método de cálculo indicado.",
+  "date": "2024-08-27",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "otros"
+  ],
+  "sources": [
+   "src-019"
+  ],
+  "video": "vid-008",
+  "videoTimestamp": 285,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-005",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_08",
+  "addedAt": "2026-03-16"
+ },
+ {
+  "id": "stm-051",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre cataluña que no aborda directamente la pregunta.",
+  "date": "2021-05-03",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "empleo"
+  ],
+  "sources": [
+   "src-058",
+   "src-041"
+  ],
+  "video": "vid-004",
+  "videoTimestamp": 647,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-02-05"
+ },
+ {
+  "id": "stm-052",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre empleo.",
+  "date": "2022-02-01",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "empleo"
+  ],
+  "sources": [
+   "src-014"
+  ],
+  "video": "vid-005",
+  "videoTimestamp": 618,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-04-23"
+ },
+ {
+  "id": "stm-053",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre elecciones que no aborda directamente la pregunta.",
+  "date": "2022-11-18",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "elecciones"
+  ],
+  "sources": [
+   "src-016",
+   "src-004"
+  ],
+  "video": "vid-017",
+  "videoTimestamp": 694,
+  "reviewState": "NECESITA_INFO",
+  "dossier": "exp-001",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_08",
+  "addedAt": "2025-01-12"
+ },
+ {
+  "id": "stm-054",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre economía formulada en términos absolutos.",
+  "date": "2020-11-25",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "elecciones"
+  ],
+  "sources": [
+   "src-056"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-11-05"
+ },
+ {
+  "id": "stm-055",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre vivienda.",
+  "date": "2025-06-08",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior",
+   "vivienda"
+  ],
+  "sources": [
+   "src-058"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_03",
+  "addedAt": "2025-04-02"
+ },
+ {
+  "id": "stm-056",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en justicia con plazo mencionado de pasada.",
+  "date": "2021-10-17",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "justicia",
+   "vivienda"
+  ],
+  "sources": [
+   "src-040"
+  ],
+  "video": "vid-012",
+  "videoTimestamp": 878,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-07-07"
+ },
+ {
+  "id": "stm-057",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre empleo.",
+  "date": "2019-05-10",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "otros"
+  ],
+  "sources": [
+   "src-033",
+   "src-057"
+  ],
+  "video": "vid-009",
+  "videoTimestamp": 622,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-007",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_01",
+  "addedAt": "2026-07-28"
+ },
+ {
+  "id": "stm-058",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre política exterior, sin método de cálculo indicado.",
+  "date": "2025-02-26",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior",
+   "sanidad"
+  ],
+  "sources": [
+   "src-026",
+   "src-009",
+   "src-057"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-09-11"
+ },
+ {
+  "id": "stm-059",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre vivienda.",
+  "date": "2020-04-25",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "vivienda"
+  ],
+  "sources": [
+   "src-047"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-11-26"
+ },
+ {
+  "id": "stm-060",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre justicia que no aborda directamente la pregunta.",
+  "date": "2021-07-28",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "justicia"
+  ],
+  "sources": [
+   "src-021",
+   "src-027",
+   "src-051"
+  ],
+  "video": "vid-028",
+  "videoTimestamp": 622,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-021",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_02",
+  "addedAt": "2026-10-24"
+ },
+ {
+  "id": "stm-061",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre empleo, sin método de cálculo indicado.",
+  "date": "2020-02-06",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "vivienda"
+  ],
+  "sources": [
+   "src-060",
+   "src-049"
+  ],
+  "video": "vid-013",
+  "videoTimestamp": 573,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-008",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-12-15"
+ },
+ {
+  "id": "stm-062",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre institucional que no aborda directamente la pregunta.",
+  "date": "2021-07-17",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "energia",
+   "institucional"
+  ],
+  "sources": [
+   "src-006"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-06-08"
+ },
+ {
+  "id": "stm-063",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre educación que no aborda directamente la pregunta.",
+  "date": "2022-02-23",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "elecciones"
+  ],
+  "sources": [
+   "src-049",
+   "src-027"
+  ],
+  "video": "vid-017",
+  "videoTimestamp": 499,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-01-04"
+ },
+ {
+  "id": "stm-064",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre elecciones.",
+  "date": "2023-06-09",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "institucional"
+  ],
+  "sources": [
+   "src-017"
+  ],
+  "video": "vid-028",
+  "videoTimestamp": 174,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_04",
+  "addedAt": "2025-07-06"
+ },
+ {
+  "id": "stm-065",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre inmigración, sin método de cálculo indicado.",
+  "date": "2019-09-16",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-011",
+   "src-056",
+   "src-033"
+  ],
+  "video": "vid-027",
+  "videoTimestamp": 678,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-09-12"
+ },
+ {
+  "id": "stm-066",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre elecciones, sin método de cálculo indicado.",
+  "date": "2019-02-28",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-007"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-021",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_05",
+  "addedAt": "2025-03-02"
+ },
+ {
+  "id": "stm-067",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en inmigración con plazo mencionado de pasada.",
+  "date": "2025-11-21",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-009",
+   "src-010"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-12-28"
+ },
+ {
+  "id": "stm-068",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre política exterior.",
+  "date": "2021-06-19",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "exterior"
+  ],
+  "sources": [
+   "src-026"
+  ],
+  "video": "vid-001",
+  "videoTimestamp": 522,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-003",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-11-08"
+ },
+ {
+  "id": "stm-069",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre economía formulada en términos absolutos.",
+  "date": "2020-10-24",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia"
+  ],
+  "sources": [
+   "src-015"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_06",
+  "addedAt": "2026-02-14"
+ },
+ {
+  "id": "stm-070",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre política exterior que no aborda directamente la pregunta.",
+  "date": "2026-07-16",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior",
+   "sanidad"
+  ],
+  "sources": [
+   "src-056",
+   "src-050",
+   "src-009"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_07",
+  "addedAt": "2026-07-07"
+ },
+ {
+  "id": "stm-071",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en elecciones con plazo mencionado de pasada.",
+  "date": "2024-10-10",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "otros"
+  ],
+  "sources": [
+   "src-012",
+   "src-052",
+   "src-060"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-10-27"
+ },
+ {
+  "id": "stm-072",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre educación, sin método de cálculo indicado.",
+  "date": "2022-09-23",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion"
+  ],
+  "sources": [
+   "src-002",
+   "src-013",
+   "src-008"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-004",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-07-19"
+ },
+ {
+  "id": "stm-073",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en política exterior con plazo mencionado de pasada.",
+  "date": "2023-11-18",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "exterior"
+  ],
+  "sources": [
+   "src-015",
+   "src-051"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-006",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_02",
+  "addedAt": "2025-12-17"
+ },
+ {
+  "id": "stm-074",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre institucional.",
+  "date": "2021-12-17",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "institucional"
+  ],
+  "sources": [
+   "src-045"
+  ],
+  "video": "vid-022",
+  "videoTimestamp": 836,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_07",
+  "addedAt": "2026-12-16"
+ },
+ {
+  "id": "stm-075",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre empleo que no aborda directamente la pregunta.",
+  "date": "2023-08-17",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-037",
+   "src-053",
+   "src-052"
+  ],
+  "video": "vid-023",
+  "videoTimestamp": 120,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-014",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-10-08"
+ },
+ {
+  "id": "stm-076",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre empleo formulada en términos absolutos.",
+  "date": "2020-02-27",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "empleo"
+  ],
+  "sources": [
+   "src-002"
+  ],
+  "video": "vid-027",
+  "videoTimestamp": 584,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-009",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-01-20"
+ },
+ {
+  "id": "stm-077",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre empleo que no aborda directamente la pregunta.",
+  "date": "2021-09-03",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "otros"
+  ],
+  "sources": [
+   "src-017",
+   "src-004"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-01-17"
+ },
+ {
+  "id": "stm-078",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre empleo que no aborda directamente la pregunta.",
+  "date": "2022-06-04",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "sanidad"
+  ],
+  "sources": [
+   "src-044"
+  ],
+  "video": "vid-009",
+  "videoTimestamp": 162,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-003",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_01",
+  "addedAt": "2025-02-18"
+ },
+ {
+  "id": "stm-079",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre economía formulada en términos absolutos.",
+  "date": "2019-08-16",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "sanidad"
+  ],
+  "sources": [
+   "src-025",
+   "src-002"
+  ],
+  "video": "vid-026",
+  "videoTimestamp": 785,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-006",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_08",
+  "addedAt": "2026-10-19"
+ },
+ {
+  "id": "stm-080",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre inmigración.",
+  "date": "2026-09-16",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "inmigracion",
+   "otros"
+  ],
+  "sources": [
+   "src-053",
+   "src-045",
+   "src-004"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-014",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-01-25"
+ },
+ {
+  "id": "stm-081",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre elecciones, sin método de cálculo indicado.",
+  "date": "2020-11-24",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones"
+  ],
+  "sources": [
+   "src-045",
+   "src-050",
+   "src-035"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-06-01"
+ },
+ {
+  "id": "stm-082",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en vivienda con plazo mencionado de pasada.",
+  "date": "2025-10-12",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "vivienda"
+  ],
+  "sources": [
+   "src-008",
+   "src-028",
+   "src-051"
+  ],
+  "video": "vid-001",
+  "videoTimestamp": 871,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-023",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-05-02"
+ },
+ {
+  "id": "stm-083",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en institucional con plazo mencionado de pasada.",
+  "date": "2026-12-28",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "institucional"
+  ],
+  "sources": [
+   "src-003"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-003",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_03",
+  "addedAt": "2026-03-07"
+ },
+ {
+  "id": "stm-084",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre elecciones formulada en términos absolutos.",
+  "date": "2024-02-21",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "elecciones"
+  ],
+  "sources": [
+   "src-012",
+   "src-037"
+  ],
+  "video": "vid-007",
+  "videoTimestamp": 83,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-11-10"
+ },
+ {
+  "id": "stm-085",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en política exterior con plazo mencionado de pasada.",
+  "date": "2019-07-25",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior"
+  ],
+  "sources": [
+   "src-049",
+   "src-052"
+  ],
+  "video": "vid-006",
+  "videoTimestamp": 378,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-007",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-11-19"
+ },
+ {
+  "id": "stm-086",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en política exterior con plazo mencionado de pasada.",
+  "date": "2022-01-21",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "exterior"
+  ],
+  "sources": [
+   "src-053",
+   "src-017",
+   "src-050"
+  ],
+  "video": "vid-004",
+  "videoTimestamp": 657,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-01-28"
+ },
+ {
+  "id": "stm-087",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en institucional con plazo mencionado de pasada.",
+  "date": "2019-03-19",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "inmigracion",
+   "institucional"
+  ],
+  "sources": [
+   "src-034",
+   "src-054",
+   "src-012"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-02-06"
+ },
+ {
+  "id": "stm-088",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre justicia.",
+  "date": "2024-11-24",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "justicia"
+  ],
+  "sources": [
+   "src-060",
+   "src-051",
+   "src-003"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "NECESITA_INFO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-10-28"
+ },
+ {
+  "id": "stm-089",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre empleo.",
+  "date": "2022-09-10",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "empleo",
+   "sanidad"
+  ],
+  "sources": [
+   "src-014",
+   "src-002",
+   "src-017"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-03-20"
+ },
+ {
+  "id": "stm-090",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre inmigración formulada en términos absolutos.",
+  "date": "2019-06-06",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-026",
+   "src-045",
+   "src-052"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_06",
+  "addedAt": "2025-09-01"
+ },
+ {
+  "id": "stm-091",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre elecciones formulada en términos absolutos.",
+  "date": "2022-12-13",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones"
+  ],
+  "sources": [
+   "src-040",
+   "src-059"
+  ],
+  "video": "vid-016",
+  "videoTimestamp": 151,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-022",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-09-08"
+ },
+ {
+  "id": "stm-092",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre sanidad formulada en términos absolutos.",
+  "date": "2022-03-03",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior",
+   "sanidad"
+  ],
+  "sources": [
+   "src-045",
+   "src-052",
+   "src-035"
+  ],
+  "video": "vid-022",
+  "videoTimestamp": 314,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-04-06"
+ },
+ {
+  "id": "stm-093",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en educación con plazo mencionado de pasada.",
+  "date": "2025-01-15",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "energia"
+  ],
+  "sources": [
+   "src-009",
+   "src-051",
+   "src-018"
+  ],
+  "video": "vid-012",
+  "videoTimestamp": 471,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_05",
+  "addedAt": "2025-09-27"
+ },
+ {
+  "id": "stm-094",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre cataluña que no aborda directamente la pregunta.",
+  "date": "2024-05-28",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "justicia"
+  ],
+  "sources": [
+   "src-017",
+   "src-053",
+   "src-039"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-12-08"
+ },
+ {
+  "id": "stm-095",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en cataluña con plazo mencionado de pasada.",
+  "date": "2024-03-20",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "institucional"
+  ],
+  "sources": [
+   "src-016"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_05",
+  "addedAt": "2026-07-02"
+ },
+ {
+  "id": "stm-096",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre inmigración que no aborda directamente la pregunta.",
+  "date": "2024-07-25",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-043"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-004",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_08",
+  "addedAt": "2025-04-20"
+ },
+ {
+  "id": "stm-097",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre economía.",
+  "date": "2019-11-04",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "elecciones"
+  ],
+  "sources": [
+   "src-016"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-09-11"
+ },
+ {
+  "id": "stm-098",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre institucional formulada en términos absolutos.",
+  "date": "2021-10-10",
+  "place": "[MEDIO DEMO] Entrevista en plató",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "institucional",
+   "otros"
+  ],
+  "sources": [
+   "src-019",
+   "src-047"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-011",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-07-12"
+ },
+ {
+  "id": "stm-099",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en otros con plazo mencionado de pasada.",
+  "date": "2022-02-12",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "otros"
+  ],
+  "sources": [
+   "src-049",
+   "src-035",
+   "src-003"
+  ],
+  "video": "vid-014",
+  "videoTimestamp": 150,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-05-18"
+ },
+ {
+  "id": "stm-100",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en economía con plazo mencionado de pasada.",
+  "date": "2024-08-02",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "sanidad"
+  ],
+  "sources": [
+   "src-008"
+  ],
+  "video": "vid-003",
+  "videoTimestamp": 354,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-09-28"
+ },
+ {
+  "id": "stm-101",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en educación con plazo mencionado de pasada.",
+  "date": "2021-03-17",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-022"
+  ],
+  "video": "vid-015",
+  "videoTimestamp": 885,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-022",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-03-25"
+ },
+ {
+  "id": "stm-102",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre economía, sin método de cálculo indicado.",
+  "date": "2025-12-10",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "vivienda"
+  ],
+  "sources": [
+   "src-006"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_07",
+  "addedAt": "2026-05-11"
+ },
+ {
+  "id": "stm-103",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre cataluña, sin método de cálculo indicado.",
+  "date": "2019-07-16",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "energia"
+  ],
+  "sources": [
+   "src-060"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "NECESITA_INFO",
+  "dossier": "exp-019",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-06-17"
+ },
+ {
+  "id": "stm-104",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre otros formulada en términos absolutos.",
+  "date": "2019-06-24",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "otros",
+   "vivienda"
+  ],
+  "sources": [
+   "src-005",
+   "src-010"
+  ],
+  "video": "vid-026",
+  "videoTimestamp": 415,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-03-02"
+ },
+ {
+  "id": "stm-105",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre energía que no aborda directamente la pregunta.",
+  "date": "2025-02-07",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "energia",
+   "institucional"
+  ],
+  "sources": [
+   "src-022",
+   "src-052"
+  ],
+  "video": "vid-008",
+  "videoTimestamp": 379,
+  "reviewState": "PENDIENTE",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_03",
+  "addedAt": "2026-11-23"
+ },
+ {
+  "id": "stm-106",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre empleo, sin método de cálculo indicado.",
+  "date": "2026-11-11",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "elecciones",
+   "empleo"
+  ],
+  "sources": [
+   "src-040",
+   "src-053"
+  ],
+  "video": "vid-023",
+  "videoTimestamp": 369,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-11-09"
+ },
+ {
+  "id": "stm-107",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre justicia, sin método de cálculo indicado.",
+  "date": "2019-04-07",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-040",
+   "src-034",
+   "src-026"
+  ],
+  "video": "vid-018",
+  "videoTimestamp": 425,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-024",
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_07",
+  "addedAt": "2025-12-23"
+ },
+ {
+  "id": "stm-108",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en otros con plazo mencionado de pasada.",
+  "date": "2019-07-21",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "institucional",
+   "otros"
+  ],
+  "sources": [
+   "src-033"
+  ],
+  "video": "vid-026",
+  "videoTimestamp": 125,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-020",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-04-10"
+ },
+ {
+  "id": "stm-109",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre institucional.",
+  "date": "2022-01-16",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "institucional"
+  ],
+  "sources": [
+   "src-054",
+   "src-008",
+   "src-033"
+  ],
+  "video": "vid-002",
+  "videoTimestamp": 32,
+  "reviewState": "NECESITA_INFO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-07-10"
+ },
+ {
+  "id": "stm-110",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre inmigración, sin método de cálculo indicado.",
+  "date": "2022-07-17",
+  "place": "[SEDE DEMO] Sesión de control",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "inmigracion"
+  ],
+  "sources": [
+   "src-039",
+   "src-019"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-12-09"
+ },
+ {
+  "id": "stm-111",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de enunciado con compromiso cuantificado sobre educación, sin método de cálculo indicado.",
+  "date": "2026-12-09",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "justicia"
+  ],
+  "sources": [
+   "src-041",
+   "src-027",
+   "src-059"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-03-18"
+ },
+ {
+  "id": "stm-112",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre cataluña que no aborda directamente la pregunta.",
+  "date": "2019-06-08",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "cataluna",
+   "justicia"
+  ],
+  "sources": [
+   "src-013",
+   "src-048",
+   "src-042"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "NECESITA_INFO",
+  "dossier": "exp-017",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-03-21"
+ },
+ {
+  "id": "stm-113",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en política exterior con plazo mencionado de pasada.",
+  "date": "2024-03-01",
+  "place": "[ACTO DEMO] Mitin",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior",
+   "sanidad"
+  ],
+  "sources": [
+   "src-056",
+   "src-031"
+  ],
+  "video": "vid-019",
+  "videoTimestamp": 167,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-008",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-09-28"
+ },
+ {
+  "id": "stm-114",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre institucional formulada en términos absolutos.",
+  "date": "2022-01-01",
+  "place": "[ACTO DEMO] Rueda de prensa posterior",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "institucional",
+   "sanidad"
+  ],
+  "sources": [
+   "src-009"
+  ],
+  "video": null,
+  "videoTimestamp": null,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-03-14"
+ },
+ {
+  "id": "stm-115",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre educación que no aborda directamente la pregunta.",
+  "date": "2025-11-12",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "sanidad"
+  ],
+  "sources": [
+   "src-006",
+   "src-024"
+  ],
+  "video": "vid-024",
+  "videoTimestamp": 29,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-009",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-01-05"
+ },
+ {
+  "id": "stm-116",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de afirmación factual comprobable sobre política exterior.",
+  "date": "2019-01-21",
+  "place": "[MEDIO DEMO] Entrevista escrita",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "exterior",
+   "otros"
+  ],
+  "sources": [
+   "src-047",
+   "src-028"
+  ],
+  "video": "vid-003",
+  "videoTimestamp": 643,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-013",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2026-03-08"
+ },
+ {
+  "id": "stm-117",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre institucional que no aborda directamente la pregunta.",
+  "date": "2022-11-25",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "economia",
+   "institucional"
+  ],
+  "sources": [
+   "src-047",
+   "src-029",
+   "src-033"
+  ],
+  "video": "vid-002",
+  "videoTimestamp": 224,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-12-14"
+ },
+ {
+  "id": "stm-118",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de respuesta a una pregunta sobre educación que no aborda directamente la pregunta.",
+  "date": "2020-09-23",
+  "place": "[ACTO DEMO] Comparecencia pública",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "institucional"
+  ],
+  "sources": [
+   "src-042",
+   "src-028"
+  ],
+  "video": "vid-016",
+  "videoTimestamp": 175,
+  "reviewState": "PENDIENTE",
+  "dossier": "exp-017",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-07-21"
+ },
+ {
+  "id": "stm-119",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de valoración sobre educación formulada en términos absolutos.",
+  "date": "2021-12-15",
+  "place": "[MEDIO DEMO] Programa de radio",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "educacion",
+   "institucional"
+  ],
+  "sources": [
+   "src-032"
+  ],
+  "video": "vid-027",
+  "videoTimestamp": 267,
+  "reviewState": "VERIFICADO",
+  "dossier": "exp-011",
+  "isDemo": true,
+  "contributedBy": null,
+  "addedAt": "2025-08-23"
+ },
+ {
+  "id": "stm-120",
+  "subject": "sub-001",
+  "text": "[DECLARACIÓN DEMO] Plantilla de anuncio de medida en institucional con plazo mencionado de pasada.",
+  "date": "2019-08-16",
+  "place": "[SEDE DEMO] Debate parlamentario",
+  "context": "[CONTEXTO DEMO] Situación en la que se produce la declaración. Sin contexto una cita literal puede engañar tanto como una cita falsa.",
+  "topics": [
+   "institucional"
+  ],
+  "sources": [
+   "src-006",
+   "src-020"
+  ],
+  "video": "vid-006",
+  "videoTimestamp": 895,
+  "reviewState": "VERIFICADO",
+  "dossier": null,
+  "isDemo": true,
+  "contributedBy": "@usuario_demo_03",
+  "addedAt": "2025-10-25"
+ }
+]

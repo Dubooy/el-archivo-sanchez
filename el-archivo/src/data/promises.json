@@ -1,0 +1,858 @@
+[
+ {
+  "id": "prm-001",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 001] Plantilla de compromiso público en materia de cataluña.",
+  "date": "2023-03-19",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-07-18",
+  "state": "CUMPLIDA",
+  "stateRationale": "Consta documentación que acredita la ejecución de lo comprometido dentro de lo anunciado. Se cita cuál.",
+  "topics": [
+   "cataluna",
+   "elecciones"
+  ],
+  "sources": [
+   "src-049",
+   "src-025",
+   "src-035",
+   "src-023"
+  ],
+  "lastReviewed": "2026-06-20",
+  "isDemo": true
+ },
+ {
+  "id": "prm-002",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 002] Plantilla de compromiso público en materia de política exterior.",
+  "date": "2019-12-12",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-01-10",
+  "state": "CUMPLIDA",
+  "stateRationale": "Consta documentación que acredita la ejecución de lo comprometido dentro de lo anunciado. Se cita cuál.",
+  "topics": [
+   "energia",
+   "exterior"
+  ],
+  "sources": [
+   "src-042",
+   "src-019",
+   "src-001",
+   "src-025"
+  ],
+  "lastReviewed": "2026-05-05",
+  "isDemo": true
+ },
+ {
+  "id": "prm-003",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 003] Plantilla de compromiso público en materia de empleo.",
+  "date": "2019-07-19",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "empleo",
+   "otros"
+  ],
+  "sources": [
+   "src-017",
+   "src-039",
+   "src-026",
+   "src-060"
+  ],
+  "lastReviewed": "2026-06-19",
+  "isDemo": true
+ },
+ {
+  "id": "prm-004",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 004] Plantilla de compromiso público en materia de elecciones.",
+  "date": "2019-08-18",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-09-04",
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "elecciones",
+   "sanidad"
+  ],
+  "sources": [
+   "src-012",
+   "src-004",
+   "src-042",
+   "src-039"
+  ],
+  "lastReviewed": "2026-09-14",
+  "isDemo": true
+ },
+ {
+  "id": "prm-005",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 005] Plantilla de compromiso público en materia de inmigración.",
+  "date": "2019-08-06",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2025-05-18",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "inmigracion",
+   "otros"
+  ],
+  "sources": [
+   "src-046",
+   "src-029"
+  ],
+  "lastReviewed": "2026-07-01",
+  "isDemo": true
+ },
+ {
+  "id": "prm-006",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 006] Plantilla de compromiso público en materia de institucional.",
+  "date": "2019-02-08",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "inmigracion",
+   "institucional"
+  ],
+  "sources": [
+   "src-055",
+   "src-010",
+   "src-053",
+   "src-004"
+  ],
+  "lastReviewed": "2026-04-08",
+  "isDemo": true
+ },
+ {
+  "id": "prm-007",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 007] Plantilla de compromiso público en materia de vivienda.",
+  "date": "2023-12-05",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "cataluna",
+   "vivienda"
+  ],
+  "sources": [
+   "src-055"
+  ],
+  "lastReviewed": "2026-07-26",
+  "isDemo": true
+ },
+ {
+  "id": "prm-008",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 008] Plantilla de compromiso público en materia de empleo.",
+  "date": "2023-02-26",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-03-16",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "empleo",
+   "exterior"
+  ],
+  "sources": [
+   "src-005",
+   "src-002",
+   "src-024",
+   "src-035"
+  ],
+  "lastReviewed": "2026-06-07",
+  "isDemo": true
+ },
+ {
+  "id": "prm-009",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 009] Plantilla de compromiso público en materia de política exterior.",
+  "date": "2020-03-16",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2027-10-15",
+  "state": "CUMPLIDA",
+  "stateRationale": "Consta documentación que acredita la ejecución de lo comprometido dentro de lo anunciado. Se cita cuál.",
+  "topics": [
+   "exterior",
+   "justicia"
+  ],
+  "sources": [
+   "src-022",
+   "src-037",
+   "src-057"
+  ],
+  "lastReviewed": "2026-02-26",
+  "isDemo": true
+ },
+ {
+  "id": "prm-010",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 010] Plantilla de compromiso público en materia de política exterior.",
+  "date": "2023-06-06",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-12-03",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "educacion",
+   "exterior"
+  ],
+  "sources": [
+   "src-032",
+   "src-020",
+   "src-034"
+  ],
+  "lastReviewed": "2026-04-06",
+  "isDemo": true
+ },
+ {
+  "id": "prm-011",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 011] Plantilla de compromiso público en materia de energía.",
+  "date": "2019-06-26",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-05-26",
+  "state": "NO_CUMPLIDA",
+  "stateRationale": "El plazo anunciado ha vencido Y consta documentación de que el objetivo no se alcanzó. El vencimiento del plazo por sí solo NUNCA basta para clasificar aquí.",
+  "topics": [
+   "empleo",
+   "energia"
+  ],
+  "sources": [
+   "src-037",
+   "src-010"
+  ],
+  "lastReviewed": "2026-03-20",
+  "isDemo": true
+ },
+ {
+  "id": "prm-012",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 012] Plantilla de compromiso público en materia de empleo.",
+  "date": "2021-03-18",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-07-03",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "empleo",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-057",
+   "src-048",
+   "src-024"
+  ],
+  "lastReviewed": "2026-02-15",
+  "isDemo": true
+ },
+ {
+  "id": "prm-013",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 013] Plantilla de compromiso público en materia de cataluña.",
+  "date": "2019-06-16",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-06-06",
+  "state": "NO_CUMPLIDA",
+  "stateRationale": "El plazo anunciado ha vencido Y consta documentación de que el objetivo no se alcanzó. El vencimiento del plazo por sí solo NUNCA basta para clasificar aquí.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-030",
+   "src-051"
+  ],
+  "lastReviewed": "2026-04-18",
+  "isDemo": true
+ },
+ {
+  "id": "prm-014",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 014] Plantilla de compromiso público en materia de economía.",
+  "date": "2023-02-06",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-04-20",
+  "state": "NO_CUMPLIDA",
+  "stateRationale": "El plazo anunciado ha vencido Y consta documentación de que el objetivo no se alcanzó. El vencimiento del plazo por sí solo NUNCA basta para clasificar aquí.",
+  "topics": [
+   "economia",
+   "justicia"
+  ],
+  "sources": [
+   "src-013",
+   "src-016",
+   "src-029"
+  ],
+  "lastReviewed": "2026-05-08",
+  "isDemo": true
+ },
+ {
+  "id": "prm-015",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 015] Plantilla de compromiso público en materia de educación.",
+  "date": "2021-03-02",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-07-19",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "educacion",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-022"
+  ],
+  "lastReviewed": "2026-01-12",
+  "isDemo": true
+ },
+ {
+  "id": "prm-016",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 016] Plantilla de compromiso público en materia de educación.",
+  "date": "2019-06-13",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "educacion",
+   "otros"
+  ],
+  "sources": [
+   "src-011",
+   "src-048"
+  ],
+  "lastReviewed": "2026-01-25",
+  "isDemo": true
+ },
+ {
+  "id": "prm-017",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 017] Plantilla de compromiso público en materia de justicia.",
+  "date": "2021-11-11",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "educacion",
+   "justicia"
+  ],
+  "sources": [
+   "src-052"
+  ],
+  "lastReviewed": "2026-02-25",
+  "isDemo": true
+ },
+ {
+  "id": "prm-018",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 018] Plantilla de compromiso público en materia de economía.",
+  "date": "2023-09-08",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-11-28",
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "economia",
+   "sanidad"
+  ],
+  "sources": [
+   "src-001",
+   "src-013",
+   "src-034",
+   "src-016"
+  ],
+  "lastReviewed": "2026-05-24",
+  "isDemo": true
+ },
+ {
+  "id": "prm-019",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 019] Plantilla de compromiso público en materia de justicia.",
+  "date": "2020-08-18",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-06-23",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "cataluna",
+   "justicia"
+  ],
+  "sources": [
+   "src-040",
+   "src-039",
+   "src-022",
+   "src-013"
+  ],
+  "lastReviewed": "2026-03-26",
+  "isDemo": true
+ },
+ {
+  "id": "prm-020",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 020] Plantilla de compromiso público en materia de energía.",
+  "date": "2020-05-07",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2025-06-16",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-051"
+  ],
+  "lastReviewed": "2026-08-14",
+  "isDemo": true
+ },
+ {
+  "id": "prm-021",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 021] Plantilla de compromiso público en materia de energía.",
+  "date": "2020-05-08",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-03-13",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-009",
+   "src-058"
+  ],
+  "lastReviewed": "2026-01-07",
+  "isDemo": true
+ },
+ {
+  "id": "prm-022",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 022] Plantilla de compromiso público en materia de sanidad.",
+  "date": "2019-08-28",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "otros",
+   "sanidad"
+  ],
+  "sources": [
+   "src-023",
+   "src-033"
+  ],
+  "lastReviewed": "2026-05-07",
+  "isDemo": true
+ },
+ {
+  "id": "prm-023",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 023] Plantilla de compromiso público en materia de institucional.",
+  "date": "2020-04-25",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "economia",
+   "institucional"
+  ],
+  "sources": [
+   "src-047",
+   "src-038",
+   "src-049"
+  ],
+  "lastReviewed": "2026-01-11",
+  "isDemo": true
+ },
+ {
+  "id": "prm-024",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 024] Plantilla de compromiso público en materia de inmigración.",
+  "date": "2020-08-15",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-10-12",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "economia",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-042"
+  ],
+  "lastReviewed": "2026-09-27",
+  "isDemo": true
+ },
+ {
+  "id": "prm-025",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 025] Plantilla de compromiso público en materia de empleo.",
+  "date": "2023-05-11",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "empleo",
+   "exterior"
+  ],
+  "sources": [
+   "src-002",
+   "src-029",
+   "src-044"
+  ],
+  "lastReviewed": "2026-06-04",
+  "isDemo": true
+ },
+ {
+  "id": "prm-026",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 026] Plantilla de compromiso público en materia de vivienda.",
+  "date": "2020-01-26",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-12-04",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "otros",
+   "vivienda"
+  ],
+  "sources": [
+   "src-004",
+   "src-036"
+  ],
+  "lastReviewed": "2026-01-01",
+  "isDemo": true
+ },
+ {
+  "id": "prm-027",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 027] Plantilla de compromiso público en materia de elecciones.",
+  "date": "2020-10-28",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "educacion",
+   "elecciones"
+  ],
+  "sources": [
+   "src-048",
+   "src-046"
+  ],
+  "lastReviewed": "2026-05-01",
+  "isDemo": true
+ },
+ {
+  "id": "prm-028",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 028] Plantilla de compromiso público en materia de inmigración.",
+  "date": "2021-05-20",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-11-02",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "economia",
+   "inmigracion"
+  ],
+  "sources": [
+   "src-015"
+  ],
+  "lastReviewed": "2026-06-21",
+  "isDemo": true
+ },
+ {
+  "id": "prm-029",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 029] Plantilla de compromiso público en materia de justicia.",
+  "date": "2023-02-10",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-06-11",
+  "state": "CUMPLIDA",
+  "stateRationale": "Consta documentación que acredita la ejecución de lo comprometido dentro de lo anunciado. Se cita cuál.",
+  "topics": [
+   "justicia",
+   "otros"
+  ],
+  "sources": [
+   "src-005"
+  ],
+  "lastReviewed": "2026-06-07",
+  "isDemo": true
+ },
+ {
+  "id": "prm-030",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 030] Plantilla de compromiso público en materia de vivienda.",
+  "date": "2020-03-20",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-05-04",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "inmigracion",
+   "vivienda"
+  ],
+  "sources": [
+   "src-004"
+  ],
+  "lastReviewed": "2026-01-20",
+  "isDemo": true
+ },
+ {
+  "id": "prm-031",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 031] Plantilla de compromiso público en materia de institucional.",
+  "date": "2020-05-20",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "energia",
+   "institucional"
+  ],
+  "sources": [
+   "src-031",
+   "src-012",
+   "src-053"
+  ],
+  "lastReviewed": "2026-04-17",
+  "isDemo": true
+ },
+ {
+  "id": "prm-032",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 032] Plantilla de compromiso público en materia de inmigración.",
+  "date": "2019-01-19",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-12-26",
+  "state": "CUMPLIDA",
+  "stateRationale": "Consta documentación que acredita la ejecución de lo comprometido dentro de lo anunciado. Se cita cuál.",
+  "topics": [
+   "inmigracion",
+   "institucional"
+  ],
+  "sources": [
+   "src-029",
+   "src-044"
+  ],
+  "lastReviewed": "2026-08-14",
+  "isDemo": true
+ },
+ {
+  "id": "prm-033",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 033] Plantilla de compromiso público en materia de otros.",
+  "date": "2021-04-08",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-08-12",
+  "state": "NO_CUMPLIDA",
+  "stateRationale": "El plazo anunciado ha vencido Y consta documentación de que el objetivo no se alcanzó. El vencimiento del plazo por sí solo NUNCA basta para clasificar aquí.",
+  "topics": [
+   "energia",
+   "otros"
+  ],
+  "sources": [
+   "src-047",
+   "src-018",
+   "src-051"
+  ],
+  "lastReviewed": "2026-03-16",
+  "isDemo": true
+ },
+ {
+  "id": "prm-034",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 034] Plantilla de compromiso público en materia de sanidad.",
+  "date": "2019-02-02",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-05-27",
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "sanidad",
+   "vivienda"
+  ],
+  "sources": [
+   "src-018",
+   "src-054"
+  ],
+  "lastReviewed": "2026-03-18",
+  "isDemo": true
+ },
+ {
+  "id": "prm-035",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 035] Plantilla de compromiso público en materia de otros.",
+  "date": "2023-07-27",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-11-03",
+  "state": "EN_PROCESO",
+  "stateRationale": "Hay constancia de pasos dados hacia el objetivo y el plazo anunciado no ha vencido. No se prejuzga el resultado.",
+  "topics": [
+   "economia",
+   "otros"
+  ],
+  "sources": [
+   "src-032",
+   "src-017",
+   "src-035"
+  ],
+  "lastReviewed": "2026-04-15",
+  "isDemo": true
+ },
+ {
+  "id": "prm-036",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 036] Plantilla de compromiso público en materia de justicia.",
+  "date": "2020-07-21",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-11-26",
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "energia",
+   "justicia"
+  ],
+  "sources": [
+   "src-030"
+  ],
+  "lastReviewed": "2026-09-11",
+  "isDemo": true
+ },
+ {
+  "id": "prm-037",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 037] Plantilla de compromiso público en materia de sanidad.",
+  "date": "2021-04-17",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2025-10-24",
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "sanidad"
+  ],
+  "sources": [
+   "src-003",
+   "src-019",
+   "src-054",
+   "src-026"
+  ],
+  "lastReviewed": "2026-04-25",
+  "isDemo": true
+ },
+ {
+  "id": "prm-038",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 038] Plantilla de compromiso público en materia de otros.",
+  "date": "2019-07-15",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2024-04-05",
+  "state": "CUMPLIDA",
+  "stateRationale": "Consta documentación que acredita la ejecución de lo comprometido dentro de lo anunciado. Se cita cuál.",
+  "topics": [
+   "otros",
+   "sanidad"
+  ],
+  "sources": [
+   "src-011",
+   "src-034"
+  ],
+  "lastReviewed": "2026-09-28",
+  "isDemo": true
+ },
+ {
+  "id": "prm-039",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 039] Plantilla de compromiso público en materia de justicia.",
+  "date": "2020-08-09",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": null,
+  "state": "NO_EVALUABLE",
+  "stateRationale": "El compromiso no se formuló en términos medibles, o no se anunció plazo, o no existe fuente pública que permita comprobar el resultado.",
+  "topics": [
+   "economia",
+   "justicia"
+  ],
+  "sources": [
+   "src-027",
+   "src-017",
+   "src-046",
+   "src-019"
+  ],
+  "lastReviewed": "2026-06-03",
+  "isDemo": true
+ },
+ {
+  "id": "prm-040",
+  "subject": "sub-001",
+  "text": "[PROMESA DEMO 040] Plantilla de compromiso público en materia de elecciones.",
+  "date": "2023-04-11",
+  "context": "[CONTEXTO DEMO] Marco en el que se formula el compromiso.",
+  "objective": "[OBJETIVO DEMO] Formulación medible de lo comprometido: qué, cuánto y para cuándo. Si falta alguno de los tres, la promesa entra como no evaluable.",
+  "deadline": "2023-05-25",
+  "state": "CUMPLIDA",
+  "stateRationale": "Consta documentación que acredita la ejecución de lo comprometido dentro de lo anunciado. Se cita cuál.",
+  "topics": [
+   "elecciones",
+   "energia"
+  ],
+  "sources": [
+   "src-055",
+   "src-015"
+  ],
+  "lastReviewed": "2026-01-03",
+  "isDemo": true
+ }
+]

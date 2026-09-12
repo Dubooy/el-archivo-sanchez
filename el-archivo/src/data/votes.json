@@ -1,0 +1,170 @@
+[
+ {
+  "dossier": "exp-001",
+  "FUNDAMENTADA": 173,
+  "NO_DE_ACUERDO": 450,
+  "FALTA_EVIDENCIA": 158,
+  "FALTA_CONTEXTO": 228
+ },
+ {
+  "dossier": "exp-002",
+  "FUNDAMENTADA": 277,
+  "NO_DE_ACUERDO": 503,
+  "FALTA_EVIDENCIA": 301,
+  "FALTA_CONTEXTO": 218
+ },
+ {
+  "dossier": "exp-003",
+  "FUNDAMENTADA": 557,
+  "NO_DE_ACUERDO": 441,
+  "FALTA_EVIDENCIA": 389,
+  "FALTA_CONTEXTO": 57
+ },
+ {
+  "dossier": "exp-004",
+  "FUNDAMENTADA": 437,
+  "NO_DE_ACUERDO": 656,
+  "FALTA_EVIDENCIA": 103,
+  "FALTA_CONTEXTO": 264
+ },
+ {
+  "dossier": "exp-005",
+  "FUNDAMENTADA": 730,
+  "NO_DE_ACUERDO": 559,
+  "FALTA_EVIDENCIA": 186,
+  "FALTA_CONTEXTO": 110
+ },
+ {
+  "dossier": "exp-006",
+  "FUNDAMENTADA": 419,
+  "NO_DE_ACUERDO": 37,
+  "FALTA_EVIDENCIA": 110,
+  "FALTA_CONTEXTO": 167
+ },
+ {
+  "dossier": "exp-007",
+  "FUNDAMENTADA": 470,
+  "NO_DE_ACUERDO": 623,
+  "FALTA_EVIDENCIA": 87,
+  "FALTA_CONTEXTO": 120
+ },
+ {
+  "dossier": "exp-008",
+  "FUNDAMENTADA": 271,
+  "NO_DE_ACUERDO": 485,
+  "FALTA_EVIDENCIA": 192,
+  "FALTA_CONTEXTO": 55
+ },
+ {
+  "dossier": "exp-009",
+  "FUNDAMENTADA": 778,
+  "NO_DE_ACUERDO": 57,
+  "FALTA_EVIDENCIA": 103,
+  "FALTA_CONTEXTO": 62
+ },
+ {
+  "dossier": "exp-010",
+  "FUNDAMENTADA": 802,
+  "NO_DE_ACUERDO": 479,
+  "FALTA_EVIDENCIA": 15,
+  "FALTA_CONTEXTO": 203
+ },
+ {
+  "dossier": "exp-011",
+  "FUNDAMENTADA": 401,
+  "NO_DE_ACUERDO": 252,
+  "FALTA_EVIDENCIA": 164,
+  "FALTA_CONTEXTO": 75
+ },
+ {
+  "dossier": "exp-012",
+  "FUNDAMENTADA": 649,
+  "NO_DE_ACUERDO": 122,
+  "FALTA_EVIDENCIA": 15,
+  "FALTA_CONTEXTO": 123
+ },
+ {
+  "dossier": "exp-013",
+  "FUNDAMENTADA": 720,
+  "NO_DE_ACUERDO": 177,
+  "FALTA_EVIDENCIA": 236,
+  "FALTA_CONTEXTO": 79
+ },
+ {
+  "dossier": "exp-014",
+  "FUNDAMENTADA": 148,
+  "NO_DE_ACUERDO": 269,
+  "FALTA_EVIDENCIA": 84,
+  "FALTA_CONTEXTO": 145
+ },
+ {
+  "dossier": "exp-015",
+  "FUNDAMENTADA": 465,
+  "NO_DE_ACUERDO": 91,
+  "FALTA_EVIDENCIA": 314,
+  "FALTA_CONTEXTO": 187
+ },
+ {
+  "dossier": "exp-016",
+  "FUNDAMENTADA": 844,
+  "NO_DE_ACUERDO": 103,
+  "FALTA_EVIDENCIA": 63,
+  "FALTA_CONTEXTO": 167
+ },
+ {
+  "dossier": "exp-017",
+  "FUNDAMENTADA": 279,
+  "NO_DE_ACUERDO": 365,
+  "FALTA_EVIDENCIA": 223,
+  "FALTA_CONTEXTO": 94
+ },
+ {
+  "dossier": "exp-018",
+  "FUNDAMENTADA": 573,
+  "NO_DE_ACUERDO": 145,
+  "FALTA_EVIDENCIA": 214,
+  "FALTA_CONTEXTO": 232
+ },
+ {
+  "dossier": "exp-019",
+  "FUNDAMENTADA": 448,
+  "NO_DE_ACUERDO": 589,
+  "FALTA_EVIDENCIA": 190,
+  "FALTA_CONTEXTO": 265
+ },
+ {
+  "dossier": "exp-020",
+  "FUNDAMENTADA": 529,
+  "NO_DE_ACUERDO": 474,
+  "FALTA_EVIDENCIA": 290,
+  "FALTA_CONTEXTO": 268
+ },
+ {
+  "dossier": "exp-021",
+  "FUNDAMENTADA": 77,
+  "NO_DE_ACUERDO": 688,
+  "FALTA_EVIDENCIA": 340,
+  "FALTA_CONTEXTO": 39
+ },
+ {
+  "dossier": "exp-022",
+  "FUNDAMENTADA": 504,
+  "NO_DE_ACUERDO": 598,
+  "FALTA_EVIDENCIA": 258,
+  "FALTA_CONTEXTO": 298
+ },
+ {
+  "dossier": "exp-023",
+  "FUNDAMENTADA": 862,
+  "NO_DE_ACUERDO": 518,
+  "FALTA_EVIDENCIA": 378,
+  "FALTA_CONTEXTO": 79
+ },
+ {
+  "dossier": "exp-024",
+  "FUNDAMENTADA": 527,
+  "NO_DE_ACUERDO": 31,
+  "FALTA_EVIDENCIA": 47,
+  "FALTA_CONTEXTO": 31
+ }
+]

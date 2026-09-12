@@ -1,0 +1,1180 @@
+[
+ {
+  "id": "exp-001",
+  "number": 1,
+  "slug": "expediente-001",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 001] Asunto de marcador de posición en otros",
+  "topics": [
+   "energia",
+   "otros"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-053",
+   "stm-005"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-056",
+   "tml-016",
+   "tml-072"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-001",
+   "src-011",
+   "src-003",
+   "src-057",
+   "src-035"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "No consta si las circunstancias cambiaron entre ambas fechas.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "changes": [
+   {
+    "at": "2025-03-16",
+    "from": "NO_VERIFICABLE",
+    "to": "EVIDENCIA_INSUFICIENTE",
+    "reason": "Rebajado el nivel de evidencia: una de las fuentes no resistió la comprobación."
+   }
+  ],
+  "openedAt": "2025-03-24",
+  "lastUpdated": "2026-02-02",
+  "isDemo": true
+ },
+ {
+  "id": "exp-002",
+  "number": 2,
+  "slug": "expediente-002",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 002] Asunto de marcador de posición en elecciones",
+  "topics": [
+   "cataluna",
+   "elecciones"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-011"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-085",
+   "tml-060",
+   "tml-008",
+   "tml-084",
+   "tml-022"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-001",
+   "src-012",
+   "src-036",
+   "src-054"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "changes": [
+   {
+    "at": "2025-09-10",
+    "from": "RESPALDADO",
+    "to": "EVIDENCIA_INSUFICIENTE",
+    "reason": "Actualizado tras incorporar un documento oficial aportado por la comunidad."
+   }
+  ],
+  "openedAt": "2026-03-11",
+  "lastUpdated": "2026-02-24",
+  "isDemo": true
+ },
+ {
+  "id": "exp-003",
+  "number": 3,
+  "slug": "expediente-003",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 003] Asunto de marcador de posición en justicia",
+  "topics": [
+   "economia",
+   "justicia"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-078",
+   "stm-083",
+   "stm-068"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-022",
+   "tml-086",
+   "tml-037"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-026",
+   "src-024",
+   "src-056"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "changes": [],
+  "openedAt": "2025-08-02",
+  "lastUpdated": "2026-08-01",
+  "isDemo": true
+ },
+ {
+  "id": "exp-004",
+  "number": 4,
+  "slug": "expediente-004",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 004] Asunto de marcador de posición en cataluña",
+  "topics": [
+   "cataluna",
+   "institucional"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-072",
+   "stm-096"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-046",
+   "tml-066",
+   "tml-078",
+   "tml-006"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-049",
+   "src-030",
+   "src-001",
+   "src-024",
+   "src-026"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "PARCIALMENTE_RESPALDADO",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "changes": [],
+  "openedAt": "2025-03-28",
+  "lastUpdated": "2026-04-23",
+  "isDemo": true
+ },
+ {
+  "id": "exp-005",
+  "number": 5,
+  "slug": "expediente-005",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 005] Asunto de marcador de posición en inmigración",
+  "topics": [
+   "exterior",
+   "inmigracion"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-048",
+   "stm-050"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-063",
+   "tml-021",
+   "tml-079",
+   "tml-078"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-007",
+   "src-047",
+   "src-053",
+   "src-034",
+   "src-012",
+   "src-021"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "changes": [],
+  "openedAt": "2024-09-16",
+  "lastUpdated": "2026-06-14",
+  "isDemo": true
+ },
+ {
+  "id": "exp-006",
+  "number": 6,
+  "slug": "expediente-006",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 006] Asunto de marcador de posición en justicia",
+  "topics": [
+   "justicia",
+   "otros"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-079",
+   "stm-073"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-018",
+   "tml-048"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-045",
+   "src-056",
+   "src-034",
+   "src-053"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "No consta si las circunstancias cambiaron entre ambas fechas.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración."
+  ],
+  "changes": [
+   {
+    "at": "2025-04-18",
+    "from": "CONTRADICCION_DOCUMENTADA",
+    "to": "EVIDENCIA_INSUFICIENTE",
+    "reason": "Actualizado tras localizar el material íntegro de la declaración original."
+   }
+  ],
+  "openedAt": "2026-09-23",
+  "lastUpdated": "2026-06-12",
+  "isDemo": true
+ },
+ {
+  "id": "exp-007",
+  "number": 7,
+  "slug": "expediente-007",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 007] Asunto de marcador de posición en inmigración",
+  "topics": [
+   "inmigracion"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-085",
+   "stm-057"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-065",
+   "tml-021"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-025",
+   "src-051",
+   "src-021",
+   "src-008",
+   "src-047"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EN_INVESTIGACION",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "changes": [
+   {
+    "at": "2025-02-09",
+    "from": "EVIDENCIA_INSUFICIENTE",
+    "to": "EN_INVESTIGACION",
+    "reason": "Actualizado tras aceptar una contraevidencia que faltaba en la versión anterior."
+   }
+  ],
+  "openedAt": "2025-11-21",
+  "lastUpdated": "2026-09-20",
+  "isDemo": true
+ },
+ {
+  "id": "exp-008",
+  "number": 8,
+  "slug": "expediente-008",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 008] Asunto de marcador de posición en otros",
+  "topics": [
+   "educacion",
+   "otros"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-113",
+   "stm-061",
+   "stm-026"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-031",
+   "tml-019",
+   "tml-041",
+   "tml-032"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-039",
+   "src-018",
+   "src-045"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "changes": [],
+  "openedAt": "2025-09-27",
+  "lastUpdated": "2026-05-19",
+  "isDemo": true
+ },
+ {
+  "id": "exp-009",
+  "number": 9,
+  "slug": "expediente-009",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 009] Asunto de marcador de posición en elecciones",
+  "topics": [
+   "elecciones",
+   "otros"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-076",
+   "stm-115",
+   "stm-016"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-063",
+   "tml-086",
+   "tml-055",
+   "tml-020",
+   "tml-066"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-041",
+   "src-040",
+   "src-031",
+   "src-048"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "RESPALDADO",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "changes": [
+   {
+    "at": "2025-09-14",
+    "from": "EN_INVESTIGACION",
+    "to": "EVIDENCIA_INSUFICIENTE",
+    "reason": "Actualizado tras publicarse un dato oficial que permite evaluar el objetivo."
+   },
+   {
+    "at": "2025-10-20",
+    "from": "EVIDENCIA_INSUFICIENTE",
+    "to": "RESPALDADO",
+    "reason": "Actualizado tras publicarse un dato oficial que permite evaluar el objetivo."
+   }
+  ],
+  "openedAt": "2026-06-13",
+  "lastUpdated": "2026-08-14",
+  "isDemo": true
+ },
+ {
+  "id": "exp-010",
+  "number": 10,
+  "slug": "expediente-010",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 010] Asunto de marcador de posición en cataluña",
+  "topics": [
+   "cataluna",
+   "sanidad"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-017"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-046",
+   "tml-007"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-047",
+   "src-041",
+   "src-052",
+   "src-024",
+   "src-056",
+   "src-059"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "changes": [],
+  "openedAt": "2025-12-26",
+  "lastUpdated": "2026-01-09",
+  "isDemo": true
+ },
+ {
+  "id": "exp-011",
+  "number": 11,
+  "slug": "expediente-011",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 011] Asunto de marcador de posición en energía",
+  "topics": [
+   "energia"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-047",
+   "stm-119",
+   "stm-098"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-050",
+   "tml-017",
+   "tml-002",
+   "tml-083",
+   "tml-039"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-045",
+   "src-002",
+   "src-032"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "CONTRADICCION_DOCUMENTADA",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "changes": [
+   {
+    "at": "2025-04-23",
+    "from": "EN_INVESTIGACION",
+    "to": "CONTRADICCION_DOCUMENTADA",
+    "reason": "Actualizado tras localizar el material íntegro de la declaración original."
+   }
+  ],
+  "openedAt": "2026-04-20",
+  "lastUpdated": "2026-09-01",
+  "isDemo": true
+ },
+ {
+  "id": "exp-012",
+  "number": 12,
+  "slug": "expediente-012",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 012] Asunto de marcador de posición en energía",
+  "topics": [
+   "energia",
+   "justicia"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-098",
+   "stm-019"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-016",
+   "tml-065",
+   "tml-051"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-052",
+   "src-007",
+   "src-059",
+   "src-009",
+   "src-037"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "PARCIALMENTE_RESPALDADO",
+  "limitations": [
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "No se ha localizado el material íntegro, solo el fragmento que circuló."
+  ],
+  "changes": [
+   {
+    "at": "2026-04-14",
+    "from": "CONTRADICCION_DOCUMENTADA",
+    "to": "NO_VERIFICABLE",
+    "reason": "Rebajado el nivel de evidencia: una de las fuentes no resistió la comprobación."
+   },
+   {
+    "at": "2026-03-09",
+    "from": "NO_VERIFICABLE",
+    "to": "PARCIALMENTE_RESPALDADO",
+    "reason": "Actualizado tras incorporar un documento oficial aportado por la comunidad."
+   }
+  ],
+  "openedAt": "2024-09-16",
+  "lastUpdated": "2026-03-24",
+  "isDemo": true
+ },
+ {
+  "id": "exp-013",
+  "number": 13,
+  "slug": "expediente-013",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 013] Asunto de marcador de posición en cataluña",
+  "topics": [
+   "cataluna",
+   "elecciones"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-116",
+   "stm-115"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-031",
+   "tml-072",
+   "tml-015",
+   "tml-089"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-009",
+   "src-025",
+   "src-060",
+   "src-011"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "PARCIALMENTE_RESPALDADO",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "changes": [],
+  "openedAt": "2025-02-13",
+  "lastUpdated": "2026-08-26",
+  "isDemo": true
+ },
+ {
+  "id": "exp-014",
+  "number": 14,
+  "slug": "expediente-014",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 014] Asunto de marcador de posición en otros",
+  "topics": [
+   "economia",
+   "otros"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-080",
+   "stm-075"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-033",
+   "tml-020",
+   "tml-045",
+   "tml-079"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-001",
+   "src-031",
+   "src-024",
+   "src-047",
+   "src-053"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "changes": [
+   {
+    "at": "2026-11-08",
+    "from": "EVIDENCIA_INSUFICIENTE",
+    "to": "EVIDENCIA_INSUFICIENTE",
+    "reason": "Actualizado tras publicarse un dato oficial que permite evaluar el objetivo."
+   }
+  ],
+  "openedAt": "2024-04-18",
+  "lastUpdated": "2026-07-20",
+  "isDemo": true
+ },
+ {
+  "id": "exp-015",
+  "number": 15,
+  "slug": "expediente-015",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 015] Asunto de marcador de posición en cataluña",
+  "topics": [
+   "cataluna",
+   "empleo"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-020",
+   "stm-014"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-010",
+   "tml-017",
+   "tml-067",
+   "tml-008"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-004",
+   "src-017",
+   "src-022",
+   "src-051",
+   "src-049",
+   "src-001"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "No consta si las circunstancias cambiaron entre ambas fechas.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración."
+  ],
+  "changes": [],
+  "openedAt": "2025-07-23",
+  "lastUpdated": "2026-09-10",
+  "isDemo": true
+ },
+ {
+  "id": "exp-016",
+  "number": 16,
+  "slug": "expediente-016",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 016] Asunto de marcador de posición en otros",
+  "topics": [
+   "institucional",
+   "otros"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-022"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-085",
+   "tml-049",
+   "tml-074",
+   "tml-089",
+   "tml-051"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-043",
+   "src-001",
+   "src-029"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "CONTRADICCION_DOCUMENTADA",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "changes": [],
+  "openedAt": "2026-12-23",
+  "lastUpdated": "2026-04-14",
+  "isDemo": true
+ },
+ {
+  "id": "exp-017",
+  "number": 17,
+  "slug": "expediente-017",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 017] Asunto de marcador de posición en empleo",
+  "topics": [
+   "economia",
+   "empleo"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-112",
+   "stm-118",
+   "stm-009"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-064",
+   "tml-053",
+   "tml-056"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-004",
+   "src-022",
+   "src-027",
+   "src-003",
+   "src-001",
+   "src-041"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "RESPALDADO",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "changes": [],
+  "openedAt": "2025-11-15",
+  "lastUpdated": "2026-03-10",
+  "isDemo": true
+ },
+ {
+  "id": "exp-018",
+  "number": 18,
+  "slug": "expediente-018",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 018] Asunto de marcador de posición en vivienda",
+  "topics": [
+   "educacion",
+   "vivienda"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-080"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-087",
+   "tml-035",
+   "tml-038",
+   "tml-072"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-022",
+   "src-040",
+   "src-015",
+   "src-060",
+   "src-018",
+   "src-021"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "RESPALDADO",
+  "limitations": [
+   "No consta si las circunstancias cambiaron entre ambas fechas.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "No se ha localizado el material íntegro, solo el fragmento que circuló."
+  ],
+  "changes": [
+   {
+    "at": "2026-06-23",
+    "from": "RESPALDADO",
+    "to": "RESPALDADO",
+    "reason": "Actualizado tras localizar el material íntegro de la declaración original."
+   }
+  ],
+  "openedAt": "2024-01-04",
+  "lastUpdated": "2026-04-13",
+  "isDemo": true
+ },
+ {
+  "id": "exp-019",
+  "number": 19,
+  "slug": "expediente-019",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 019] Asunto de marcador de posición en energía",
+  "topics": [
+   "energia",
+   "otros"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-103",
+   "stm-025"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-060",
+   "tml-061",
+   "tml-050",
+   "tml-008"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-039",
+   "src-034",
+   "src-022"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "No se ha localizado el material íntegro, solo el fragmento que circuló."
+  ],
+  "changes": [],
+  "openedAt": "2024-08-09",
+  "lastUpdated": "2026-05-06",
+  "isDemo": true
+ },
+ {
+  "id": "exp-020",
+  "number": 20,
+  "slug": "expediente-020",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 020] Asunto de marcador de posición en vivienda",
+  "topics": [
+   "educacion",
+   "vivienda"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-108",
+   "stm-072"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-069",
+   "tml-048",
+   "tml-055",
+   "tml-060",
+   "tml-005"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-032",
+   "src-033",
+   "src-023",
+   "src-024",
+   "src-050"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "NO_VERIFICABLE",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración."
+  ],
+  "changes": [],
+  "openedAt": "2024-03-15",
+  "lastUpdated": "2026-01-28",
+  "isDemo": true
+ },
+ {
+  "id": "exp-021",
+  "number": 21,
+  "slug": "expediente-021",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 021] Asunto de marcador de posición en empleo",
+  "topics": [
+   "elecciones",
+   "empleo"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-046",
+   "stm-066",
+   "stm-060"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-019",
+   "tml-060",
+   "tml-047"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-056",
+   "src-024",
+   "src-003",
+   "src-015"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "changes": [],
+  "openedAt": "2026-01-25",
+  "lastUpdated": "2026-02-19",
+  "isDemo": true
+ },
+ {
+  "id": "exp-022",
+  "number": 22,
+  "slug": "expediente-022",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 022] Asunto de marcador de posición en economía",
+  "topics": [
+   "economia",
+   "institucional"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-101",
+   "stm-091"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-018",
+   "tml-019",
+   "tml-053"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-005",
+   "src-052",
+   "src-016"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "CONTRADICCION_DOCUMENTADA",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "changes": [
+   {
+    "at": "2026-12-09",
+    "from": "EN_INVESTIGACION",
+    "to": "CONTRADICCION_DOCUMENTADA",
+    "reason": "Actualizado tras publicarse un dato oficial que permite evaluar el objetivo."
+   }
+  ],
+  "openedAt": "2024-09-01",
+  "lastUpdated": "2026-03-25",
+  "isDemo": true
+ },
+ {
+  "id": "exp-023",
+  "number": 23,
+  "slug": "expediente-023",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 023] Asunto de marcador de posición en elecciones",
+  "topics": [
+   "elecciones",
+   "exterior"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-005",
+   "stm-082"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-055",
+   "tml-036",
+   "tml-067",
+   "tml-066"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-029",
+   "src-028",
+   "src-060",
+   "src-008",
+   "src-045",
+   "src-030"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "limitations": [
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración."
+  ],
+  "changes": [
+   {
+    "at": "2025-08-13",
+    "from": "CONTRADICCION_DOCUMENTADA",
+    "to": "NO_VERIFICABLE",
+    "reason": "Actualizado tras incorporar un documento oficial aportado por la comunidad."
+   },
+   {
+    "at": "2025-03-15",
+    "from": "NO_VERIFICABLE",
+    "to": "EVIDENCIA_INSUFICIENTE",
+    "reason": "Actualizado tras publicarse un dato oficial que permite evaluar el objetivo."
+   }
+  ],
+  "openedAt": "2026-09-04",
+  "lastUpdated": "2026-02-18",
+  "isDemo": true
+ },
+ {
+  "id": "exp-024",
+  "number": 24,
+  "slug": "expediente-024",
+  "subject": "sub-001",
+  "title": "[EXPEDIENTE DEMO 024] Asunto de marcador de posición en inmigración",
+  "topics": [
+   "empleo",
+   "inmigracion"
+  ],
+  "whatWasSaid": "[01 · DEMO] Reproducción literal de la declaración de partida, con su marca de tiempo y su enlace al material original. Si no se puede citar literalmente, el expediente no se abre.",
+  "statementRefs": [
+   "stm-107"
+  ],
+  "whenAndContext": "[02 · DEMO] Fecha exacta, lugar y situación. El contexto no es decorativo: una cita literal sacada de contexto engaña igual que una cita inventada.",
+  "timelineRefs": [
+   "tml-041",
+   "tml-068"
+  ],
+  "whatSourcesSay": "[04 · DEMO] Qué dice cada fuente localizada, ordenadas por jerarquía documental: primero documentos oficiales y resoluciones, después datos oficiales, después medios. Se indica expresamente cuándo dos fuentes se contradicen.",
+  "sources": [
+   "src-049",
+   "src-009",
+   "src-015",
+   "src-057"
+  ],
+  "counterEvidence": [
+   "[05 · CONTRAEVIDENCIA DEMO 1] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 2] Elemento localizado que debilita o matiza la lectura inicial del expediente.",
+   "[05 · CONTRAEVIDENCIA DEMO 3] Elemento localizado que debilita o matiza la lectura inicial del expediente."
+  ],
+  "conclusion": "[06 · DEMO] Conclusión editorial redactada deliberadamente más débil que la pregunta de partida. Describe lo que las fuentes permiten sostener y se detiene ahí. Al incorporar material real esta redacción se reescribe ajustándose a esa evidencia, y ni un grado más.",
+  "evidence": "CONTRADICCION_DOCUMENTADA",
+  "limitations": [
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "changes": [
+   {
+    "at": "2025-04-23",
+    "from": "EN_INVESTIGACION",
+    "to": "CONTRADICCION_DOCUMENTADA",
+    "reason": "Actualizado tras publicarse un dato oficial que permite evaluar el objetivo."
+   }
+  ],
+  "openedAt": "2026-02-27",
+  "lastUpdated": "2026-04-13",
+  "isDemo": true
+ }
+]

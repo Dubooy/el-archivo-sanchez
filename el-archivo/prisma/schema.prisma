@@ -1,0 +1,1091 @@
+// ============================================================
+//  EL ARCHIVO SÁNCHEZ — ESQUEMA DE BASE DE DATOS
+//  PostgreSQL + Prisma
+// ------------------------------------------------------------
+//  Cuatro bloques, en este orden:
+//    1. IDENTIDAD      quién entra y con qué permisos (Auth.js)
+//    2. ARCHIVO        lo que consta, con su origen
+//    3. COMUNIDAD      lo que aportan y opinan los lectores
+//    4. OPERACIÓN      moderación, auditoría, antispam, RGPD
+//
+//  Tres reglas del proyecto que aquí dejan de ser una costumbre
+//  del código y pasan a ser estructura:
+//
+//  · ARCHIVO y COMUNIDAD viven en TABLAS DISTINTAS. No hay ninguna
+//    consulta capaz de mezclarlas por accidente.
+//  · Nada aportado por un usuario existe «publicado»: existe con un
+//    reviewState. Lo público es lo que tiene publishedAt.
+//  · Los votos miden PERCEPCIÓN y no tocan el nivel de evidencia:
+//    son tablas separadas y no hay ninguna columna que las sume.
+// ============================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  // En Prisma 7 las URLs de conexión NO van aquí: viven en
+  // prisma.config.ts (migraciones) y en el adaptador del cliente.
+}
+
+// ============================================================
+//  ENUMS — copiados uno a uno de src/lib/types.ts
+//  Siguen siendo la fuente de verdad del vocabulario del proyecto.
+// ============================================================
+
+enum Layer {
+  ARCHIVO
+  VERIFICACION
+  COMUNIDAD
+}
+
+enum EvidenceLevel {
+  RESPALDADO
+  PARCIALMENTE_RESPALDADO
+  EVIDENCIA_INSUFICIENTE
+  CONTRADICCION_DOCUMENTADA
+  NO_VERIFICABLE
+  EN_INVESTIGACION
+}
+
+enum PromiseState {
+  CUMPLIDA
+  EN_PROCESO
+  NO_CUMPLIDA
+  NO_EVALUABLE
+}
+
+enum ReviewState {
+  PENDIENTE
+  VERIFICADO
+  RECHAZADO
+  NECESITA_INFO
+}
+
+enum Topic {
+  economia
+  vivienda
+  cataluna
+  exterior
+  justicia
+  elecciones
+  sanidad
+  educacion
+  empleo
+  energia
+  inmigracion
+  institucional
+  otros
+}
+
+enum SourceTier {
+  DOCUMENTO_OFICIAL
+  RESOLUCION_JUDICIAL
+  ORGANISMO_PUBLICO
+  DATO_OFICIAL
+  DECLARACION_ORIGINAL
+  MEDIO
+  FUENTE_SECUNDARIA
+  RED_SOCIAL
+}
+
+enum SubmissionKind {
+  video
+  noticia
+  documento
+  declaracion
+  fuente
+  contradiccion
+  dato
+  otro
+}
+
+enum CommentStance {
+  A_FAVOR
+  EN_CONTRA
+  FALTA_CONTEXTO
+  APORTO_FUENTE
+  DETECTO_ERROR
+}
+
+enum VoteOption {
+  FUNDAMENTADA
+  NO_DE_ACUERDO
+  FALTA_EVIDENCIA
+  FALTA_CONTEXTO
+}
+
+enum CounterKind {
+  video
+  declaracion
+  documento
+  noticia
+  dato
+  explicacion
+}
+
+enum TimelineKind {
+  DECLARACION
+  DECISION
+  HECHO
+  MEDIDA
+  RESOLUCION
+  PUBLICACION
+}
+
+enum ContradictionSide {
+  DIJO
+  OCURRIO
+}
+
+enum ViralResult {
+  DOCUMENTADA
+  PARCIAL
+  SIN_EVIDENCIA
+  CONTEXTO_ENGANOSO
+}
+
+enum VideoPlatform {
+  YouTube
+  X
+  TikTok
+  Instagram
+  Medio
+  Institucional
+  Otra
+}
+
+enum SubjectStatus {
+  activo
+  pendiente
+}
+
+enum UserRole {
+  USUARIO
+  MODERADOR
+  EDITOR
+  ADMIN
+}
+
+enum ActivityKind {
+  APORTACION
+  FUENTE_ACEPTADA
+  ERROR_DETECTADO
+  EVIDENCIA_INCORPORADA
+  EXPEDIENTE_ACTUALIZADO
+  DEBATE
+  CORRECCION_ACEPTADA
+}
+
+enum ModerationAction {
+  APROBAR
+  RECHAZAR
+  PEDIR_INFO
+  INCORPORAR
+  EDITAR
+  OCULTAR
+  ESCALAR
+  CAMBIAR_EVIDENCIA
+}
+
+enum ProceduralStatus {
+  DENUNCIA
+  INVESTIGADO
+  ACUSADO
+  PROCESADO
+  JUICIO_ORAL
+  CONDENADO_NO_FIRME
+  CONDENADO_FIRME
+  ABSUELTO
+  ARCHIVADO
+  RECURRIDO
+}
+
+// ============================================================
+//  1. IDENTIDAD  ·  modelos de Auth.js + lo nuestro
+//  Los cuatro modelos siguientes son los que espera
+//  @auth/prisma-adapter. Los campos propios van todos en User.
+// ============================================================
+
+model User {
+  id            String    @id @default(cuid())
+  // --- campos que Auth.js escribe y necesita ---
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+
+  // --- lo nuestro ---
+  /// Identidad pública: @usuario_demo_01. Es lo ÚNICO que se muestra.
+  /// Lleva valor por defecto porque Auth.js crea la fila al registrarse
+  /// y no conoce este campo: el evento `createUser` lo sustituye acto
+  /// seguido por un apodo legible. Sin el default, registrarse fallaría.
+  handle        String    @unique @default(cuid())
+  role          UserRole  @default(USUARIO)
+  bio           String    @default("") @db.VarChar(280)
+  /// Reputación documental: sube por aportar material aceptado,
+  /// nunca por opinar ni por recibir votos.
+  reputation    Int       @default(0)
+  isDemo        Boolean   @default(false)
+  /// Suspensión por abuso. Un usuario suspendido conserva su
+  /// historial: se le retira la capacidad de escribir, no la huella.
+  suspendedAt   DateTime?
+  suspendedWhy  String?
+
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  /// Borrado lógico: RGPD art. 17. Ver BASE-DE-DATOS.md § supresión.
+  deletedAt     DateTime?
+
+  accounts      Account[]
+  sessions      Session[]
+
+  // --- lo que ha aportado ---
+  submissions       Submission[]
+  comments          Comment[]
+  commentUpvotes    CommentUpvote[]
+  counterEvidence   CounterEvidence[]
+  corrections       Correction[]      @relation("CorrectionAuthor")
+  votes             Vote[]
+  contributedSources Source[]         @relation("SourceContributor")
+  contributedStatements Statement[]   @relation("StatementContributor")
+  contributedVideos Video[]           @relation("VideoContributor")
+
+  // --- lo que ha moderado ---
+  moderatedSubmissions Submission[]   @relation("SubmissionModerator")
+  moderatedComments    Comment[]      @relation("CommentModerator")
+  moderatedCounter     CounterEvidence[] @relation("CounterModerator")
+  resolvedCorrections  Correction[]   @relation("CorrectionResolver")
+  moderationLog        ModerationEntry[]
+  dossierChanges       DossierChange[]
+  activity             ActivityEvent[]
+
+  @@index([role])
+  @@index([handle])
+  @@map("users")
+}
+
+/// Cuenta en un proveedor externo (Google, GitHub…). La escribe Auth.js.
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+  @@map("accounts")
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("sessions")
+}
+
+/// Enlaces mágicos de acceso por correo.
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+  @@map("verification_tokens")
+}
+
+// ============================================================
+//  2. ARCHIVO  ·  lo que consta
+//  Ninguna tabla de este bloque tiene columna de votos ni de
+//  opiniones: eso vive en el bloque COMUNIDAD, y a propósito.
+// ============================================================
+
+/// El cargo público documentado. El modelo admite varios aunque
+/// esta instalación documente uno solo.
+model Subject {
+  id       String        @id @default(cuid())
+  slug     String        @unique
+  name     String
+  role     String
+  party    String
+  /// Periodo documentado. `to: null` = sigue en el cargo.
+  from     DateTime      @db.Date
+  to       DateTime?     @db.Date
+  status   SubjectStatus @default(activo)
+  note     String        @db.Text
+  isDemo   Boolean       @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  statements     Statement[]
+  promises       PoliticalPromise[]
+  contradictions Contradiction[]
+  dossiers       Dossier[]
+  timeline       TimelineEvent[]
+  videos         Video[]
+  viralQuotes    ViralQuote[]
+  submissions    Submission[]
+
+  @@map("subjects")
+}
+
+/// La fuente: de dónde sale cada cosa. Se enlaza, no se aloja.
+model Source {
+  id          String     @id @default(cuid())
+  /// Identificador humano heredado del archivo JSON (src-042).
+  publicId    String     @unique
+  title       String
+  url         String     @db.Text
+  author      String
+  publishedAt DateTime?  @db.Date
+  /// Nivel documental: 1 documento oficial → 8 red social.
+  tier        SourceTier
+  /// Qué aporta exactamente. Obligatorio: una fuente sin resumen
+  /// no se puede contrastar, solo exhibir.
+  summary     String     @db.Text
+  isDemo      Boolean    @default(false)
+
+  /// Si la aportó un lector y moderación la aceptó.
+  contributedById String?
+  contributedBy   User?   @relation("SourceContributor", fields: [contributedById], references: [id], onDelete: SetNull)
+
+  addedAt   DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  deletedAt DateTime?
+
+  links SourceLink[]
+
+  @@index([tier])
+  @@index([publishedAt])
+  @@map("sources")
+}
+
+/// Enlace entre una fuente y CUALQUIER registro del archivo.
+///
+/// Patrón de «arco exclusivo»: una sola de las columnas de destino
+/// puede estar rellena, y una restricción CHECK en la migración lo
+/// garantiza. Se eligió frente a seis tablas puente porque añadir un
+/// tipo nuevo de registro es añadir una columna, y frente a una
+/// relación polimórfica con texto porque aquí las claves ajenas son
+/// reales: si se borra un expediente, sus enlaces se van con él.
+model SourceLink {
+  id       String @id @default(cuid())
+  sourceId String
+  source   Source @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  statementId     String?
+  statement       Statement?        @relation(fields: [statementId], references: [id], onDelete: Cascade)
+  promiseId       String?
+  promise         PoliticalPromise? @relation(fields: [promiseId], references: [id], onDelete: Cascade)
+  dossierId       String?
+  dossier         Dossier?          @relation(fields: [dossierId], references: [id], onDelete: Cascade)
+  contradictionId String?
+  contradiction   Contradiction?    @relation(fields: [contradictionId], references: [id], onDelete: Cascade)
+  timelineId      String?
+  timelineEvent   TimelineEvent?    @relation(fields: [timelineId], references: [id], onDelete: Cascade)
+  viralQuoteId    String?
+  viralQuote      ViralQuote?       @relation(fields: [viralQuoteId], references: [id], onDelete: Cascade)
+  judicialCaseId  String?
+  judicialCase    JudicialCase?     @relation(fields: [judicialCaseId], references: [id], onDelete: Cascade)
+  /// Un paso concreto de una contradicción: la tarjeta DIJO → OCURRIÓ
+  /// muestra cuántas fuentes respaldan cada peldaño, no solo el conjunto.
+  stepId          String?
+  step            ContradictionStep? @relation(fields: [stepId], references: [id], onDelete: Cascade)
+
+  /// Orden de presentación dentro del registro (se muestra por nivel
+  /// documental, pero el editor puede fijar un orden propio).
+  position Int     @default(0)
+  /// Para qué se cita esta fuente aquí en concreto.
+  note     String? @db.Text
+  /// En qué bloque del expediente aparece (04 fuentes, 05 contraevidencia).
+  block    String?
+
+  createdAt DateTime @default(now())
+
+  @@unique([sourceId, statementId])
+  @@unique([sourceId, promiseId])
+  @@unique([sourceId, dossierId])
+  @@unique([sourceId, contradictionId])
+  @@unique([sourceId, timelineId])
+  @@unique([sourceId, viralQuoteId])
+  @@unique([sourceId, stepId])
+  @@index([statementId])
+  @@index([dossierId])
+  @@map("source_links")
+}
+
+/// Una declaración pública, archivada literalmente.
+model Statement {
+  id        String      @id @default(cuid())
+  publicId  String      @unique
+  subjectId String
+  subject   Subject     @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+
+  /// Texto literal. Si no se puede citar literal, no se archiva.
+  text      String      @db.Text
+  date      DateTime    @db.Date
+  /// Dónde se dijo: sede, medio, acto.
+  place     String
+  context   String      @db.Text
+  topics    Topic[]
+
+  videoId        String?
+  video          Video?  @relation(fields: [videoId], references: [id], onDelete: SetNull)
+  /// Segundo exacto dentro del vídeo, si consta.
+  videoTimestamp Int?
+
+  dossierId String?
+  dossier   Dossier? @relation(fields: [dossierId], references: [id], onDelete: SetNull)
+
+  reviewState ReviewState @default(PENDIENTE)
+  /// Sello de publicación. Mientras sea null, NO es público.
+  publishedAt DateTime?
+  isDemo      Boolean     @default(false)
+
+  contributedById String?
+  contributedBy   User?   @relation("StatementContributor", fields: [contributedById], references: [id], onDelete: SetNull)
+
+  addedAt   DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  sources       SourceLink[]
+  timelineLinks TimelineEvent[]     @relation("TimelineStatement")
+  dossierBlocks DossierStatement[]
+  steps         ContradictionStep[]
+
+  @@index([subjectId, date])
+  @@index([reviewState, publishedAt])
+  @@index([topics], type: Gin)
+  @@map("statements")
+}
+
+/// Registro audiovisual. Solo la URL: no se aloja material ajeno.
+model Video {
+  id        String        @id @default(cuid())
+  publicId  String        @unique
+  subjectId String
+  subject   Subject       @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+  title     String
+  date      DateTime      @db.Date
+  /// Duración en segundos.
+  duration  Int
+  platform  VideoPlatform
+  url       String        @db.Text
+  embeddable          Boolean @default(false)
+  transcriptAvailable Boolean @default(false)
+
+  reviewState ReviewState @default(PENDIENTE)
+  publishedAt DateTime?
+  isDemo      Boolean     @default(false)
+
+  contributedById String?
+  contributedBy   User?   @relation("VideoContributor", fields: [contributedById], references: [id], onDelete: SetNull)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  statements  Statement[]
+  viralQuotes ViralQuote[]
+
+  @@index([subjectId, date])
+  @@index([reviewState])
+  @@map("videos")
+}
+
+/// Promesa con objetivo medible, plazo anunciado y estado razonado.
+model PoliticalPromise {
+  id        String   @id @default(cuid())
+  publicId  String   @unique
+  subjectId String
+  subject   Subject  @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+
+  text      String   @db.Text
+  date      DateTime @db.Date
+  context   String   @db.Text
+  /// Qué se comprometió exactamente, en términos medibles.
+  objective String   @db.Text
+  /// Plazo anunciado por quien la formuló. null = no anunció plazo.
+  deadline  DateTime? @db.Date
+
+  state          PromiseState
+  /// Por qué ese estado. Obligatorio, y la aplicación lo exige:
+  /// el paso del tiempo por sí solo nunca determina un incumplimiento.
+  stateRationale String       @db.Text
+
+  topics       Topic[]
+  lastReviewed DateTime @default(now())
+  isDemo       Boolean  @default(false)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  sources SourceLink[]
+
+  @@index([subjectId, date])
+  @@index([state])
+  @@index([topics], type: Gin)
+  @@map("promises")
+}
+
+/// Un hecho posterior a una declaración: la columna derecha de
+/// DIJO → OCURRIÓ y el material de la cronología.
+model TimelineEvent {
+  id        String       @id @default(cuid())
+  publicId  String       @unique
+  subjectId String
+  subject   Subject      @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+
+  date   DateTime     @db.Date
+  kind   TimelineKind
+  title  String
+  detail String       @db.Text
+  topics Topic[]
+
+  /// La declaración con la que se relaciona, si la hay.
+  relatedStatementId String?
+  relatedStatement   Statement? @relation("TimelineStatement", fields: [relatedStatementId], references: [id], onDelete: SetNull)
+
+  isDemo Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  sources       SourceLink[]
+  dossierBlocks DossierTimeline[]
+  steps         ContradictionStep[]
+
+  @@index([subjectId, date])
+  @@index([topics], type: Gin)
+  @@map("timeline_events")
+}
+
+/// El emparejamiento «lo que dijo» ↔ «lo que ocurrió».
+model Contradiction {
+  id        String  @id @default(cuid())
+  publicId  String  @unique
+  subjectId String
+  subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+
+  title  String
+  topics Topic[]
+
+  evidence EvidenceLevel
+  /// Redacción cuidadosa. Nunca «mintió»: mentir exige saber que lo
+  /// dicho era falso, y eso este archivo no puede acreditarlo.
+  conclusion  String   @db.Text
+  /// Qué NO permite concluir este material. Obligatorio.
+  limitations String[]
+
+  dossierId String?
+  dossier   Dossier? @relation(fields: [dossierId], references: [id], onDelete: SetNull)
+
+  isDemo      Boolean  @default(false)
+  lastUpdated DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  deletedAt   DateTime?
+
+  steps   ContradictionStep[]
+  sources SourceLink[]
+
+  @@index([subjectId])
+  @@index([evidence])
+  @@map("contradictions")
+}
+
+/// Cada peldaño de la secuencia DIJO → OCURRIÓ. Es tabla propia
+/// porque el orden y la fecha de cada paso son datos, no formato.
+model ContradictionStep {
+  id              String            @id @default(cuid())
+  contradictionId String
+  contradiction   Contradiction     @relation(fields: [contradictionId], references: [id], onDelete: Cascade)
+
+  position Int
+  at       DateTime          @db.Date
+  side     ContradictionSide
+  label    String
+  detail   String            @db.Text
+
+  /// Referencia al registro exacto del archivo que respalda el paso.
+  statementId String?
+  statement   Statement?     @relation(fields: [statementId], references: [id], onDelete: SetNull)
+  timelineId  String?
+  timelineEvent TimelineEvent? @relation(fields: [timelineId], references: [id], onDelete: SetNull)
+
+  sources SourceLink[]
+
+  @@unique([contradictionId, position])
+  @@index([contradictionId])
+  @@map("contradiction_steps")
+}
+
+/// EL EXPEDIENTE: la unidad central. Seis bloques fijos.
+model Dossier {
+  id        String  @id @default(cuid())
+  publicId  String  @unique
+  /// Número de expediente visible (007). Único y estable.
+  number    Int     @unique
+  slug      String  @unique
+  subjectId String
+  subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+
+  title  String
+  topics Topic[]
+
+  // --- los seis bloques ---
+  /// 01 · qué se dijo
+  whatWasSaid     String @db.Text
+  /// 02 · cuándo y en qué contexto
+  whenAndContext  String @db.Text
+  /// 04 · qué dicen las fuentes
+  whatSourcesSay  String @db.Text
+  /// 05 · contraevidencia (texto del editor; lo aportado por lectores
+  ///      vive en counter_evidence, que es capa COMUNIDAD)
+  counterEvidence String[]
+  /// 06 · conclusión
+  conclusion      String @db.Text
+
+  evidence    EvidenceLevel
+  limitations String[]
+
+  openedAt    DateTime  @default(now()) @db.Date
+  lastUpdated DateTime  @default(now())
+  isDemo      Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  deletedAt   DateTime?
+
+  // 03 · qué ocurrió después, y las declaraciones del bloque 01
+  statementRefs  DossierStatement[]
+  timelineRefs   DossierTimeline[]
+  statements     Statement[]
+  contradictions Contradiction[]
+  sources        SourceLink[]
+
+  // capa COMUNIDAD colgando del expediente
+  comments        Comment[]
+  counterFromUsers CounterEvidence[]
+  votes           Vote[]
+  changes         DossierChange[]
+
+  @@index([subjectId])
+  @@index([evidence])
+  @@index([lastUpdated])
+  @@index([topics], type: Gin)
+  @@map("dossiers")
+}
+
+/// Bloque 01: qué declaraciones sostienen el expediente, y en qué orden.
+model DossierStatement {
+  dossierId   String
+  dossier     Dossier   @relation(fields: [dossierId], references: [id], onDelete: Cascade)
+  statementId String
+  statement   Statement @relation(fields: [statementId], references: [id], onDelete: Cascade)
+  position    Int       @default(0)
+
+  @@id([dossierId, statementId])
+  @@map("dossier_statements")
+}
+
+/// Bloque 03: qué ocurrió después.
+model DossierTimeline {
+  dossierId  String
+  dossier    Dossier       @relation(fields: [dossierId], references: [id], onDelete: Cascade)
+  timelineId String
+  event      TimelineEvent @relation(fields: [timelineId], references: [id], onDelete: Cascade)
+  position   Int           @default(0)
+
+  @@id([dossierId, timelineId])
+  @@map("dossier_timeline")
+}
+
+/// Historial de cambios de nivel de evidencia.
+/// Un archivo que corrige en silencio no es un archivo: por eso esto
+/// es una tabla y no un campo que se sobrescribe.
+model DossierChange {
+  id        String  @id @default(cuid())
+  dossierId String
+  dossier   Dossier @relation(fields: [dossierId], references: [id], onDelete: Cascade)
+
+  from   EvidenceLevel
+  to     EvidenceLevel
+  /// Qué apareció para justificar el cambio. Obligatorio.
+  reason String        @db.Text
+
+  /// Quién lo cambió. Se conserva aunque la cuenta se borre.
+  byId String?
+  by   User?   @relation(fields: [byId], references: [id], onDelete: SetNull)
+
+  at DateTime @default(now())
+
+  @@index([dossierId, at])
+  @@map("dossier_changes")
+}
+
+/// «¿Realmente lo dijo?» — frases virales contrastadas.
+model ViralQuote {
+  id        String  @id @default(cuid())
+  publicId  String  @unique
+  subjectId String
+  subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+
+  /// Tal y como circula por internet.
+  circulating      String      @db.Text
+  result           ViralResult
+  /// Qué consta exactamente, si es que consta algo.
+  whatIsDocumented String      @db.Text
+  explanation      String      @db.Text
+
+  videoId        String?
+  video          Video?    @relation(fields: [videoId], references: [id], onDelete: SetNull)
+  videoTimestamp Int?
+  date           DateTime? @db.Date
+
+  /// Apariciones documentadas en circulación. Es una medida de
+  /// difusión, no de veracidad, y la interfaz lo dice.
+  shares Int     @default(0)
+  isDemo Boolean @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  sources SourceLink[]
+
+  @@index([subjectId])
+  @@index([result])
+  @@map("viral_quotes")
+}
+
+/// MÓDULO JUDICIAL — apagado por defecto (MODULES.judicial).
+/// Terminología procesal estricta: el estado es una fase, nunca una
+/// culpabilidad, y los investigados son personas concretas que no se
+/// presumen vinculadas al sujeto del archivo.
+model JudicialCase {
+  id       String @id @default(cuid())
+  publicId String @unique
+  caseName String
+  /// Quién está investigado. NUNCA se asume que sea el sujeto.
+  investigatedParties String[]
+  court               String
+  facts               String @db.Text
+  /// Relación acreditada con el sujeto. Obligatorio y explícito.
+  relationToSubject   String @db.Text
+  relationEvidence    String[]
+
+  status ProceduralStatus
+  /// Qué está acreditado / qué está pendiente / qué es solo acusación.
+  proven          String[]
+  pending         String[]
+  allegationsOnly String[]
+
+  isDemo      Boolean  @default(false)
+  lastUpdated DateTime @default(now())
+  createdAt   DateTime @default(now())
+
+  sources SourceLink[]
+
+  @@index([status])
+  @@map("judicial_cases")
+}
+
+// ============================================================
+//  3. COMUNIDAD  ·  lo que aportan y opinan los lectores
+//  Nada de aquí entra al archivo por sí solo. Todo nace en
+//  PENDIENTE y necesita un moderador para existir en público.
+// ============================================================
+
+/// «+ Añadir al archivo». Una aportación con su cola de revisión.
+model Submission {
+  id        String         @id @default(cuid())
+  kind      SubmissionKind
+  subjectId String
+  subject   Subject        @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+
+  title       String
+  url         String   @db.Text
+  description String   @db.Text
+  /// Fecha aproximada que indica quien aporta (texto libre: puede ser
+  /// «marzo de 2023»). La fecha exacta la fija el editor al aceptar.
+  approxDate  String
+  context     String   @db.Text
+  whyRelevant String   @db.Text
+  /// Conclusión del usuario. SIEMPRE etiquetada como opinión y nunca
+  /// copiada al archivo: es lo que separa aportar de editorializar.
+  userConclusion String @db.Text
+
+  byId String?
+  by   User?   @relation(fields: [byId], references: [id], onDelete: SetNull)
+
+  reviewState   ReviewState @default(PENDIENTE)
+  moderatorNote String      @default("") @db.Text
+  /// Marcada para revisión reforzada por lenguaje que atribuye
+  /// responsabilidad penal (antispam.ts + MODERATION.escalate).
+  escalated     Boolean     @default(false)
+  moderatedById String?
+  moderatedBy   User?       @relation("SubmissionModerator", fields: [moderatedById], references: [id], onDelete: SetNull)
+  moderatedAt   DateTime?
+
+  /// Si se aceptó, a qué registro del archivo dio lugar.
+  becameRecordType String?
+  becameRecordId   String?
+
+  isDemo Boolean @default(false)
+
+  /// Antispam: huella del envío, nunca la IP en claro (RGPD).
+  ipHash    String?
+  userAgent String?
+
+  at        DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  /// Retención: las rechazadas se purgan a los 12 meses (ver política
+  /// de privacidad). Este campo lo fija el moderador al rechazar.
+  purgeAfter DateTime?
+
+  @@index([reviewState, at])
+  @@index([byId])
+  @@index([escalated])
+  @@map("submissions")
+}
+
+/// Debate sobre un expediente, con postura declarada.
+model Comment {
+  id        String  @id @default(cuid())
+  dossierId String
+  dossier   Dossier @relation(fields: [dossierId], references: [id], onDelete: Cascade)
+
+  byId String?
+  by   User?   @relation(fields: [byId], references: [id], onDelete: SetNull)
+
+  stance CommentStance
+  text   String        @db.Text
+  /// Si el comentario aporta una fuente, su URL. Se valida como
+  /// enlace real (antispam.isSafeUrl) antes de guardarse.
+  sourceUrl String?    @db.Text
+
+  /// Recuento cacheado de comment_upvotes. La verdad está en la tabla.
+  upvotes Int @default(0)
+
+  reviewState   ReviewState @default(PENDIENTE)
+  publishedAt   DateTime?
+  moderatedById String?
+  moderatedBy   User?       @relation("CommentModerator", fields: [moderatedById], references: [id], onDelete: SetNull)
+  escalated     Boolean     @default(false)
+  isDemo        Boolean     @default(false)
+
+  ipHash String?
+
+  at        DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  votes CommentUpvote[]
+
+  @@index([dossierId, at])
+  @@index([reviewState])
+  @@map("comments")
+}
+
+/// Un «me parece útil» por persona y comentario. Tabla propia para
+/// que nadie pueda votar dos veces y para poder deshacerlo.
+model CommentUpvote {
+  commentId String
+  comment   Comment  @relation(fields: [commentId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  at        DateTime @default(now())
+
+  @@id([commentId, userId])
+  @@map("comment_upvotes")
+}
+
+/// Contraevidencia aportada por un lector a un expediente.
+/// Es la aportación más valiosa del proyecto: la que intenta
+/// desmontar la conclusión en lugar de discutirla.
+model CounterEvidence {
+  id        String      @id @default(cuid())
+  dossierId String
+  dossier   Dossier     @relation(fields: [dossierId], references: [id], onDelete: Cascade)
+
+  byId String?
+  by   User?   @relation(fields: [byId], references: [id], onDelete: SetNull)
+
+  kind CounterKind
+  text String      @db.Text
+  url  String?     @db.Text
+
+  reviewState   ReviewState @default(PENDIENTE)
+  /// Si el editor la incorporó al bloque 05 del expediente.
+  incorporated  Boolean     @default(false)
+  moderatedById String?
+  moderatedBy   User?       @relation("CounterModerator", fields: [moderatedById], references: [id], onDelete: SetNull)
+  isDemo        Boolean     @default(false)
+
+  at        DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([dossierId])
+  @@index([reviewState])
+  @@map("counter_evidence")
+}
+
+/// Voto de percepción sobre la conclusión de un expediente.
+///
+/// MIDE OPINIÓN, NO VERDAD. No existe ninguna columna, vista ni
+/// consulta que sume esto al nivel de evidencia: separarlos es la
+/// razón de que sean dos tablas y no dos campos.
+model Vote {
+  id        String     @id @default(cuid())
+  dossierId String
+  dossier   Dossier    @relation(fields: [dossierId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  option    VoteOption
+
+  at        DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  /// Un voto por persona y expediente. Cambiar de opinión actualiza
+  /// la fila; no añade otra.
+  @@unique([dossierId, userId])
+  @@index([dossierId, option])
+  @@map("votes")
+}
+
+/// Propuesta de corrección sobre cualquier registro del archivo.
+model Correction {
+  id          String @id @default(cuid())
+  /// A qué apunta: tipo + id del registro, más la etiqueta que vio
+  /// el usuario (para que la cola sea legible aunque el registro cambie).
+  targetType  String
+  targetId    String
+  targetLabel String
+
+  byId String?
+  by   User?   @relation("CorrectionAuthor", fields: [byId], references: [id], onDelete: SetNull)
+
+  whatIsWrong String @db.Text
+  why         String @db.Text
+  /// Obligatoria: una corrección sin fuente es una opinión.
+  sourceUrl   String @db.Text
+
+  reviewState  ReviewState @default(PENDIENTE)
+  /// Resolución motivada, visible para quien la propuso.
+  resolution   String      @default("") @db.Text
+  resolvedById String?
+  resolvedBy   User?       @relation("CorrectionResolver", fields: [resolvedById], references: [id], onDelete: SetNull)
+  resolvedAt   DateTime?
+  isDemo       Boolean     @default(false)
+
+  at        DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([reviewState, at])
+  @@index([targetType, targetId])
+  @@map("corrections")
+}
+
+/// Feed de actividad. Se escribe desde la capa de servicio cuando
+/// algo entra, se acepta, se corrige o cambia de estado.
+model ActivityEvent {
+  id      String       @id @default(cuid())
+  kind    ActivityKind
+  layer   Layer
+  text    String
+  href    String
+  actorId String?
+  actor   User?        @relation(fields: [actorId], references: [id], onDelete: SetNull)
+  at      DateTime     @default(now())
+
+  @@index([at])
+  @@map("activity_events")
+}
+
+// ============================================================
+//  4. OPERACIÓN  ·  moderación, auditoría y antispam
+// ============================================================
+
+/// Registro de toda acción de moderación. Sirve para tres cosas:
+/// rendir cuentas, deshacer, y responder a un requerimiento legal
+/// con fechas y motivos por escrito.
+model ModerationEntry {
+  id         String           @id @default(cuid())
+  action     ModerationAction
+  targetType String
+  targetId   String
+  /// Motivo escrito. Sin motivo no se cierra la acción.
+  reason     String           @db.Text
+  before     Json?
+  after      Json?
+
+  byId String?
+  by   User?   @relation(fields: [byId], references: [id], onDelete: SetNull)
+  at   DateTime @default(now())
+
+  @@index([targetType, targetId])
+  @@index([at])
+  @@map("moderation_log")
+}
+
+/// Limitación de envíos por origen. Guarda una huella con sal, nunca
+/// la IP: sirve para frenar abuso sin construir un registro de quién
+/// ha leído qué (minimización, art. 5.1.c RGPD).
+model RateLimit {
+  id        String   @id @default(cuid())
+  ipHash    String
+  route     String
+  at        DateTime @default(now())
+  /// Se borra sola: nada de esto se conserva más de 24 horas.
+  expiresAt DateTime
+
+  @@index([ipHash, route, at])
+  @@index([expiresAt])
+  @@map("rate_limits")
+}
+
+/// Prueba del consentimiento de cookies, sin datos personales:
+/// solo qué se aceptó, cuándo y con qué versión del texto.
+model ConsentLog {
+  id           String   @id @default(cuid())
+  /// Identificador aleatorio guardado en el navegador. No identifica
+  /// a nadie por sí solo y no se cruza con la sesión.
+  anonId       String
+  preferencias Boolean
+  analitica    Boolean
+  publicidad   Boolean
+  version      Int
+  at           DateTime @default(now())
+
+  @@index([anonId])
+  @@map("consent_log")
+}
+
+/// Estado global del archivo: build, última actualización y si la
+/// instalación está en modo demostración.
+model ArchiveMeta {
+  id          Int      @id @default(1)
+  build       String
+  lastUpdated DateTime @default(now())
+  demoMode    Boolean  @default(true)
+  disclaimer  String   @db.Text
+
+  @@map("archive_meta")
+}

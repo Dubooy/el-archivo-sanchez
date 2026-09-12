@@ -1,0 +1,182 @@
+[
+ {
+  "id": "usr-001",
+  "handle": "@usuario_demo_01",
+  "joinedAt": "2026-07-10",
+  "role": "moderador",
+  "bio": "[PERFIL DEMO] Contrasto datos con series oficiales.",
+  "stats": {
+   "submissions": 33,
+   "acceptedSources": 30,
+   "debates": 37,
+   "acceptedCorrections": 0
+  },
+  "reputation": 100,
+  "isDemo": true
+ },
+ {
+  "id": "usr-002",
+  "handle": "@usuario_demo_02",
+  "joinedAt": "2026-05-01",
+  "role": "moderador",
+  "bio": "[PERFIL DEMO] Reviso hemeroteca.",
+  "stats": {
+   "submissions": 24,
+   "acceptedSources": 21,
+   "debates": 56,
+   "acceptedCorrections": 4
+  },
+  "reputation": 80,
+  "isDemo": true
+ },
+ {
+  "id": "usr-003",
+  "handle": "@usuario_demo_03",
+  "joinedAt": "2026-01-11",
+  "role": "editor",
+  "bio": "[PERFIL DEMO] Aporto contexto que suele faltar.",
+  "stats": {
+   "submissions": 22,
+   "acceptedSources": 3,
+   "debates": 42,
+   "acceptedCorrections": 3
+  },
+  "reputation": 10,
+  "isDemo": true
+ },
+ {
+  "id": "usr-004",
+  "handle": "@usuario_demo_04",
+  "joinedAt": "2025-02-16",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Reviso hemeroteca.",
+  "stats": {
+   "submissions": 8,
+   "acceptedSources": 1,
+   "debates": 37,
+   "acceptedCorrections": 5
+  },
+  "reputation": 5,
+  "isDemo": true
+ },
+ {
+  "id": "usr-005",
+  "handle": "@usuario_demo_05",
+  "joinedAt": "2025-08-14",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Contrasto datos con series oficiales.",
+  "stats": {
+   "submissions": 10,
+   "acceptedSources": 6,
+   "debates": 42,
+   "acceptedCorrections": 1
+  },
+  "reputation": 22,
+  "isDemo": true
+ },
+ {
+  "id": "usr-006",
+  "handle": "@usuario_demo_06",
+  "joinedAt": "2026-12-16",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Aporto documentos oficiales.",
+  "stats": {
+   "submissions": 23,
+   "acceptedSources": 22,
+   "debates": 56,
+   "acceptedCorrections": 1
+  },
+  "reputation": 89,
+  "isDemo": true
+ },
+ {
+  "id": "usr-007",
+  "handle": "@usuario_demo_07",
+  "joinedAt": "2026-01-07",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Aporto documentos oficiales.",
+  "stats": {
+   "submissions": 34,
+   "acceptedSources": 15,
+   "debates": 17,
+   "acceptedCorrections": 4
+  },
+  "reputation": 62,
+  "isDemo": true
+ },
+ {
+  "id": "usr-008",
+  "handle": "@usuario_demo_08",
+  "joinedAt": "2026-06-03",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Aporto documentos oficiales.",
+  "stats": {
+   "submissions": 37,
+   "acceptedSources": 13,
+   "debates": 0,
+   "acceptedCorrections": 3
+  },
+  "reputation": 47,
+  "isDemo": true
+ },
+ {
+  "id": "usr-009",
+  "handle": "@usuario_demo_09",
+  "joinedAt": "2025-04-11",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Reviso hemeroteca.",
+  "stats": {
+   "submissions": 38,
+   "acceptedSources": 24,
+   "debates": 51,
+   "acceptedCorrections": 5
+  },
+  "reputation": 95,
+  "isDemo": true
+ },
+ {
+  "id": "usr-010",
+  "handle": "@usuario_demo_10",
+  "joinedAt": "2026-03-15",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Contrasto datos con series oficiales.",
+  "stats": {
+   "submissions": 12,
+   "acceptedSources": 10,
+   "debates": 53,
+   "acceptedCorrections": 5
+  },
+  "reputation": 50,
+  "isDemo": true
+ },
+ {
+  "id": "usr-011",
+  "handle": "@usuario_demo_11",
+  "joinedAt": "2026-07-25",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Contrasto datos con series oficiales.",
+  "stats": {
+   "submissions": 8,
+   "acceptedSources": 1,
+   "debates": 9,
+   "acceptedCorrections": 4
+  },
+  "reputation": 17,
+  "isDemo": true
+ },
+ {
+  "id": "usr-012",
+  "handle": "@usuario_demo_12",
+  "joinedAt": "2025-01-25",
+  "role": "usuario",
+  "bio": "[PERFIL DEMO] Me interesa el seguimiento de promesas.",
+  "stats": {
+   "submissions": 28,
+   "acceptedSources": 17,
+   "debates": 33,
+   "acceptedCorrections": 4
+  },
+  "reputation": 67,
+  "isDemo": true
+ }
+]

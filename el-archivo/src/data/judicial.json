@@ -1,0 +1,35 @@
+[
+ {
+  "id": "jud-001",
+  "caseName": "[CAUSA DEMO] Registro de ejemplo del módulo judicial",
+  "investigatedParties": [
+   "[PERSONA O ENTIDAD INVESTIGADA — NO ES EL SUJETO DEL ARCHIVO]"
+  ],
+  "court": "[ÓRGANO JUDICIAL DEMO]",
+  "facts": "[HECHOS DEMO] Qué se investiga exactamente, según el auto o la resolución que lo acredita. No lo que se comenta que se investiga.",
+  "relationToSubject": "[RELACIÓN DEMO] Relación acreditada con el sujeto del archivo, si existe. Este campo es obligatorio y no admite insinuaciones: o hay relación documentada o el caso no entra.",
+  "relationEvidence": [
+   "[DOCUMENTO DEMO] Material que acredita la relación."
+  ],
+  "status": "INVESTIGADO",
+  "proven": [
+   "[PROBADO DEMO] Únicamente lo que una resolución declara probado."
+  ],
+  "pending": [
+   "[PENDIENTE DEMO] Lo que está por resolver."
+  ],
+  "allegationsOnly": [
+   "[SOLO ACUSACIÓN DEMO] Lo que alguna parte sostiene y ningún órgano ha declarado probado."
+  ],
+  "documents": [
+   "https://example.org/demo/documento/001"
+  ],
+  "sources": [
+   "src-038",
+   "src-022",
+   "src-030"
+  ],
+  "lastUpdated": "2026-09-10",
+  "isDemo": true
+ }
+]

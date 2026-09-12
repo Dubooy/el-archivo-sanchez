@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   IDENTIDAD VISUAL — EL ARCHIVO SÁNCHEZ
+   Neo-brutalismo fluido: rejilla rígida y bordes duros, pero con
+   movimiento. Todo el color vive en este bloque: cambia un valor
+   de :root y cambia la web entera.
+
+   DUALIDAD TIPOGRÁFICA, ESTRICTA:
+     Inter (sans)     → títulos y párrafos. Solo legibilidad.
+     JetBrains Mono   → botones, navegación, metadatos, fechas,
+                        etiquetas de estado, números de expediente.
+   Si algo es "dato de archivo", va en mono. Si es prosa, va en Inter.
+   No hay una tercera fuente y no debe haberla.
+
+   Tres capas con tratamiento visual distinto, a propósito:
+     ARCHIVO      → superficie papel, filete estructural, sombra dura
+     VERIFICACIÓN → estados de color reservados, siempre con etiqueta
+     COMUNIDAD    → superficie hundida, esquina redondeada, sin sombra
+   ============================================================ */
+:root {
+  color-scheme: light;
+
+  /* --- superficies: nunca blanco puro -------------------------- */
+  --paper: #f4f4f5;      /* papel: tarjetas, cabecera, secciones claras */
+  --ground: #e8e8ea;     /* fondo continuo bajo el papel */
+  --panel: #f4f4f5;
+  --panel-2: #e4e4e7;    /* capa comunidad: hundida respecto al papel */
+
+  /* --- líneas: geométricas y marcadas -------------------------- */
+  --edge: #0a0a0a;       /* filete estructural (1,5–2px). El del brutalismo. */
+  --line: #c6c6ca;       /* divisiones internas (1px) */
+  --line-2: #8f8f95;
+
+  /* --- tinta: negro absoluto en claro -------------------------- */
+  --ink: #000000;
+  --ink-2: #303034;
+  --ink-3: #5d5d64;
+
+  /* --- acento ------------------------------------------------- */
+  --red: #d81e2c;
+  --red-deep: #9c1420;
+  --red-wash: #f7e3e5;
+
+  /* Estados de verificación. Reservados: nunca se usan de adorno. */
+  --ok: #14713c;
+  --warn: #8f6500;
+  --mixed: #b25607;
+  --open: #1a4bb0;
+  --neutral: #5d5d64;
+
+  /* --- sombra dura, sin difuminar ----------------------------- */
+  --shadow: 4px 4px 0 0 var(--edge);
+  --shadow-sm: 3px 3px 0 0 var(--edge);
+  --shadow-lg: 6px 6px 0 0 var(--edge);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: var(--font-sans);
+  /* Alias heredado: el proyecto ya no usa serif. Apunta a la sans para
+     que cualquier `font-serif` antiguo siga siendo coherente. */
+  --font-serif: var(--font-sans);
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* ============================================================
+   TEMA OSCURO — alternativo, se activa con el interruptor.
+   Gris carbón, nunca negro puro. Texto gris tiza. Rojo apagado.
+   El filete deja de ser negro (invisible sobre carbón) y pasa a
+   ser un gris claro; la sombra dura pasa a ser negra.
+   ============================================================ */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --paper: #1c1c1c;
+  --ground: #121212;
+  --panel: #1c1c1c;
+  --panel-2: #262626;
+
+  --edge: #55555a;
+  --line: #333338;
+  --line-2: #4a4a50;
+
+  --ink: #e8e6e1;        /* gris tiza */
+  --ink-2: #bdbbb6;
+  --ink-3: #8e8c88;
+
+  --red: #e2626b;        /* rojo apagado, legible sobre carbón */
+  --red-deep: #c04751;
+  --red-wash: #2c1b1d;
+
+  --ok: #5aab7d;
+  --warn: #d3a63f;
+  --mixed: #e08a4d;
+  --open: #7ba3ee;
+  --neutral: #8e8c88;
+
+  --shadow: 4px 4px 0 0 #000000;
+  --shadow-sm: 3px 3px 0 0 #000000;
+  --shadow-lg: 6px 6px 0 0 #000000;
+}
+
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "tnum", "cv05";
+    -webkit-font-smoothing: antialiased;
+    /* El cambio de tema también es una microinteracción. */
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  }
+  ::selection {
+    background: var(--red);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--red);
+    outline-offset: 2px;
+  }
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* --- tipografía ------------------------------------------------ */
+  .display {
+    @apply font-sans font-black uppercase leading-[0.88] tracking-mega;
+  }
+  .headline {
+    @apply font-sans font-extrabold leading-[1.05] tracking-tightest;
+  }
+  .label {
+    @apply font-mono text-[10px] uppercase tracking-[0.16em] text-[var(--ink-3)];
+  }
+  .num {
+    @apply font-mono font-bold tabular-nums leading-none tracking-[-0.02em];
+  }
+  /* Cuerpo documental. Ya no es serif: se distingue del resto por
+     tamaño, interlineado y color, no por familia tipográfica. */
+  .doc {
+    @apply font-sans text-[15px] leading-[1.75] text-[var(--ink-2)];
+  }
+  .doc strong { @apply font-semibold text-[var(--ink)]; }
+  .doc em { @apply italic; }
+
+  /* --- superficies ----------------------------------------------- */
+  /* .card = pieza de archivo: filete estructural + sombra dura. */
+  .card {
+    @apply relative border-[1.5px] bg-[var(--panel)];
+    border-color: var(--edge);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out,
+                background-color 0.2s ease-out, border-color 0.2s ease-out;
+  }
+  .card-hover:hover {
+    background: var(--panel);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+  .card-flat {
+    @apply relative border-[1.5px] bg-[var(--panel)];
+    border-color: var(--edge);
+  }
+  /* Capa COMUNIDAD: superficie hundida, sin sombra dura y con esquina
+     redondeada. Nunca se confunde con una ficha del archivo. */
+  .card-community {
+    @apply relative rounded-[4px] border bg-[var(--panel-2)];
+    border-color: var(--line-2);
+    transition: background-color 0.2s ease-out, border-color 0.2s ease-out;
+  }
+  .rail {
+    @apply border-l-[3px] pl-4;
+    border-color: var(--red);
+  }
+
+  /* --- controles: todos con la misma microinteracción ------------ */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 border-[1.5px] px-4 py-2.5 font-mono text-[11px] font-medium uppercase tracking-[0.14em];
+    border-color: var(--edge);
+    color: var(--ink);
+    background: var(--panel);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease-out;
+  }
+  .btn:hover {
+    background: var(--ink);
+    color: var(--paper);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+  .btn:active { transform: translateY(0); box-shadow: var(--shadow-sm); }
+
+  .btn-red {
+    @apply inline-flex items-center justify-center gap-2 border-[1.5px] px-4 py-2.5 font-mono text-[11px] font-medium uppercase tracking-[0.14em];
+    background: var(--red);
+    color: #fff;
+    border-color: var(--edge);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s ease-out;
+  }
+  .btn-red:hover {
+    background: var(--red-deep);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+  .btn-red:active { transform: translateY(0); box-shadow: var(--shadow-sm); }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 border px-3 py-2 font-mono text-[10px] uppercase tracking-[0.14em];
+    border-color: var(--line-2);
+    color: var(--ink-3);
+    transition: all 0.2s ease-out;
+  }
+  .btn-ghost:hover {
+    color: var(--ink);
+    border-color: var(--edge);
+    transform: translateY(-2px);
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 border px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.12em];
+    border-color: var(--line-2);
+    color: var(--ink-3);
+    background: var(--panel);
+    transition: all 0.2s ease-out;
+  }
+  .chip:hover { color: var(--ink); border-color: var(--edge); }
+  .chip[data-active="true"] {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--edge);
+  }
+
+  .field {
+    @apply block w-full border-[1.5px] bg-[var(--panel)] px-3 py-2.5 font-mono text-[12px] text-[var(--ink)] placeholder:text-[var(--ink-3)];
+    border-color: var(--edge);
+    transition: all 0.2s ease-out;
+  }
+  .field:focus {
+    border-color: var(--red);
+    box-shadow: var(--shadow-sm);
+    outline: none;
+  }
+
+  /* --- avisos ------------------------------------------------------ */
+  .layer-tag {
+    @apply inline-flex items-center gap-2 px-2 py-1 font-mono text-[9px] font-medium uppercase tracking-[0.16em];
+  }
+  .hairline { @apply h-px w-full bg-[var(--line)]; }
+
+  /* --- textos legales -------------------------------------------- */
+  .legal { @apply max-w-[76ch] text-[15px] leading-[1.8] text-[var(--ink-2)]; }
+  .legal h2 {
+    @apply mt-12 border-t-[1.5px] pt-6 font-sans text-[clamp(1.1rem,2.4vw,1.5rem)] font-extrabold uppercase tracking-tightest text-[var(--ink)];
+    border-color: var(--edge);
+  }
+  .legal h3 { @apply mt-8 text-[15px] font-semibold text-[var(--ink)]; }
+  .legal p { @apply mt-4; }
+  .legal ul, .legal ol { @apply mt-4 space-y-2 pl-5; }
+  .legal ul { @apply list-disc; }
+  .legal ol { @apply list-decimal; }
+  .legal li::marker { color: var(--red); }
+  .legal strong { @apply font-semibold text-[var(--ink)]; }
+  .legal a { @apply underline underline-offset-4 hover:text-[var(--red)]; }
+  /* display:block + overflow-x hace que una tabla ancha se desplace sola
+     en móvil en lugar de estirar la página entera. */
+  .legal table { @apply mt-5 block w-full max-w-full overflow-x-auto border-collapse text-[13px]; }
+  .legal th, .legal td { @apply border-b py-2.5 pr-4 text-left align-top; }
+  .legal th { @apply font-mono text-[10px] uppercase tracking-[0.14em] text-[var(--ink-3)]; }
+  .legal .fill { @apply bg-[var(--red-wash)] px-1 font-mono text-[13px] text-[var(--red-deep)]; }
+}
+
+@layer utilities {
+  /* El contenido aprovecha la pantalla en escritorio: hasta 1680 px de
+     caja y márgenes que crecen con el ancho. Por encima de eso el texto
+     dejaría de ser legible (líneas demasiado largas), así que a partir
+     de ahí el espacio sobrante se usa para el carril lateral. */
+  .wrap { @apply mx-auto w-full max-w-[1680px] px-5 sm:px-8 lg:px-10 2xl:px-14; }
+  /* Rejilla de página con carril para el bloque publicitario: el carril
+     solo existe a partir de 1536 px y nunca se come el contenido. */
+  .with-rail { @apply grid gap-10 2xl:grid-cols-[minmax(0,1fr)_300px] 2xl:gap-12; }
+  .stack-line > * + * { border-top: 1px solid var(--line); }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .rule-red { border-top: 2px solid var(--red); }
+  .edge { border-color: var(--edge); }
+
+  /* Acordeón fluido sin medir alturas en JavaScript: la fila de la
+     rejilla pasa de 0fr a 1fr y el navegador interpola. El hijo
+     necesita overflow:hidden y min-height:0 para poder encogerse. */
+  .accordion { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.28s ease-out; }
+  .accordion[data-open="true"] { grid-template-rows: 1fr; }
+  .accordion > * { overflow: hidden; min-height: 0; }
+  @media (min-width: 768px) {
+    /* En escritorio el contenido está siempre desplegado. */
+    .accordion { grid-template-rows: 1fr; }
+  }
+}

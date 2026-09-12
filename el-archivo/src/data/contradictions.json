@@ -1,0 +1,1202 @@
+[
+ {
+  "id": "con-001",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 001] Secuencia declaración → hecho en inmigración",
+  "topics": [
+   "inmigracion"
+  ],
+  "steps": [
+   {
+    "at": "2020-10-26",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-051",
+    "sources": [
+     "src-018",
+     "src-046"
+    ]
+   },
+   {
+    "at": "2020-06-11",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-037",
+    "sources": [
+     "src-032",
+     "src-041"
+    ]
+   },
+   {
+    "at": "2021-11-17",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-035",
+    "sources": [
+     "src-056",
+     "src-018"
+    ]
+   },
+   {
+    "at": "2021-11-04",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-088",
+    "sources": [
+     "src-015",
+     "src-022"
+    ]
+   }
+  ],
+  "evidence": "PARCIALMENTE_RESPALDADO",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración."
+  ],
+  "sources": [
+   "src-011",
+   "src-026",
+   "src-048"
+  ],
+  "dossier": "exp-012",
+  "lastUpdated": "2026-07-28",
+  "isDemo": true
+ },
+ {
+  "id": "con-002",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 002] Secuencia declaración → hecho en economía",
+  "topics": [
+   "economia"
+  ],
+  "steps": [
+   {
+    "at": "2021-01-18",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-036",
+    "sources": [
+     "src-009"
+    ]
+   },
+   {
+    "at": "2021-04-06",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-056",
+    "sources": [
+     "src-043"
+    ]
+   },
+   {
+    "at": "2022-04-08",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-092",
+    "sources": [
+     "src-016"
+    ]
+   },
+   {
+    "at": "2022-03-02",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-029",
+    "sources": [
+     "src-024"
+    ]
+   }
+  ],
+  "evidence": "CONTRADICCION_DOCUMENTADA",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración."
+  ],
+  "sources": [
+   "src-016",
+   "src-047",
+   "src-037",
+   "src-025"
+  ],
+  "dossier": "exp-017",
+  "lastUpdated": "2026-03-06",
+  "isDemo": true
+ },
+ {
+  "id": "con-003",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 003] Secuencia declaración → hecho en empleo",
+  "topics": [
+   "empleo"
+  ],
+  "steps": [
+   {
+    "at": "2021-05-09",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-037",
+    "sources": [
+     "src-039",
+     "src-012"
+    ]
+   },
+   {
+    "at": "2021-08-20",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-056",
+    "sources": [
+     "src-051",
+     "src-049"
+    ]
+   },
+   {
+    "at": "2022-11-27",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-105",
+    "sources": [
+     "src-056"
+    ]
+   },
+   {
+    "at": "2022-04-07",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-061",
+    "sources": [
+     "src-051",
+     "src-054"
+    ]
+   }
+  ],
+  "evidence": "PARCIALMENTE_RESPALDADO",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "sources": [
+   "src-058",
+   "src-030"
+  ],
+  "dossier": "exp-016",
+  "lastUpdated": "2026-03-04",
+  "isDemo": true
+ },
+ {
+  "id": "con-004",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 004] Secuencia declaración → hecho en sanidad",
+  "topics": [
+   "sanidad"
+  ],
+  "steps": [
+   {
+    "at": "2020-06-25",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-013",
+    "sources": [
+     "src-036"
+    ]
+   },
+   {
+    "at": "2020-11-02",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-050",
+    "sources": [
+     "src-029",
+     "src-012"
+    ]
+   }
+  ],
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "sources": [
+   "src-018",
+   "src-016",
+   "src-051"
+  ],
+  "dossier": "exp-021",
+  "lastUpdated": "2026-03-01",
+  "isDemo": true
+ },
+ {
+  "id": "con-005",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 005] Secuencia declaración → hecho en sanidad",
+  "topics": [
+   "sanidad"
+  ],
+  "steps": [
+   {
+    "at": "2021-12-05",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-043",
+    "sources": [
+     "src-010",
+     "src-012"
+    ]
+   },
+   {
+    "at": "2021-12-22",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-026",
+    "sources": [
+     "src-039",
+     "src-041"
+    ]
+   }
+  ],
+  "evidence": "PARCIALMENTE_RESPALDADO",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "No consta si las circunstancias cambiaron entre ambas fechas.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "sources": [
+   "src-050",
+   "src-021",
+   "src-033",
+   "src-014"
+  ],
+  "dossier": "exp-001",
+  "lastUpdated": "2026-06-16",
+  "isDemo": true
+ },
+ {
+  "id": "con-006",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 006] Secuencia declaración → hecho en vivienda",
+  "topics": [
+   "vivienda"
+  ],
+  "steps": [
+   {
+    "at": "2021-11-27",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-102",
+    "sources": [
+     "src-025",
+     "src-027"
+    ]
+   },
+   {
+    "at": "2021-04-27",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-027",
+    "sources": [
+     "src-010",
+     "src-029"
+    ]
+   },
+   {
+    "at": "2022-01-07",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-029",
+    "sources": [
+     "src-006",
+     "src-049"
+    ]
+   },
+   {
+    "at": "2022-04-15",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-040",
+    "sources": [
+     "src-044",
+     "src-003"
+    ]
+   }
+  ],
+  "evidence": "CONTRADICCION_DOCUMENTADA",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "No consta si las circunstancias cambiaron entre ambas fechas.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "sources": [
+   "src-052",
+   "src-034"
+  ],
+  "dossier": "exp-017",
+  "lastUpdated": "2026-09-11",
+  "isDemo": true
+ },
+ {
+  "id": "con-007",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 007] Secuencia declaración → hecho en institucional",
+  "topics": [
+   "institucional"
+  ],
+  "steps": [
+   {
+    "at": "2021-05-23",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-097",
+    "sources": [
+     "src-013",
+     "src-012"
+    ]
+   },
+   {
+    "at": "2021-10-13",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-014",
+    "sources": [
+     "src-046",
+     "src-020"
+    ]
+   }
+  ],
+  "evidence": "CONTRADICCION_DOCUMENTADA",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "No consta si las circunstancias cambiaron entre ambas fechas.",
+   "No se ha localizado el material íntegro, solo el fragmento que circuló."
+  ],
+  "sources": [
+   "src-020",
+   "src-018",
+   "src-010",
+   "src-007"
+  ],
+  "dossier": "exp-011",
+  "lastUpdated": "2026-04-27",
+  "isDemo": true
+ },
+ {
+  "id": "con-008",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 008] Secuencia declaración → hecho en energía",
+  "topics": [
+   "energia"
+  ],
+  "steps": [
+   {
+    "at": "2019-11-09",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-028",
+    "sources": [
+     "src-049"
+    ]
+   },
+   {
+    "at": "2019-06-12",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-012",
+    "sources": [
+     "src-012"
+    ]
+   },
+   {
+    "at": "2020-08-15",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-047",
+    "sources": [
+     "src-004"
+    ]
+   },
+   {
+    "at": "2020-01-15",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-058",
+    "sources": [
+     "src-013",
+     "src-054"
+    ]
+   },
+   {
+    "at": "2021-09-28",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-020",
+    "sources": [
+     "src-030",
+     "src-044"
+    ]
+   },
+   {
+    "at": "2021-12-22",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-025",
+    "sources": [
+     "src-055"
+    ]
+   }
+  ],
+  "evidence": "EN_INVESTIGACION",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "sources": [
+   "src-059",
+   "src-004"
+  ],
+  "dossier": "exp-020",
+  "lastUpdated": "2026-09-20",
+  "isDemo": true
+ },
+ {
+  "id": "con-009",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 009] Secuencia declaración → hecho en elecciones",
+  "topics": [
+   "elecciones"
+  ],
+  "steps": [
+   {
+    "at": "2019-05-14",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-028",
+    "sources": [
+     "src-056",
+     "src-013"
+    ]
+   },
+   {
+    "at": "2019-09-02",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-069",
+    "sources": [
+     "src-041",
+     "src-017"
+    ]
+   },
+   {
+    "at": "2020-06-03",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-075",
+    "sources": [
+     "src-050"
+    ]
+   },
+   {
+    "at": "2020-05-03",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-003",
+    "sources": [
+     "src-053",
+     "src-031"
+    ]
+   },
+   {
+    "at": "2021-07-08",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-089",
+    "sources": [
+     "src-022"
+    ]
+   },
+   {
+    "at": "2021-06-07",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-057",
+    "sources": [
+     "src-029"
+    ]
+   }
+  ],
+  "evidence": "CONTRADICCION_DOCUMENTADA",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "sources": [
+   "src-055",
+   "src-038",
+   "src-051",
+   "src-014"
+  ],
+  "dossier": "exp-022",
+  "lastUpdated": "2026-09-15",
+  "isDemo": true
+ },
+ {
+  "id": "con-010",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 010] Secuencia declaración → hecho en economía",
+  "topics": [
+   "economia"
+  ],
+  "steps": [
+   {
+    "at": "2020-06-27",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-010",
+    "sources": [
+     "src-053",
+     "src-001"
+    ]
+   },
+   {
+    "at": "2020-02-18",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-030",
+    "sources": [
+     "src-040",
+     "src-018"
+    ]
+   },
+   {
+    "at": "2021-10-15",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-095",
+    "sources": [
+     "src-038",
+     "src-022"
+    ]
+   },
+   {
+    "at": "2021-01-28",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-051",
+    "sources": [
+     "src-004",
+     "src-047"
+    ]
+   }
+  ],
+  "evidence": "NO_VERIFICABLE",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "sources": [
+   "src-019",
+   "src-022",
+   "src-018",
+   "src-050"
+  ],
+  "dossier": "exp-006",
+  "lastUpdated": "2026-08-20",
+  "isDemo": true
+ },
+ {
+  "id": "con-011",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 011] Secuencia declaración → hecho en inmigración",
+  "topics": [
+   "inmigracion"
+  ],
+  "steps": [
+   {
+    "at": "2019-11-24",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-057",
+    "sources": [
+     "src-005",
+     "src-023"
+    ]
+   },
+   {
+    "at": "2019-04-27",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-042",
+    "sources": [
+     "src-047",
+     "src-043"
+    ]
+   },
+   {
+    "at": "2020-05-03",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-040",
+    "sources": [
+     "src-044",
+     "src-037"
+    ]
+   },
+   {
+    "at": "2020-11-15",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-043",
+    "sources": [
+     "src-015",
+     "src-002"
+    ]
+   },
+   {
+    "at": "2021-11-02",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-036",
+    "sources": [
+     "src-059"
+    ]
+   },
+   {
+    "at": "2021-06-22",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-028",
+    "sources": [
+     "src-052"
+    ]
+   }
+  ],
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "No se ha localizado el material íntegro, solo el fragmento que circuló."
+  ],
+  "sources": [
+   "src-022",
+   "src-014",
+   "src-025",
+   "src-059"
+  ],
+  "dossier": null,
+  "lastUpdated": "2026-01-24",
+  "isDemo": true
+ },
+ {
+  "id": "con-012",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 012] Secuencia declaración → hecho en institucional",
+  "topics": [
+   "institucional"
+  ],
+  "steps": [
+   {
+    "at": "2021-02-14",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-087",
+    "sources": [
+     "src-059"
+    ]
+   },
+   {
+    "at": "2021-08-06",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-055",
+    "sources": [
+     "src-031"
+    ]
+   }
+  ],
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "No consta si las circunstancias cambiaron entre ambas fechas.",
+   "No se ha localizado el material íntegro, solo el fragmento que circuló."
+  ],
+  "sources": [
+   "src-044",
+   "src-052"
+  ],
+  "dossier": null,
+  "lastUpdated": "2026-04-09",
+  "isDemo": true
+ },
+ {
+  "id": "con-013",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 013] Secuencia declaración → hecho en educación",
+  "topics": [
+   "educacion"
+  ],
+  "steps": [
+   {
+    "at": "2020-02-09",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-053",
+    "sources": [
+     "src-014"
+    ]
+   },
+   {
+    "at": "2020-03-22",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-027",
+    "sources": [
+     "src-052"
+    ]
+   },
+   {
+    "at": "2021-11-19",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-081",
+    "sources": [
+     "src-023",
+     "src-032"
+    ]
+   },
+   {
+    "at": "2021-09-09",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-055",
+    "sources": [
+     "src-047"
+    ]
+   },
+   {
+    "at": "2022-09-15",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-075",
+    "sources": [
+     "src-011",
+     "src-025"
+    ]
+   },
+   {
+    "at": "2022-04-10",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-042",
+    "sources": [
+     "src-016"
+    ]
+   }
+  ],
+  "evidence": "NO_VERIFICABLE",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte.",
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "No se ha localizado el material íntegro, solo el fragmento que circuló."
+  ],
+  "sources": [
+   "src-042",
+   "src-051"
+  ],
+  "dossier": "exp-020",
+  "lastUpdated": "2026-03-09",
+  "isDemo": true
+ },
+ {
+  "id": "con-014",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 014] Secuencia declaración → hecho en política exterior",
+  "topics": [
+   "exterior"
+  ],
+  "steps": [
+   {
+    "at": "2020-08-22",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-072",
+    "sources": [
+     "src-048"
+    ]
+   },
+   {
+    "at": "2020-02-16",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-005",
+    "sources": [
+     "src-050",
+     "src-040"
+    ]
+   }
+  ],
+  "evidence": "RESPALDADO",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto.",
+   "No consta si las circunstancias cambiaron entre ambas fechas."
+  ],
+  "sources": [
+   "src-017",
+   "src-033",
+   "src-034"
+  ],
+  "dossier": null,
+  "lastUpdated": "2026-07-04",
+  "isDemo": true
+ },
+ {
+  "id": "con-015",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 015] Secuencia declaración → hecho en elecciones",
+  "topics": [
+   "elecciones"
+  ],
+  "steps": [
+   {
+    "at": "2021-03-19",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-020",
+    "sources": [
+     "src-032",
+     "src-044"
+    ]
+   },
+   {
+    "at": "2021-01-10",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-002",
+    "sources": [
+     "src-056",
+     "src-006"
+    ]
+   },
+   {
+    "at": "2022-01-03",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-045",
+    "sources": [
+     "src-009",
+     "src-036"
+    ]
+   },
+   {
+    "at": "2022-08-09",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-030",
+    "sources": [
+     "src-020",
+     "src-019"
+    ]
+   }
+  ],
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "sources": [
+   "src-025",
+   "src-030",
+   "src-047"
+  ],
+  "dossier": "exp-001",
+  "lastUpdated": "2026-09-03",
+  "isDemo": true
+ },
+ {
+  "id": "con-016",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 016] Secuencia declaración → hecho en empleo",
+  "topics": [
+   "empleo"
+  ],
+  "steps": [
+   {
+    "at": "2020-01-27",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-070",
+    "sources": [
+     "src-027",
+     "src-008"
+    ]
+   },
+   {
+    "at": "2020-05-14",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-081",
+    "sources": [
+     "src-007",
+     "src-018"
+    ]
+   },
+   {
+    "at": "2021-10-07",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-092",
+    "sources": [
+     "src-043"
+    ]
+   },
+   {
+    "at": "2021-08-09",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-071",
+    "sources": [
+     "src-037"
+    ]
+   },
+   {
+    "at": "2022-07-03",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-066",
+    "sources": [
+     "src-008",
+     "src-014"
+    ]
+   },
+   {
+    "at": "2022-09-15",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-033",
+    "sources": [
+     "src-054"
+    ]
+   }
+  ],
+  "evidence": "NO_VERIFICABLE",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "El hecho posterior pudo depender de factores ajenos a quien hizo la declaración.",
+   "La declaración admite más de una lectura y el análisis depende de cuál se adopte."
+  ],
+  "sources": [
+   "src-015",
+   "src-055",
+   "src-001"
+  ],
+  "dossier": "exp-003",
+  "lastUpdated": "2026-09-10",
+  "isDemo": true
+ },
+ {
+  "id": "con-017",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 017] Secuencia declaración → hecho en política exterior",
+  "topics": [
+   "exterior"
+  ],
+  "steps": [
+   {
+    "at": "2019-09-16",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-044",
+    "sources": [
+     "src-026",
+     "src-043"
+    ]
+   },
+   {
+    "at": "2019-01-09",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-044",
+    "sources": [
+     "src-025",
+     "src-003"
+    ]
+   },
+   {
+    "at": "2020-06-16",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-011",
+    "sources": [
+     "src-011"
+    ]
+   },
+   {
+    "at": "2020-04-09",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-084",
+    "sources": [
+     "src-055",
+     "src-023"
+    ]
+   }
+  ],
+  "evidence": "EVIDENCIA_INSUFICIENTE",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "sources": [
+   "src-043",
+   "src-017",
+   "src-030"
+  ],
+  "dossier": null,
+  "lastUpdated": "2026-01-18",
+  "isDemo": true
+ },
+ {
+  "id": "con-018",
+  "subject": "sub-001",
+  "title": "[CONTRADICCIÓN DEMO 018] Secuencia declaración → hecho en sanidad",
+  "topics": [
+   "sanidad"
+  ],
+  "steps": [
+   {
+    "at": "2019-12-28",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-045",
+    "sources": [
+     "src-047"
+    ]
+   },
+   {
+    "at": "2019-12-25",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-034",
+    "sources": [
+     "src-036"
+    ]
+   },
+   {
+    "at": "2020-02-16",
+    "side": "DIJO",
+    "label": "[DECLARACIÓN DEMO] Enunciado registrado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué se dijo exactamente y en qué contexto.",
+    "ref": "stm-091",
+    "sources": [
+     "src-010"
+    ]
+   },
+   {
+    "at": "2020-07-11",
+    "side": "OCURRIO",
+    "label": "[HECHO DEMO] Acontecimiento documentado en esta fecha.",
+    "detail": "[DETALLE DEMO] Qué ocurrió, según qué fuente y con qué alcance.",
+    "ref": "tml-014",
+    "sources": [
+     "src-016",
+     "src-059"
+    ]
+   }
+  ],
+  "evidence": "PARCIALMENTE_RESPALDADO",
+  "conclusion": "Con el material disponible en esta versión de demostración, lo que consta es que se registró una declaración en una fecha y un hecho documentado en otra posterior. El archivo describe esa secuencia y enlaza ambas fuentes. NO afirma que quien habló supiera lo que iba a ocurrir, ni que mintiera, ni que la segunda cosa desmienta la primera: para sostener cualquiera de esas tres cosas haría falta evidencia adicional que aquí no existe.",
+  "limitations": [
+   "No se ha localizado el material íntegro, solo el fragmento que circuló.",
+   "Falta contrastar con declaraciones intermedias sobre el mismo asunto."
+  ],
+  "sources": [
+   "src-005",
+   "src-026"
+  ],
+  "dossier": "exp-013",
+  "lastUpdated": "2026-06-24",
+  "isDemo": true
+ }
+]

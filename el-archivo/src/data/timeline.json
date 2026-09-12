@@ -1,0 +1,1527 @@
+[
+ {
+  "id": "tml-080",
+  "subject": "sub-001",
+  "date": "2019-01-05",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre otros.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "otros"
+  ],
+  "sources": [
+   "src-004",
+   "src-057",
+   "src-032"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-066",
+  "subject": "sub-001",
+  "date": "2019-02-26",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-028",
+   "src-018"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-084",
+  "subject": "sub-001",
+  "date": "2019-06-09",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre otros.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "otros"
+  ],
+  "sources": [
+   "src-043",
+   "src-017",
+   "src-044"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-007",
+  "subject": "sub-001",
+  "date": "2019-07-06",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-037"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-042",
+  "subject": "sub-001",
+  "date": "2019-08-18",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de empleo.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-037",
+   "src-020",
+   "src-028"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-050",
+  "subject": "sub-001",
+  "date": "2019-08-20",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-054"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-017",
+  "subject": "sub-001",
+  "date": "2019-09-24",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre institucional.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "institucional"
+  ],
+  "sources": [
+   "src-008",
+   "src-001",
+   "src-031"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-025",
+  "subject": "sub-001",
+  "date": "2019-10-23",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre cataluña.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-018",
+   "src-058",
+   "src-006"
+  ],
+  "relatedStatement": "stm-069",
+  "isDemo": true
+ },
+ {
+  "id": "tml-060",
+  "subject": "sub-001",
+  "date": "2019-11-07",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en institucional.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "institucional"
+  ],
+  "sources": [
+   "src-025",
+   "src-038"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-089",
+  "subject": "sub-001",
+  "date": "2020-02-24",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre inmigración.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "inmigracion"
+  ],
+  "sources": [
+   "src-033",
+   "src-012",
+   "src-003"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-001",
+  "subject": "sub-001",
+  "date": "2020-04-08",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-010",
+   "src-041"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-028",
+  "subject": "sub-001",
+  "date": "2020-05-13",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en política exterior.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "exterior"
+  ],
+  "sources": [
+   "src-017"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-005",
+  "subject": "sub-001",
+  "date": "2020-05-15",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-022"
+  ],
+  "relatedStatement": "stm-105",
+  "isDemo": true
+ },
+ {
+  "id": "tml-006",
+  "subject": "sub-001",
+  "date": "2020-06-01",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-008"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-022",
+  "subject": "sub-001",
+  "date": "2020-06-11",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en economía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "economia"
+  ],
+  "sources": [
+   "src-045",
+   "src-042"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-035",
+  "subject": "sub-001",
+  "date": "2020-06-25",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en cataluña.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-018"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-024",
+  "subject": "sub-001",
+  "date": "2020-07-06",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a sanidad.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "sanidad"
+  ],
+  "sources": [
+   "src-016",
+   "src-033",
+   "src-058"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-011",
+  "subject": "sub-001",
+  "date": "2020-09-20",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de empleo.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-015",
+   "src-034",
+   "src-027"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-087",
+  "subject": "sub-001",
+  "date": "2020-10-15",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-018"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-045",
+  "subject": "sub-001",
+  "date": "2021-02-05",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en empleo.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-010",
+   "src-022",
+   "src-059"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-018",
+  "subject": "sub-001",
+  "date": "2021-04-18",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre vivienda.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "vivienda"
+  ],
+  "sources": [
+   "src-051",
+   "src-034",
+   "src-058"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-059",
+  "subject": "sub-001",
+  "date": "2021-06-15",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a educación.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "educacion"
+  ],
+  "sources": [
+   "src-018",
+   "src-040",
+   "src-049"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-075",
+  "subject": "sub-001",
+  "date": "2021-07-08",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre institucional.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "institucional"
+  ],
+  "sources": [
+   "src-046"
+  ],
+  "relatedStatement": "stm-084",
+  "isDemo": true
+ },
+ {
+  "id": "tml-070",
+  "subject": "sub-001",
+  "date": "2021-08-06",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de vivienda.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "vivienda"
+  ],
+  "sources": [
+   "src-041"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-012",
+  "subject": "sub-001",
+  "date": "2021-09-10",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a economía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "economia"
+  ],
+  "sources": [
+   "src-015",
+   "src-032"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-068",
+  "subject": "sub-001",
+  "date": "2021-09-19",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-008",
+   "src-033",
+   "src-017"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-015",
+  "subject": "sub-001",
+  "date": "2021-09-21",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en política exterior.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "exterior"
+  ],
+  "sources": [
+   "src-016",
+   "src-027",
+   "src-033"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-063",
+  "subject": "sub-001",
+  "date": "2021-09-27",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-023",
+   "src-050"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-057",
+  "subject": "sub-001",
+  "date": "2021-11-04",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de sanidad.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "sanidad"
+  ],
+  "sources": [
+   "src-018"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-021",
+  "subject": "sub-001",
+  "date": "2021-12-08",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en política exterior.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "exterior"
+  ],
+  "sources": [
+   "src-038"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-071",
+  "subject": "sub-001",
+  "date": "2022-01-19",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre otros.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "otros"
+  ],
+  "sources": [
+   "src-044"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-065",
+  "subject": "sub-001",
+  "date": "2022-02-01",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre cataluña.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-046",
+   "src-024"
+  ],
+  "relatedStatement": "stm-015",
+  "isDemo": true
+ },
+ {
+  "id": "tml-083",
+  "subject": "sub-001",
+  "date": "2022-07-03",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre institucional.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "institucional"
+  ],
+  "sources": [
+   "src-044",
+   "src-021"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-072",
+  "subject": "sub-001",
+  "date": "2022-07-18",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a economía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "economia"
+  ],
+  "sources": [
+   "src-010",
+   "src-026",
+   "src-027"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-077",
+  "subject": "sub-001",
+  "date": "2022-08-02",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-019",
+   "src-041"
+  ],
+  "relatedStatement": "stm-011",
+  "isDemo": true
+ },
+ {
+  "id": "tml-016",
+  "subject": "sub-001",
+  "date": "2022-08-25",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-054"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-069",
+  "subject": "sub-001",
+  "date": "2022-08-26",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de economía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "economia"
+  ],
+  "sources": [
+   "src-035",
+   "src-043",
+   "src-044"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-019",
+  "subject": "sub-001",
+  "date": "2022-10-19",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-051"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-076",
+  "subject": "sub-001",
+  "date": "2022-10-26",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-038",
+   "src-031",
+   "src-030"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-036",
+  "subject": "sub-001",
+  "date": "2022-11-09",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-019"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-055",
+  "subject": "sub-001",
+  "date": "2022-11-14",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre otros.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "otros"
+  ],
+  "sources": [
+   "src-011",
+   "src-031"
+  ],
+  "relatedStatement": "stm-073",
+  "isDemo": true
+ },
+ {
+  "id": "tml-054",
+  "subject": "sub-001",
+  "date": "2022-12-13",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-033",
+   "src-020"
+  ],
+  "relatedStatement": "stm-008",
+  "isDemo": true
+ },
+ {
+  "id": "tml-023",
+  "subject": "sub-001",
+  "date": "2023-06-01",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-033",
+   "src-058"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-079",
+  "subject": "sub-001",
+  "date": "2023-06-11",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre cataluña.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-022",
+   "src-042"
+  ],
+  "relatedStatement": "stm-090",
+  "isDemo": true
+ },
+ {
+  "id": "tml-051",
+  "subject": "sub-001",
+  "date": "2023-06-23",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a política exterior.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "exterior"
+  ],
+  "sources": [
+   "src-010",
+   "src-059",
+   "src-046"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-074",
+  "subject": "sub-001",
+  "date": "2023-10-25",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-031",
+   "src-058",
+   "src-028"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-058",
+  "subject": "sub-001",
+  "date": "2023-12-03",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre educación.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "educacion"
+  ],
+  "sources": [
+   "src-050",
+   "src-051",
+   "src-013"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-033",
+  "subject": "sub-001",
+  "date": "2023-12-05",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a cataluña.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-013"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-047",
+  "subject": "sub-001",
+  "date": "2024-01-09",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-010"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-056",
+  "subject": "sub-001",
+  "date": "2024-01-12",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre vivienda.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "vivienda"
+  ],
+  "sources": [
+   "src-049",
+   "src-001"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-049",
+  "subject": "sub-001",
+  "date": "2024-02-07",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre política exterior.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "exterior"
+  ],
+  "sources": [
+   "src-004",
+   "src-007",
+   "src-044"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-064",
+  "subject": "sub-001",
+  "date": "2024-02-14",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre educación.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "educacion"
+  ],
+  "sources": [
+   "src-045",
+   "src-020"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-053",
+  "subject": "sub-001",
+  "date": "2024-02-25",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de institucional.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "institucional"
+  ],
+  "sources": [
+   "src-035"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-073",
+  "subject": "sub-001",
+  "date": "2024-02-25",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en elecciones.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "elecciones"
+  ],
+  "sources": [
+   "src-046"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-090",
+  "subject": "sub-001",
+  "date": "2024-03-14",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre empleo.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-047"
+  ],
+  "relatedStatement": "stm-021",
+  "isDemo": true
+ },
+ {
+  "id": "tml-040",
+  "subject": "sub-001",
+  "date": "2024-03-20",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre otros.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "otros"
+  ],
+  "sources": [
+   "src-031",
+   "src-025"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-027",
+  "subject": "sub-001",
+  "date": "2024-03-23",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre institucional.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "institucional"
+  ],
+  "sources": [
+   "src-059",
+   "src-049"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-052",
+  "subject": "sub-001",
+  "date": "2024-04-15",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-018",
+   "src-034"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-030",
+  "subject": "sub-001",
+  "date": "2024-06-08",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con vivienda.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "vivienda"
+  ],
+  "sources": [
+   "src-017",
+   "src-060",
+   "src-052"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-004",
+  "subject": "sub-001",
+  "date": "2024-06-25",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-038",
+   "src-025"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-081",
+  "subject": "sub-001",
+  "date": "2024-09-18",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre sanidad.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "sanidad"
+  ],
+  "sources": [
+   "src-052",
+   "src-039",
+   "src-013"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-062",
+  "subject": "sub-001",
+  "date": "2024-11-13",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en inmigración.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "inmigracion"
+  ],
+  "sources": [
+   "src-032",
+   "src-026"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-003",
+  "subject": "sub-001",
+  "date": "2024-12-19",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con cataluña.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-023"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-026",
+  "subject": "sub-001",
+  "date": "2025-03-16",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre elecciones.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "elecciones"
+  ],
+  "sources": [
+   "src-013",
+   "src-056",
+   "src-005"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-041",
+  "subject": "sub-001",
+  "date": "2025-03-21",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre vivienda.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "vivienda"
+  ],
+  "sources": [
+   "src-001",
+   "src-002"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-085",
+  "subject": "sub-001",
+  "date": "2025-04-19",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre educación.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "educacion"
+  ],
+  "sources": [
+   "src-024"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-008",
+  "subject": "sub-001",
+  "date": "2025-05-25",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a empleo.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-007"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-014",
+  "subject": "sub-001",
+  "date": "2025-06-06",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con elecciones.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "elecciones"
+  ],
+  "sources": [
+   "src-012",
+   "src-005"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-046",
+  "subject": "sub-001",
+  "date": "2025-06-27",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con empleo.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-050"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-078",
+  "subject": "sub-001",
+  "date": "2025-07-03",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en vivienda.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "vivienda"
+  ],
+  "sources": [
+   "src-008",
+   "src-058"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-013",
+  "subject": "sub-001",
+  "date": "2025-07-21",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en inmigración.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "inmigracion"
+  ],
+  "sources": [
+   "src-023",
+   "src-035"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-082",
+  "subject": "sub-001",
+  "date": "2025-07-25",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre otros.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "otros"
+  ],
+  "sources": [
+   "src-059",
+   "src-035",
+   "src-025"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-020",
+  "subject": "sub-001",
+  "date": "2025-11-25",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de sanidad.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "sanidad"
+  ],
+  "sources": [
+   "src-057",
+   "src-011"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-048",
+  "subject": "sub-001",
+  "date": "2026-01-05",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a inmigración.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "inmigracion"
+  ],
+  "sources": [
+   "src-023",
+   "src-011"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-043",
+  "subject": "sub-001",
+  "date": "2026-02-28",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-054",
+   "src-006"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-002",
+  "subject": "sub-001",
+  "date": "2026-03-02",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con empleo.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-021",
+   "src-015"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-010",
+  "subject": "sub-001",
+  "date": "2026-03-26",
+  "kind": "DECLARACION",
+  "title": "[HITO DEMO] Se registra una declaración pública sobre empleo.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "empleo"
+  ],
+  "sources": [
+   "src-029",
+   "src-008"
+  ],
+  "relatedStatement": "stm-021",
+  "isDemo": true
+ },
+ {
+  "id": "tml-037",
+  "subject": "sub-001",
+  "date": "2026-05-03",
+  "kind": "PUBLICACION",
+  "title": "[HITO DEMO] Se publica un dato o informe oficial sobre institucional.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "institucional"
+  ],
+  "sources": [
+   "src-024"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-029",
+  "subject": "sub-001",
+  "date": "2026-05-18",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-003",
+   "src-017"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-032",
+  "subject": "sub-001",
+  "date": "2026-05-26",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-025",
+   "src-052",
+   "src-007"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-034",
+  "subject": "sub-001",
+  "date": "2026-08-08",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de cataluña.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-051"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-031",
+  "subject": "sub-001",
+  "date": "2026-08-10",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a energía.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "energia"
+  ],
+  "sources": [
+   "src-007",
+   "src-051",
+   "src-040"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-009",
+  "subject": "sub-001",
+  "date": "2026-09-05",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de inmigración.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "inmigracion"
+  ],
+  "sources": [
+   "src-039"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-044",
+  "subject": "sub-001",
+  "date": "2026-09-24",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en sanidad.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "sanidad"
+  ],
+  "sources": [
+   "src-030",
+   "src-007"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-067",
+  "subject": "sub-001",
+  "date": "2026-09-28",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con justicia.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "justicia"
+  ],
+  "sources": [
+   "src-027",
+   "src-006"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-061",
+  "subject": "sub-001",
+  "date": "2026-10-16",
+  "kind": "MEDIDA",
+  "title": "[HITO DEMO] Entra en vigor una medida en materia de otros.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "otros"
+  ],
+  "sources": [
+   "src-044"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-038",
+  "subject": "sub-001",
+  "date": "2026-10-20",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en educación.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "educacion"
+  ],
+  "sources": [
+   "src-019"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-088",
+  "subject": "sub-001",
+  "date": "2026-11-23",
+  "kind": "HECHO",
+  "title": "[HITO DEMO] Ocurre un hecho documentado relacionado con cataluña.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "cataluna"
+  ],
+  "sources": [
+   "src-001"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-086",
+  "subject": "sub-001",
+  "date": "2026-12-01",
+  "kind": "DECISION",
+  "title": "[HITO DEMO] Se adopta una decisión con efecto en política exterior.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "exterior"
+  ],
+  "sources": [
+   "src-018",
+   "src-044"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ },
+ {
+  "id": "tml-039",
+  "subject": "sub-001",
+  "date": "2026-12-23",
+  "kind": "RESOLUCION",
+  "title": "[HITO DEMO] Un organismo publica una resolución que afecta a elecciones.",
+  "detail": "[DETALLE DEMO] Descripción del acontecimiento, con enlace a la fuente que lo acredita.",
+  "topics": [
+   "elecciones"
+  ],
+  "sources": [
+   "src-046"
+  ],
+  "relatedStatement": null,
+  "isDemo": true
+ }
+]
