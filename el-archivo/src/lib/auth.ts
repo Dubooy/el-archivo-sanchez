@@ -5,7 +5,7 @@ import GitHub from "next-auth/providers/github";
 import Nodemailer from "next-auth/providers/nodemailer";
 import Credentials from "next-auth/providers/credentials";
 import { prisma } from "@/lib/prisma";
-import { handleDesde } from "@/lib/utils";
+
 /* ============================================================
    AUTENTICACIÓN  ·  Auth.js (NextAuth v5)
    ============================================================ */
@@ -30,18 +30,6 @@ export const DEV_LOGIN =
   process.env.NODE_ENV !== "production" && process.env.AUTH_DEV_LOGIN === "1";
 
 export const AUTH_READY = hayCorreo || hayGoogle || hayGitHub || DEV_LOGIN;
-
-function handleDesde(email: string | null | undefined, fallback: string): string {
-  const base = (email?.split("@")[0] ?? fallback)
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9_]/g, "_")
-    .replace(/_+/g, "_")
-    .slice(0, 20)
-    .replace(/^_|_$/g, "");
-  return `@${base || "usuario"}`;
-}
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
@@ -88,32 +76,24 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       : []),
   ],
 
- callbacks: {
-          async jwt({ token, user }) {
-            if (user) {
-              token.uid = user.id;
-            }
-            return token;
-          },
-
-          async session({ session, token }) {
-            session.user = {
-              ...session.user,
-              id: String(token.uid ?? ""),
-              handle: String(token.handle ?? "@usuario"),
-              role: (token.role as "USUARIO" | "MODERADOR" | "EDITOR" | "ADMIN") ?? "USUARIO",
-              suspended: Boolean(token.suspended),
-              // Nunca se expone el nombre ni la imagen del proveedor: la
-              // identidad pública de esta plataforma es el apodo.
-              name: null,
-              image: null,
-            };
-            return session;
-          },
-        },
-        events: {
-          async signIn({ user }) {
-            // Lógica adicional de eventos si la hay
-          },
-        },
-      });
+  callbacks: {
+    async jwt({ token, user }) {
+      if (user) {
+        token.uid = user.id;
+      }
+      return token;
+    },
+    async session({ session, token }) {
+      session.user = {
+        ...session.user,
+        id: String(token.uid ?? ""),
+        handle: String(token.handle ?? "@usuario"),
+        role: (token.role as "USUARIO" | "MODERADOR" | "EDITOR" | "ADMIN") ?? "USUARIO",
+        suspended: Boolean(token.suspended),
+        name: null,
+        image: null,
+      };
+      return session;
+    },
+  },
+});
