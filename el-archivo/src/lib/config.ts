@@ -112,9 +112,9 @@ export const OWNER = {
    ninguna red: solo se ve el espacio reservado.
    ------------------------------------------------------------------ */
 export const ADS = {
-  enabled: false,
+  enabled: true,
   /** Tu identificador de editor, del tipo "ca-pub-0000000000000000". */
-  client: "",
+  client: "ca-pub-7695737287402431",
   /** Identificadores de bloque que te da la red publicitaria. */
   slots: { leaderboard: "", rectangle: "", rail: "" },
 } as const;
