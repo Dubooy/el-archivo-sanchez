@@ -88,96 +88,32 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       : []),
   ],
 
-  callbacks: {
-    async signIn({ user, profile }) {
-      // 1. Bloquear acceso si el usuario está suspendido o eliminado
-      if (user?.id) {
-        const row = await prisma.user.findUnique({ where: { id: user.id } });
-        if (row?.suspendedAt || row?.deletedAt) return false;
-      }
+ callbacks: {
+          async jwt({ token, user }) {
+            if (user) {
+              token.uid = user.id;
+            }
+            return token;
+          },
 
-      // 2. Sincronizar nombre y foto del proveedor OAuth (Google/GitHub) en la BD
-      if (profile && user.email) {
-        try {
-          await prisma.user.update({
-            where: { email: user.email },
-            data: {
-              name: profile.name ?? user.name,
-              image: (profile.picture as string) ?? profile.avatar_url ?? user.image,
-            },
-          });
-        } catch (e) {
-          // Si el usuario aún no existe (primer login), el adapter lo creará automáticamente
-        }
-      }
-
-      return true;
-    },
-
-    async jwt({ token, user, trigger }) {
-      if (user?.id) token.uid = user.id;
-      if (token.uid && (trigger === "signIn" || trigger === "update" || !token.handle)) {
-        const row = await prisma.user.findUnique({
-          where: { id: String(token.uid) },
-          select: { handle: true, role: true, suspendedAt: true },
-        });
-        token.handle = row?.handle ?? "@usuario";
-        token.role = row?.role ?? "USUARIO";
-        token.suspended = Boolean(row?.suspendedAt);
-      }
-      return token;
-    },
-
-    async session({ session, token }) {
-      if (token.uid && session.user) {
-        session.user.id = String(token.uid);
-        session.user.handle = String(token.handle ?? "@usuario");
-        session.user.role = (token.role as any) ?? "USUARIO";
-        session.user.suspended = Boolean(token.suspended);
-      }
-      return session;
-    },
-  },
-});
-      }
-      return token;
-    },
-
-    async session({ session, token }) {
-      session.user = {
-        ...session.user,
-        id: String(token.uid ?? ""),
-        handle: String(token.handle ?? "@usuario"),
-        role: (token.role as "USUARIO" | "MODERADOR" | "EDITOR" | "ADMIN") ?? "USUARIO",
-        suspended: Boolean(token.suspended),
-        // Nunca se expone el nombre ni la imagen del proveedor: la
-        // identidad pública de esta plataforma es el apodo.
-        name: null,
-        image: null,
-      };
-      return session;
-    },
-  },
-
-  events: {
-    /** Auth.js crea la fila sin saber de nuestro `handle` (por eso el
-        campo lleva valor por defecto). Aquí se sustituye por un apodo
-        legible, garantizando que no choque con otro. */
-    async createUser({ user }) {
-      if (!user.id) return;
-      const base = handleDesde(user.email, user.id.slice(0, 6));
-      let candidato = base;
-      for (let i = 2; i < 50; i++) {
-        const ocupado = await prisma.user.findUnique({ where: { handle: candidato } });
-        if (!ocupado) break;
-        candidato = `${base}_${i}`;
-      }
-      await prisma.user.update({
-        where: { id: user.id },
-        // El nombre y la imagen del proveedor se descartan: no se
-        // guarda lo que no se va a usar (minimización, art. 5.1.c).
-        data: { handle: candidato, name: null, image: null },
+          async session({ session, token }) {
+            session.user = {
+              ...session.user,
+              id: String(token.uid ?? ""),
+              handle: String(token.handle ?? "@usuario"),
+              role: (token.role as "USUARIO" | "MODERADOR" | "EDITOR" | "ADMIN") ?? "USUARIO",
+              suspended: Boolean(token.suspended),
+              // Nunca se expone el nombre ni la imagen del proveedor: la
+              // identidad pública de esta plataforma es el apodo.
+              name: null,
+              image: null,
+            };
+            return session;
+          },
+        },
+        events: {
+          async signIn({ user }) {
+            // Lógica adicional de eventos si la hay
+          },
+        },
       });
-    },
-  },
-});
