@@ -1,5 +1,5 @@
-import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import type { Metadata, Viewport } from "next";
 import { SessionProvider } from "next-auth/react";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
@@ -68,16 +68,17 @@ export const viewport: Viewport = {
 };
 
 /* Se ejecuta antes de pintar: si el visitante eligió el tema oscuro en
-   una visita anterior, se aplica ya, y no hay destello blanco. El tema
-   claro es el principal, así que sin elección guardada no se toca nada. */
+    una visita anterior, se aplica ya, y no hay destello blanco. El tema
+    claro es el principal, así que sin elección guardada no se toca nada. */
 const THEME_SCRIPT = `(function(){try{var t=localStorage.getItem("el-archivo:theme");if(t==="dark"){document.documentElement.setAttribute("data-theme","dark")}}catch(e){}})();`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
-      </head>
+     <head>
+  <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+  <meta name="google-adsense-account" content="ca-pub-7695737287402431" />
+</head>
       <body className="min-h-screen antialiased">
         {/* La sesión se resuelve en el cliente: si la leyera aquí, el
             archivo entero dejaría de poder cachearse solo por pintar
