@@ -8,21 +8,6 @@ import { prisma } from "./prisma";
 
 /* ============================================================
    AUTENTICACIÓN  ·  Auth.js (NextAuth v5)
-   ------------------------------------------------------------
-   Tres formas de entrar, y las tres acaban en la misma tabla:
-
-     · Enlace mágico por correo — sin contraseñas que robar.
-     · Google y GitHub — un clic, para quien ya tenga cuenta.
-     · Acceso de desarrollo — SOLO fuera de producción, para poder
-       probar el circuito completo sin montar un servidor de correo.
-
-   Cada proveedor se activa solo si están sus variables de entorno.
-   Así el proyecto arranca desde el primer minuto y vas añadiendo
-   formas de acceso a medida que las configuras.
-
-   IDENTIDAD PÚBLICA: de una cuenta solo se muestra el `handle`.
-   Ni el correo, ni el nombre real, ni la foto del proveedor. Es lo
-   que promete la política de privacidad y aquí es donde se cumple.
    ============================================================ */
 
 /** Lo que añadimos a la sesión además de lo que trae Auth.js. */
@@ -40,23 +25,17 @@ declare module "next-auth" {
 const hayCorreo = Boolean(process.env.AUTH_EMAIL_SERVER && process.env.AUTH_EMAIL_FROM);
 const hayGoogle = Boolean(process.env.AUTH_GOOGLE_ID && process.env.AUTH_GOOGLE_SECRET);
 const hayGitHub = Boolean(process.env.AUTH_GITHUB_ID && process.env.AUTH_GITHUB_SECRET);
-/** El acceso de desarrollo NUNCA se enciende en producción, aunque
-    la variable esté puesta por error. Dos condiciones, no una. */
+
 export const DEV_LOGIN =
   process.env.NODE_ENV !== "production" && process.env.AUTH_DEV_LOGIN === "1";
 
-/** ¿Se puede entrar de alguna forma? Lo usan las pantallas para
-    explicar qué falta en lugar de enseñar un botón que no lleva
-    a ningún sitio. */
 export const AUTH_READY = hayCorreo || hayGoogle || hayGitHub || DEV_LOGIN;
 
-/** Apodo legible a partir del correo, sin revelarlo entero.
-    «maria.lopez@ejemplo.com» → «@maria_lopez». */
 function handleDesde(email: string | null | undefined, fallback: string): string {
   const base = (email?.split("@")[0] ?? fallback)
     .toLowerCase()
     .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9_]/g, "_")
     .replace(/_+/g, "_")
     .slice(0, 20)
@@ -67,16 +46,10 @@ function handleDesde(email: string | null | undefined, fallback: string): string
 export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
 
-  /* Sesión por JWT y no por tabla: es lo único compatible con el
-     acceso de desarrollo (Auth.js no admite el proveedor de
-     credenciales con sesiones en base de datos). Si algún día quitas
-     ese proveedor, puedes pasar a `strategy: "database"` y usar la
-     tabla `sessions`, que ya existe en el esquema. */
   session: { strategy: "jwt", maxAge: 30 * 24 * 60 * 60 },
 
   pages: { signIn: "/acceder", verifyRequest: "/acceder?revisa=1", error: "/acceder" },
 
-  // Necesario al desplegar detrás de un proxy (Vercel, Nginx…).
   trustHost: true,
 
   providers: [
@@ -85,8 +58,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           Nodemailer({
             server: process.env.AUTH_EMAIL_SERVER!,
             from: process.env.AUTH_EMAIL_FROM!,
-            // 15 minutos: suficiente para abrir el correo, poco para
-            // que un enlace filtrado siga sirviendo.
             maxAge: 15 * 60,
           }),
         ]
@@ -104,8 +75,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             name: "Acceso de desarrollo",
             credentials: { handle: { label: "Apodo de un usuario existente", type: "text" } },
             async authorize(credenciales) {
-              // Guardia redundante a propósito: si este código llegara
-              // a producción por un despiste, no autentica a nadie.
               if (process.env.NODE_ENV === "production") return null;
               const handle = String(credenciales?.handle ?? "").trim();
               if (!handle) return null;
@@ -120,18 +89,31 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   ],
 
   callbacks: {
-    /** Un usuario suspendido no inicia sesión. Conserva su historial;
-        lo que pierde es la capacidad de escribir. */
-    async signIn({ user }) {
-      if (!user?.id) return true;
-      const row = await prisma.user.findUnique({ where: { id: user.id } });
-      if (row?.suspendedAt) return false;
-      if (row?.deletedAt) return false;
+    async signIn({ user, profile }) {
+      // 1. Bloquear acceso si el usuario está suspendido o eliminado
+      if (user?.id) {
+        const row = await prisma.user.findUnique({ where: { id: user.id } });
+        if (row?.suspendedAt || row?.deletedAt) return false;
+      }
+
+      // 2. Sincronizar nombre y foto del proveedor OAuth (Google/GitHub) en la BD
+      if (profile && user.email) {
+        try {
+          await prisma.user.update({
+            where: { email: user.email },
+            data: {
+              name: profile.name ?? user.name,
+              image: (profile.picture as string) ?? profile.avatar_url ?? user.image,
+            },
+          });
+        } catch (e) {
+          // Si el usuario aún no existe (primer login), el adapter lo creará automáticamente
+        }
+      }
+
       return true;
     },
 
-    /** El apodo y el papel viajan en el token para no consultar la
-        base de datos en cada petición. */
     async jwt({ token, user, trigger }) {
       if (user?.id) token.uid = user.id;
       if (token.uid && (trigger === "signIn" || trigger === "update" || !token.handle)) {
@@ -142,6 +124,21 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         token.handle = row?.handle ?? "@usuario";
         token.role = row?.role ?? "USUARIO";
         token.suspended = Boolean(row?.suspendedAt);
+      }
+      return token;
+    },
+
+    async session({ session, token }) {
+      if (token.uid && session.user) {
+        session.user.id = String(token.uid);
+        session.user.handle = String(token.handle ?? "@usuario");
+        session.user.role = (token.role as any) ?? "USUARIO";
+        session.user.suspended = Boolean(token.suspended);
+      }
+      return session;
+    },
+  },
+});
       }
       return token;
     },
