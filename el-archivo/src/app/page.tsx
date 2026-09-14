@@ -46,12 +46,7 @@ export default async function Home() {
 
   return (
     <>
-      {/* ============================== HERO ==============================
-          El título masivo y el panel «Cómo leer esta web» conviven en la
-          misma pantalla a propósito: entender las tres capas es parte de
-          la portada, no una página secundaria ni un modal que se cierra
-          sin leer. En móvil el panel va justo debajo del título.
-          =================================================================== */}
+      {/* ============================== HERO ============================== */}
       <section className="w-full max-w-full overflow-x-clip border-b-[1.5px] border-[var(--edge)] bg-[var(--paper)]">
         <div className="wrap w-full max-w-full px-4 py-10 sm:px-8 sm:py-14 lg:py-16">
           <div className="grid w-full max-w-full min-w-0 gap-10 lg:grid-cols-[1.35fr_1fr] lg:items-center lg:gap-12">
@@ -62,8 +57,6 @@ export default async function Home() {
                 </span>
               </div>
 
-              {/* Fluido en móvil: mínimo 2rem + 8vw para que nunca desborde
-                  ni corte palabras; en escritorio crece hasta 10rem. */}
               <h1 className="display mt-6 w-full max-w-full animate-fade-up break-words text-[clamp(2rem,8vw,10rem)] leading-[0.95] [overflow-wrap:anywhere]">
                 El Archivo
                 <br />
@@ -91,9 +84,6 @@ export default async function Home() {
               </div>
             </div>
 
-            {/* En móvil se apila fluido debajo del título sin pisarlo ni
-                salirse de márgenes; en escritorio va centrado vertical y
-                horizontalmente en el hueco derecho. */}
             <aside className="card-flat mx-0 mt-2 w-full max-w-full min-w-0 self-center justify-self-stretch overflow-hidden shadow-brut sm:mt-0 lg:mx-auto lg:max-w-[420px] lg:justify-self-center">
               <div className="flex items-center justify-between gap-3 border-b-[1.5px] border-[var(--edge)] bg-[var(--ink)] px-4 py-2.5">
                 <span className="font-mono text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--paper)]">
@@ -183,8 +173,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Hueco publicitario entre secciones: nunca sobre el contenido, con
-          su altura reservada y sin cargar nada sin consentimiento. */}
+      {/* Hueco publicitario entre secciones */}
       <div className="wrap py-8">
         <AdSlot format="leaderboard" />
       </div>
@@ -255,7 +244,6 @@ export default async function Home() {
               }))}
             />
 
-            {/* CAMBIOS (§39) */}
             <div className="card p-5 sm:p-6">
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <h3 className="text-[13px] font-semibold">↻ Expedientes actualizados</h3>
@@ -343,39 +331,6 @@ export default async function Home() {
             <PromiseChart counts={stats.promiseCounts} />
             <TopicChart data={stats.topicCounts.slice(0, 8)} />
           </div>
-        </div>
-      </section>
-
-      {/* ============================= SUJETOS =========================== */}
-      <section className="border-b" aria-labelledby="sujetos-home">
-        <div className="wrap py-14 sm:py-18">
-          <SectionHead
-            index="05"
-            title="El sujeto del archivo"
-            note="Quién es el sujeto documentado, qué periodo cubre el archivo y qué material hay sobre él ahora mismo."
-            href="/sujetos"
-          />
-          <div className="grid gap-px bg-[var(--line)] sm:grid-cols-3">
-            {subjects.map((s) => (
-              <Link
-                key={s.id}
-                href={`/sujetos#${s.slug}`}
-                className="bg-[var(--panel)] p-5 transition-colors hover:bg-[var(--panel-2)]"
-              >
-                <div className="flex items-start justify-between gap-3">
-                  <Label tone={s.status === "activo" ? "red" : "mute"}>
-                    {s.status === "activo" ? "Documentado" : "Hueco reservado"}
-                  </Label>
-                </div>
-                <p className="headline mt-3 text-[16px]">{s.name}</p>
-                <p className="mt-1 text-[12px] text-[var(--ink-3)]">{s.role}</p>
-                <p className="mt-3 text-[12px] leading-[1.65] text-[var(--ink-3)]">{s.note}</p>
-              </Link>
-            ))}
-          </div>
-          <p className="mt-4 font-mono text-[10px] uppercase tracking-[0.12em] text-[var(--ink-3)]">
-            Archivo de sujeto único · todo el material se refiere a esta ficha
-          </p>
         </div>
       </section>
 
