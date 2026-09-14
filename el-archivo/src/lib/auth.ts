@@ -4,8 +4,8 @@ import Google from "next-auth/providers/google";
 import GitHub from "next-auth/providers/github";
 import Nodemailer from "next-auth/providers/nodemailer";
 import Credentials from "next-auth/providers/credentials";
-import { prisma } from "./prisma";
-
+import { prisma } from "@/lib/prisma";
+import { handleDesde } from "@/lib/utils";
 /* ============================================================
    AUTENTICACIÓN  ·  Auth.js (NextAuth v5)
    ============================================================ */
