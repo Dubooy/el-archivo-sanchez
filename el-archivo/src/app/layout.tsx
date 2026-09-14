@@ -8,7 +8,9 @@ import { AutoScroll } from "@/components/AutoScroll";
 import { CookieBanner } from "@/components/CookieBanner";
 import { SITE } from "@/lib/config";
 
-export const SITE_URL = SITE.url;
+// Base absoluta segura: nunca vacía ni undefined durante el build.
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? SITE.url ?? "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

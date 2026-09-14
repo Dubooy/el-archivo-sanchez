@@ -96,7 +96,7 @@ export async function enviarAportacion(_prev: Resultado | null, formData: FormDa
     MODERATION.escalate,
   );
 
-  const creada = await prisma.submission.create({
+  await prisma.submission.create({
     data: {
       kind,
       subjectId,
@@ -124,8 +124,7 @@ export async function enviarAportacion(_prev: Resultado | null, formData: FormDa
   return exito(
     escalated
       ? "Recibido. Como menciona responsabilidad penal, pasa a revisión reforzada antes que el resto."
-      : "Recibido. Queda PENDIENTE: nadie lo ve hasta que un moderador lo acepte.",
-    creada,
+      : "Recibido. Queda PENDIENTE: nadie lo ve hasta que un moderador lo acepte."
   );
 }
 
@@ -157,7 +156,7 @@ export async function enviarComentario(_prev: Resultado | null, formData: FormDa
 
   const escalated = needsEscalation(text, MODERATION.escalate);
 
-  const creado = await prisma.comment.create({
+  await prisma.comment.create({
     data: {
       dossierId,
       byId: user.id,
@@ -177,8 +176,7 @@ export async function enviarComentario(_prev: Resultado | null, formData: FormDa
   return exito(
     escalated
       ? "Enviado. Menciona responsabilidad penal, así que va a revisión reforzada."
-      : "Enviado. Se publicará cuando un moderador lo acepte.",
-    creado,
+      : "Enviado. Se publicará cuando un moderador lo acepte."
   );
 }
 
@@ -205,14 +203,14 @@ export async function enviarContraevidencia(
   const url = enlace(formData, "url", { obligatorio: true, etiqueta: "Enlace al material" });
   if (esFallo(url)) return url;
 
-  const creada = await prisma.counterEvidence.create({
+  await prisma.counterEvidence.create({
     data: { dossierId, byId: user.id, kind, text, url, reviewState: "PENDIENTE" },
     select: { id: true },
   });
 
   revalidatePath(`/expedientes/${dossierId}`);
   revalidatePath("/moderacion");
-  return exito("Recibida. Si resiste la comprobación, se incorpora al expediente.", creada);
+  return exito("Recibida. Si resiste la comprobación, se incorpora al expediente.");
 }
 
 export async function enviarCorreccion(_prev: Resultado | null, formData: FormData): Promise<Resultado> {
@@ -235,7 +233,7 @@ export async function enviarCorreccion(_prev: Resultado | null, formData: FormDa
   const sourceUrl = enlace(formData, "sourceUrl", { obligatorio: true, etiqueta: "Fuente" });
   if (esFallo(sourceUrl)) return sourceUrl;
 
-  const creada = await prisma.correction.create({
+  await prisma.correction.create({
     data: {
       targetType: targetId.split("-")[0] === "exp" ? "dossier" : "registro",
       targetId,
@@ -251,7 +249,7 @@ export async function enviarCorreccion(_prev: Resultado | null, formData: FormDa
 
   revalidatePath("/moderacion");
   revalidatePath("/comunidad");
-  return exito("Anotada. Si se confirma, la corrección queda visible en el historial.", creada);
+  return exito("Anotada. Si se confirma, la corrección queda visible en el historial.");
 }
 
 /* ------------------------------------------------------------------

@@ -1,6 +1,11 @@
 import { ImageResponse } from "next/og";
 import { SITE } from "@/lib/config";
 
+// No prerenderizar en el build: @vercel/og intentaba resolver/descargar
+// una tipografía por defecto con fetch y rompía con Invalid URL.
+// En dinámico se genera a petición, sin llamadas de red en build.
+export const dynamic = "force-dynamic";
+
 export const alt = `${SITE.name} — ${SITE.tagline}`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
