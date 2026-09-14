@@ -210,6 +210,15 @@ export function Nav() {
                   <span className="font-mono text-[10px] text-[var(--ink-3)]">Cómo funciona</span>
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/colaborar"
+                  className="flex items-baseline justify-between py-3 transition-all duration-200 ease-out hover:translate-x-1"
+                >
+                  <span className="font-mono text-[12px] uppercase tracking-[0.12em]">Colaborar</span>
+                  <span className="font-mono text-[10px] text-[var(--ink-3)]">Sé editor o moderador</span>
+                </Link>
+              </li>
             </ul>
             <Link href="/aportar" className="btn-red mt-5 w-full justify-center">
               + Añadir al archivo
