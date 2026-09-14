@@ -10,7 +10,7 @@ export const SITE = {
   name: "EL ARCHIVO SÁNCHEZ",
   tagline: "Pedro Sánchez bajo lupa",
   motto: "Documentar. Contrastar. Debatir.",
-  url: "https://el-archivo-sanchez.example.org",
+  url: "https://elarchivosanchez.vercel.app",
   intro:
     "Un archivo independiente y colaborativo para recopilar declaraciones, promesas, contradicciones y fuentes relacionadas con la actividad política de Pedro Sánchez. Cada registro enlaza a su origen. Cada conclusión se puede discutir y corregir, y la plataforma te enseña siempre en qué se apoya.",
   independence:
