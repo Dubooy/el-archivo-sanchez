@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { getSubjects } from "@/lib/data";
 import { currentUser } from "@/lib/session";
 import { LayerTag, Notice, PageHead } from "@/components/primitives";
 import { SubmitForm } from "@/components/SubmitForm";
@@ -14,7 +13,6 @@ export const metadata: Metadata = {
 };
 
 export default async function AportarPage() {
-  const subjects = await getSubjects();
   const yo = await currentUser();
 
   return (
@@ -48,7 +46,7 @@ export default async function AportarPage() {
           </Notice>
         </div>
 
-        <SubmitForm subjects={subjects} sesion={yo ? { handle: yo.handle } : null} />
+        <SubmitForm sesion={yo ? { handle: yo.handle } : null} />
       </div>
     </>
   );

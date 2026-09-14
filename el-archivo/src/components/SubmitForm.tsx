@@ -2,7 +2,7 @@
 
 import { useActionState, useState } from "react";
 import Link from "next/link";
-import type { SubmissionKind, Subject } from "@/lib/types";
+import type { SubmissionKind } from "@/lib/types";
 import { SUBMISSION_KIND } from "@/lib/format";
 import { MODERATION } from "@/lib/config";
 import { needsEscalation } from "@/lib/moderation";
@@ -26,10 +26,8 @@ import { Aviso, BotonEnviar, CamposAntispam, HaceFaltaSesion } from "./ActionFor
 const KINDS = Object.keys(SUBMISSION_KIND) as SubmissionKind[];
 
 export function SubmitForm({
-  subjects,
   sesion,
 }: {
-  subjects: Subject[];
   /** Lo resuelve el servidor. Sin sesión no se enseña el formulario:
       es más honesto que dejar escribir y rechazarlo al final. */
   sesion: { handle: string } | null;
@@ -127,19 +125,6 @@ export function SubmitForm({
         </div>
 
         <div className="mt-6 grid gap-5">
-          <div>
-            <label htmlFor="subject" className="label block">
-              Sobre quién
-            </label>
-            <select id="subject" name="subject" className="field mt-2 block" defaultValue={subjects[0]?.id}>
-              {subjects.map((s) => (
-                <option key={s.id} value={s.id}>
-                  {s.name} — {s.role}
-                </option>
-              ))}
-            </select>
-          </div>
-
           <div>
             <label htmlFor="title" className="label block">
               Título breve

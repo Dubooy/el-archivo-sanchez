@@ -40,6 +40,11 @@ import {
    humana, siempre.
    ============================================================ */
 
+// Toda la plataforma documenta un único sujeto: no se elige en el
+// formulario, es siempre este.
+const DEFAULT_SUBJECT_SLUG = "pedro-sanchez";
+const DEFAULT_SUBJECT_NAME = "Pedro Sánchez";
+
 const STANCES = ["A_FAVOR", "EN_CONTRA", "FALTA_CONTEXTO", "APORTO_FUENTE", "DETECTO_ERROR"] as const;
 const COUNTER_KINDS = ["video", "declaracion", "documento", "noticia", "dato", "explicacion"] as const;
 const SUBMISSION_KINDS = [
@@ -67,9 +72,26 @@ export async function enviarAportacion(_prev: Resultado | null, formData: FormDa
   const kind = opcion(formData, "kind", SUBMISSION_KINDS, "Tipo");
   if (esFallo(kind)) return kind;
 
-  const subjectId = String(formData.get("subject") ?? "");
-  const sujeto = await prisma.subject.findUnique({ where: { id: subjectId } });
-  if (!sujeto) return fallo("El sujeto indicado no existe.", "subject");
+  // Toda la plataforma documenta un único sujeto: no se pide en el
+  // formulario, se fija aquí. Si por lo que sea la ficha no existe
+  // todavía (instalación nueva sin seed), se crea con estos datos
+  // fijos en vez de bloquear el envío.
+  let sujeto = await prisma.subject.findUnique({ where: { slug: DEFAULT_SUBJECT_SLUG } });
+  if (!sujeto) {
+    sujeto = await prisma.subject.create({
+      data: {
+        slug: DEFAULT_SUBJECT_SLUG,
+        name: DEFAULT_SUBJECT_NAME,
+        role: "Presidente del Gobierno de España",
+        party: "PSOE",
+        from: new Date("2018-06-02"),
+        status: "activo",
+        note: "Sujeto del archivo.",
+        isDemo: true,
+      },
+    });
+  }
+  const subjectId = sujeto.id;
 
   const title = texto(formData, "title", { min: 8, max: 180, etiqueta: "Título" });
   if (esFallo(title)) return title;
