@@ -30,6 +30,7 @@ const COLS = [
     links: [
       ["/aportar", "Añadir al archivo"],
       ["/comunidad", "Comunidad y debate"],
+      ["/colaborar", "Ser moderador o editor"],
       ["/moderacion", "Cola de moderación"],
       ["/metodologia", "Metodología"],
       ["/metodologia#correcciones", "Proponer una corrección"],
