@@ -76,10 +76,53 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       : []),
   ],
 
+  events: {
+    /** Deriva un @apodo legible del correo y quita nombre/foto reales
+        (RGPD, art. 5.1.c): Auth.js crea la fila sin saber de este campo,
+        así que la sustituye acto seguido por uno de verdad. */
+    async createUser({ user }) {
+      if (!user.email) return;
+      const base =
+        user.email
+          .split("@")[0]
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[̀-ͯ]/g, "")
+          .replace(/[^a-z0-9_]/g, "")
+          .slice(0, 20) || "usuario";
+
+      let handle = `@${base}`;
+      let intentos = 0;
+      while (await prisma.user.findUnique({ where: { handle } })) {
+        intentos += 1;
+        handle = `@${base}${Math.random().toString(36).slice(2, 6)}`;
+        if (intentos > 5) break;
+      }
+
+      await prisma.user.update({
+        where: { id: user.id },
+        data: { handle, name: null, image: null },
+      });
+    },
+  },
+
   callbacks: {
     async jwt({ token, user }) {
-      if (user) {
-        token.uid = user.id;
+      // En el alta o cuando un token ya emitido no trae apodo todavía
+      // (sesiones emitidas antes de este arreglo, o antes de que el
+      // evento createUser terminara de escribir), se relee de la base.
+      const uid = user?.id ?? (token.handle ? undefined : String(token.uid ?? ""));
+      if (user) token.uid = user.id;
+      if (uid) {
+        const row = await prisma.user.findUnique({
+          where: { id: uid },
+          select: { handle: true, role: true, suspendedAt: true },
+        });
+        if (row) {
+          token.handle = row.handle;
+          token.role = row.role;
+          token.suspended = Boolean(row.suspendedAt);
+        }
       }
       return token;
     },
