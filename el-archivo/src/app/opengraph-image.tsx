@@ -28,18 +28,35 @@ export default function OG() {
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
           <div
             style={{
-              width: 26,
-              height: 26,
-              background: "#d81e2c",
+              width: 30,
+              height: 30,
+              background: "#0a0a0a",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              color: "#fff",
-              fontSize: 17,
-              fontWeight: 700,
+              position: "relative",
+              overflow: "hidden",
             }}
           >
-            A
+            <div
+              style={{
+                width: 14,
+                height: 14,
+                borderRadius: 999,
+                background: "#ffffff",
+                marginTop: -6,
+              }}
+            />
+            <div
+              style={{
+                position: "absolute",
+                left: 0,
+                right: 0,
+                top: 14,
+                height: 6,
+                background: "#d81e2c",
+              }}
+            />
           </div>
           <div style={{ fontSize: 21, letterSpacing: 4, color: "#74736c" }}>
             PROYECTO INDEPENDIENTE
